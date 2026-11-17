@@ -1,0 +1,75 @@
+{
+  "phase_alignment_diagnostic.json": {
+    "physics": "native5713 amplitude / exterior amplitude zero",
+    "checkpoint_changed": false,
+    "rows": [
+      {
+        "scene": "grass",
+        "gd_accepted": 150,
+        "lbfgs_accepted": 150,
+        "sensor_l2": 0.008725431741139444,
+        "original_quality_pass": false,
+        "unaligned_circular_rmse_rad": 2.9102510983115257,
+        "global_phase_offset_rad": -2.9109443997103965,
+        "piston_aligned_circular_rmse_rad": 0.051821890792156565,
+        "circular_concentration": 0.9988005056391556,
+        "error_p95_after_alignment_rad": 0.06655306197554564,
+        "alignment": "Post-hoc diagnostic only; true phase never supplied to solver or stopping.",
+        "diagnostic_figure": "grass_piston_diagnostic.png"
+      },
+      {
+        "scene": "parrot",
+        "gd_accepted": 150,
+        "lbfgs_accepted": 150,
+        "sensor_l2": 0.00834930646027474,
+        "original_quality_pass": false,
+        "unaligned_circular_rmse_rad": 2.6512260554375757,
+        "global_phase_offset_rad": -2.6511094691193677,
+        "piston_aligned_circular_rmse_rad": 0.024862514740440853,
+        "circular_concentration": 0.9996909963532046,
+        "error_p95_after_alignment_rad": 0.051718108341020974,
+        "alignment": "Post-hoc diagnostic only; true phase never supplied to solver or stopping.",
+        "diagnostic_figure": "parrot_piston_diagnostic.png"
+      },
+      {
+        "scene": "gravel",
+        "gd_accepted": 150,
+        "lbfgs_accepted": 100,
+        "sensor_l2": 0.008486805690716857,
+        "original_quality_pass": false,
+        "unaligned_circular_rmse_rad": 3.115781175342487,
+        "global_phase_offset_rad": -3.1180614520235532,
+        "piston_aligned_circular_rmse_rad": 0.019656463790556054,
+        "circular_concentration": 0.9998068360257127,
+        "error_p95_after_alignment_rad": 0.03963828294822035,
+        "alignment": "Post-hoc diagnostic only; true phase never supplied to solver or stopping.",
+        "diagnostic_figure": "gravel_piston_diagnostic.png"
+      }
+    ],
+    "mathematical_invariance": "For zero exterior and linear propagation P: P(exp(i*c)*u)=exp(i*c)*P(u), so abs(P(u)) cannot determine global phase. Circular gradient prior is also invariant."
+  },
+  "native_forward_validation.json": {
+    "exterior_background_nonzero_count": 0,
+    "native_gauge_tests": [
+      {
+        "scene": "grass",
+        "added_global_phase_rad": 1.234,
+        "relative_sensor_change": 5.802779424079514e-16,
+        "original_directional_gradient_error": 6.460102800279839e-08
+      },
+      {
+        "scene": "parrot",
+        "added_global_phase_rad": 1.234,
+        "relative_sensor_change": 5.771279901226951e-16,
+        "original_directional_gradient_error": 2.192350139495436e-08
+      }
+    ],
+    "directional_derivative": {
+      "numeric": 1.3338199079298077e-06,
+      "analytic": 1.3338198786878057e-06,
+      "relative_error": 2.1923500914314456e-08
+    },
+    "constant_phase_gradient_sum": -3.3881317890172014e-21,
+    "forward_model_changed": false
+  }
+}

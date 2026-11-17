@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "research": "single",
-  "updated_at": "2026-11-17T16:50:24.650640+00:00",
+  "updated_at": "2026-11-17T17:12:44.145482+00:00",
   "files": [
     {
       "path": "assets/css/single.css",
@@ -68,11 +68,27 @@
       "mime": "image/png"
     },
     {
+      "path": "images/final/grass-posthoc-piston-diagnostic-fea1153f8af8d6b5.png",
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-posthoc-piston-diagnostic-fea1153f8af8d6b5.png",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/grass-posthoc-piston-diagnostic-fea1153f8af8d6b5.png",
+      "sha256": "fea1153f8af8d6b5e88febce722f8e246a176dae4a20bc07cfd9b9005b552fbd",
+      "bytes": 3400731,
+      "mime": "image/png"
+    },
+    {
       "path": "images/final/gravel-native-v2-float64-8f41952ddb8dd6e6.png",
       "url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-native-v2-float64-8f41952ddb8dd6e6.png",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/gravel-native-v2-float64-8f41952ddb8dd6e6.png",
       "sha256": "8f41952ddb8dd6e6b86c71cd1f1889c0cba102399533e308ac3df5c4a28c39df",
       "bytes": 3113958,
+      "mime": "image/png"
+    },
+    {
+      "path": "images/final/gravel-posthoc-piston-diagnostic-eff0ebc8366e9161.png",
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-posthoc-piston-diagnostic-eff0ebc8366e9161.png",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/gravel-posthoc-piston-diagnostic-eff0ebc8366e9161.png",
+      "sha256": "eff0ebc8366e9161e91e2ab9f5609af28656df67d2a5db1a31ce47c2ffe4785e",
+      "bytes": 3128665,
       "mime": "image/png"
     },
     {
@@ -97,6 +113,14 @@
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/parrot-native-v2-float64-8adc7b33fcd5cf59.png",
       "sha256": "8adc7b33fcd5cf59c76893b3d94a27cbccdea5f573075220578d3f8c3a44ba1f",
       "bytes": 2139656,
+      "mime": "image/png"
+    },
+    {
+      "path": "images/final/parrot-posthoc-piston-diagnostic-19c9647b9647b768.png",
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-posthoc-piston-diagnostic-19c9647b9647b768.png",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/parrot-posthoc-piston-diagnostic-19c9647b9647b768.png",
+      "sha256": "19c9647b9647b768d573fc7533ef37bd57674f9137346b6f2151412eadfeb2d6",
+      "bytes": 2464133,
       "mime": "image/png"
     },
     {
@@ -423,8 +447,8 @@
       "path": "index.html",
       "url": "https://oms-hyu.github.io/B17-single-site/index.html",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/index.html",
-      "sha256": "c35bf735a3bea02581fec5ba2b93b22f853d1c4efdabad8ecd5c2dfbff7b7a97",
-      "bytes": 16573,
+      "sha256": "dd812a9e46562642196bd81d46f61e35f1b0d6286f181cf5e3cbca99cb7eedac",
+      "bytes": 16879,
       "mime": null
     },
     {
@@ -439,8 +463,16 @@
       "path": "results/catalogue.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/catalogue.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/catalogue.json",
-      "sha256": "d0201161ad84b9c25ef0c40e3c8c689690b91f3b9a4b7939325eedf466ab363e",
-      "bytes": 58431,
+      "sha256": "c79d12f6643bab0934588a9c24fe8b65536d1ab08bc86d8501604e6c2822e9ac",
+      "bytes": 59743,
+      "mime": "application/json"
+    },
+    {
+      "path": "results/diagnostics/zero_exterior_phase.json",
+      "url": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/zero_exterior_phase.json",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/diagnostics/zero_exterior_phase.json",
+      "sha256": "28f729e2ce43717a2b71e905b4f1fa41fe8ffed6be42730801b0c25bef8e40d4",
+      "bytes": 3162,
       "mime": "application/json"
     },
     {
@@ -591,16 +623,16 @@
       "path": "results/history.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/history.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/history.json",
-      "sha256": "bcbf92435459a2679f84898e704d8e7772340ca7a03604703b81088d511c0bba",
-      "bytes": 440,
+      "sha256": "c4928291ce773da734749a7e1b401f7160d6c93b58f85789d4df176f95c3066d",
+      "bytes": 634,
       "mime": "application/json"
     },
     {
       "path": "results/latest.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/latest.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/latest.json",
-      "sha256": "56ae0e43b4a4fdf277f5f1ec926e45630bea38f9b7c78a9451bc2e0241b371d9",
-      "bytes": 50679,
+      "sha256": "0f621efdc0e7ecf3b8649dcfdb3ac6f4b92794f9e964240aff2cd78ae24685e5",
+      "bytes": 52490,
       "mime": "application/json"
     },
     {
