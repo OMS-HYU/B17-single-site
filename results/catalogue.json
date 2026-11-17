@@ -972,25 +972,56 @@
       "id": "stream",
       "name": "Stream",
       "group": "일반영상",
-      "method": "물체 밖 진폭0 · 현재 배치 실행 중",
-      "known": [],
-      "latest": null,
+      "method": "v2 · 최종 결과",
+      "known": [
+        {
+          "w": 660.0,
+          "r": 2.7452253587626805,
+          "s": 0.838933808248644,
+          "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+          "noise": 1,
+          "verdict": "failed",
+          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.022792 rad (원래 판정 유지)",
+          "aligned_r": 0.022791925856213275,
+          "optimal_piston_rad": -2.7451480800646806,
+          "failure_cause": null
+        }
+      ],
+      "latest": {
+        "w": 660.0,
+        "r": 2.7452253587626805,
+        "s": 0.838933808248644,
+        "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+        "noise": 1,
+        "verdict": "failed",
+        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.022792 rad (원래 판정 유지)",
+        "aligned_r": 0.022791925856213275,
+        "optimal_piston_rad": -2.7451480800646806,
+        "failure_cause": null
+      },
       "blind": null,
       "note": "Stage 6–13 동일 관측의 Full300 비교, Stage 15 조건부 정책 사후 재검증. 센서는 기준 이내지만 위상은 미달. | 2026-11-14 신규 Known 재시험: 660 nm, 0.619340 rad, 12.521% · 미달.",
       "src": "Published input preview; source provenance retained privately",
       "thumb": "images/inputs/stream-a975a7cd9f1e80d4.png",
       "thumbnote": "보존된 실험 True Phase의 grayscale 인코딩",
       "nexttask": "위상 고주파 개선 및 440/550/660 nm Blind 최종 검증",
-      "status": "계산 중",
+      "status": "failed",
       "reduced": [],
-      "figures": [],
+      "figures": [
+        {
+          "mode": "known",
+          "title": "v2 · 최종 결과",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/stream-native-v2-float64-150dd952f966a62f.png"
+        }
+      ],
       "blind_history": [],
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
-      "figure_state": "running",
-      "empty_message": "현재 계산 중입니다. 계산 종료와 평가가 끝나면 최종 결과 그림이 이 사이트에 자동 게시됩니다."
+      "display_note": "v2 · 최종 결과",
+      "figure_state": "published",
+      "empty_message": "최종 결과 그림 게시 완료"
     },
     {
       "id": "mandrill",
@@ -1106,7 +1137,7 @@
       "id": "brick_wall",
       "name": "Brick Wall",
       "group": "일반영상",
-      "method": "현재 프로토콜 위상복원 미검증",
+      "method": "물체 밖 진폭0 · 현재 배치 실행 중",
       "known": [],
       "latest": null,
       "blind": null,
@@ -1115,7 +1146,7 @@
       "thumb": "images/inputs/brick_wall-a07d2c947dfc5db4.png",
       "thumbnote": "보존된 실험 True Phase의 grayscale 인코딩",
       "nexttask": "다중 파장 후보의 충분한 최적화 → 올바른 파장 선택, 이후 고주파 개선",
-      "status": "미검증",
+      "status": "계산 중",
       "reduced": [],
       "figures": [],
       "blind_history": [],
@@ -1123,8 +1154,8 @@
       "reduced_known": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
-      "figure_state": "not_started",
-      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
+      "figure_state": "running",
+      "empty_message": "현재 계산 중입니다. 계산 종료와 평가가 끝나면 최종 결과 그림이 이 사이트에 자동 게시됩니다."
     },
     {
       "id": "random_texture",
