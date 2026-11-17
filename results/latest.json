@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "research": "single",
-  "updated_at": "2026-11-17T17:54:14.729078+00:00",
+  "updated_at": "2026-11-17T17:57:30.350077+00:00",
   "site_url": "https://oms-hyu.github.io/B17-single-site/",
   "protocol_version": "publication-v1",
   "counts": {
@@ -843,7 +843,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:54:14.729078+00:00",
+      "updated_at": "2026-11-17T17:57:30.350077+00:00",
       "scene": "bark",
       "float32_reference_sensor_l2": 0.008539089631632918,
       "precision": "float32 GD / float64 refinement",
@@ -851,7 +851,48 @@
       "optimal_piston_rad": 2.598129878200666,
       "global_phase_offset_rad": 2.598129878200666,
       "piston_alignment_method": "Exact global piecewise-quadratic sweep of squared wrapped error",
-      "phase_metric_note": "Unaligned legacy gate retained. Exact global wrapped-L2 piston diagnostic only; no solver, stopping or gauge change."
+      "phase_metric_note": "Exact global wrapped-L2 optimal piston; post-hoc truth only. Relative-phase possibility only; original raw RMSE/status unchanged. native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+      "piston_alignment_protocol_id": "native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+      "raw_circular_rmse_rad": 2.598184592157259,
+      "failure_cause": "global_piston_ambiguity",
+      "relative_phase_recovery_possibility_confirmed": true,
+      "absolute_phase_recovery_claimed": false,
+      "original_quality_pass": false,
+      "piston_evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/bark.json",
+      "piston_diagnostic_figures": {
+        "aligned_phase": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-aligned_phase-e364102cce3dbfed.png",
+          "sha256": "e364102cce3dbfed1b46182c9c29ad1adb5776233447f361da3143c4757d72fc"
+        },
+        "raw_error": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-raw_error-2348d6cc4e1d5962.png",
+          "sha256": "2348d6cc4e1d5962d30b81cfeee1b9e63c4840ace49c76158b1dc15d6b00fe94"
+        },
+        "aligned_error": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-aligned_error-6679dbcf4f8eaedf.png",
+          "sha256": "6679dbcf4f8eaedfd5a962d86ed5fc75a059994e62842ec36cdaf90f011cb423"
+        },
+        "comparison_raw": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-comparison_raw-15daeaf2edcab95d.png",
+          "sha256": "15daeaf2edcab95d80d8f2d598df7dd38862e57897b68c0f8863da2589af416a"
+        },
+        "comparison_aligned": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-comparison_aligned-c7d2ee99f8a56fcb.png",
+          "sha256": "c7d2ee99f8a56fcb4b51d4d8f0628cd431ef1ae6727d16c342a87af335b422b7"
+        }
+      },
+      "diagnostic_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-comparison_aligned-c7d2ee99f8a56fcb.png",
+      "diagnostic_image_sha256": "c7d2ee99f8a56fcb4b51d4d8f0628cd431ef1ae6727d16c342a87af335b422b7",
+      "independent_input_seed_validation": {
+        "scene": "bark",
+        "selection": "First already-completed different input in the existing v2 queue; selected before its aligned metric was calculated",
+        "different_truth_and_noise_seed": true,
+        "confirmed": true,
+        "limitation": "Independent input/seed checkpoint validation only; no same-image repeat-seed ensemble or physical measurement claim"
+      },
+      "aligned_phase_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-aligned_phase-e364102cce3dbfed.png",
+      "raw_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-raw_error-2348d6cc4e1d5962.png",
+      "aligned_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-aligned_error-6679dbcf4f8eaedf.png"
     },
     {
       "research": "single",
@@ -912,7 +953,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:54:14.729078+00:00",
+      "updated_at": "2026-11-17T17:57:30.350077+00:00",
       "scene": "grass",
       "float32_reference_sensor_l2": 0.00872544164365534,
       "precision": "float32 GD / float64 refinement",
@@ -920,9 +961,48 @@
       "optimal_piston_rad": -2.9109164034330375,
       "global_phase_offset_rad": -2.9109164034330375,
       "piston_alignment_method": "Exact global piecewise-quadratic sweep of squared wrapped error",
-      "phase_metric_note": "Unaligned legacy gate retained. Exact global wrapped-L2 piston diagnostic only; no solver, stopping or gauge change.",
-      "diagnostic_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-posthoc-piston-diagnostic-fea1153f8af8d6b5.png",
-      "diagnostic_image_sha256": "fea1153f8af8d6b5e88febce722f8e246a176dae4a20bc07cfd9b9005b552fbd"
+      "phase_metric_note": "Exact global wrapped-L2 optimal piston; post-hoc truth only. Relative-phase possibility only; original raw RMSE/status unchanged. native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+      "diagnostic_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-comparison_aligned-0046ae91b8eba771.png",
+      "diagnostic_image_sha256": "0046ae91b8eba771b0b76477b9aef4f9a54a1dfccf56b5e8d47bf634de397c6f",
+      "piston_alignment_protocol_id": "native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+      "raw_circular_rmse_rad": 2.9102510983115257,
+      "failure_cause": "global_piston_ambiguity",
+      "relative_phase_recovery_possibility_confirmed": true,
+      "absolute_phase_recovery_claimed": false,
+      "original_quality_pass": false,
+      "piston_evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/grass.json",
+      "piston_diagnostic_figures": {
+        "aligned_phase": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-aligned_phase-7549a9aefc8fa7c1.png",
+          "sha256": "7549a9aefc8fa7c1674d373a0b88cbaafa2742d682cef194141f0a830f04fee8"
+        },
+        "raw_error": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-raw_error-62a8055e40be7c64.png",
+          "sha256": "62a8055e40be7c6465a9b6ff7736fa9d5385fffc09fb04e0d2d16d3872fc624c"
+        },
+        "aligned_error": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-aligned_error-243b829235489b14.png",
+          "sha256": "243b829235489b14f9da1cf3382afa9ebaf2ae5c9514f56baa17eae38f54906c"
+        },
+        "comparison_raw": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-comparison_raw-9db062fd510e5661.png",
+          "sha256": "9db062fd510e5661aae5b363aed14949b0d890d4437f175dc0a716b2d27a8549"
+        },
+        "comparison_aligned": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-comparison_aligned-0046ae91b8eba771.png",
+          "sha256": "0046ae91b8eba771b0b76477b9aef4f9a54a1dfccf56b5e8d47bf634de397c6f"
+        }
+      },
+      "independent_input_seed_validation": {
+        "scene": "bark",
+        "selection": "First already-completed different input in the existing v2 queue; selected before its aligned metric was calculated",
+        "different_truth_and_noise_seed": true,
+        "confirmed": true,
+        "limitation": "Independent input/seed checkpoint validation only; no same-image repeat-seed ensemble or physical measurement claim"
+      },
+      "aligned_phase_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-aligned_phase-7549a9aefc8fa7c1.png",
+      "raw_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-raw_error-62a8055e40be7c64.png",
+      "aligned_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-aligned_error-243b829235489b14.png"
     },
     {
       "research": "single",
@@ -983,7 +1063,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:54:14.729078+00:00",
+      "updated_at": "2026-11-17T17:57:30.350077+00:00",
       "scene": "gravel",
       "float32_reference_sensor_l2": 0.008486804020947415,
       "precision": "float32 GD / float64 refinement",
@@ -991,9 +1071,48 @@
       "optimal_piston_rad": -3.118061444787152,
       "global_phase_offset_rad": -3.118061444787152,
       "piston_alignment_method": "Exact global piecewise-quadratic sweep of squared wrapped error",
-      "phase_metric_note": "Unaligned legacy gate retained. Exact global wrapped-L2 piston diagnostic only; no solver, stopping or gauge change.",
-      "diagnostic_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-posthoc-piston-diagnostic-eff0ebc8366e9161.png",
-      "diagnostic_image_sha256": "eff0ebc8366e9161e91e2ab9f5609af28656df67d2a5db1a31ce47c2ffe4785e"
+      "phase_metric_note": "Exact global wrapped-L2 optimal piston; post-hoc truth only. Relative-phase possibility only; original raw RMSE/status unchanged. native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+      "diagnostic_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-comparison_aligned-bf4ddd188e3f819d.png",
+      "diagnostic_image_sha256": "bf4ddd188e3f819dce09bf2f2a82ceeca3cea2cb818e394b821b8fca66fa84c8",
+      "piston_alignment_protocol_id": "native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+      "raw_circular_rmse_rad": 3.115781175342487,
+      "failure_cause": "global_piston_ambiguity",
+      "relative_phase_recovery_possibility_confirmed": true,
+      "absolute_phase_recovery_claimed": false,
+      "original_quality_pass": false,
+      "piston_evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/gravel.json",
+      "piston_diagnostic_figures": {
+        "aligned_phase": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-aligned_phase-eecdb28ecf9bdd5d.png",
+          "sha256": "eecdb28ecf9bdd5de7798886264fd47e41485fab02bfac17cb1f5667911563ef"
+        },
+        "raw_error": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-raw_error-51b355138530e1c4.png",
+          "sha256": "51b355138530e1c42282afa27f68697137873d234edbabee79c179ae3b95cdff"
+        },
+        "aligned_error": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-aligned_error-ae9b8375f60cf7b3.png",
+          "sha256": "ae9b8375f60cf7b31b358b10c976d792b7a7869f102d428dc64f1fdada09f5b5"
+        },
+        "comparison_raw": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-comparison_raw-4503d79fb3cebd43.png",
+          "sha256": "4503d79fb3cebd43ad348ef694cc06bd2c9336b9d998598d869dd92e6185f1fa"
+        },
+        "comparison_aligned": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-comparison_aligned-bf4ddd188e3f819d.png",
+          "sha256": "bf4ddd188e3f819dce09bf2f2a82ceeca3cea2cb818e394b821b8fca66fa84c8"
+        }
+      },
+      "independent_input_seed_validation": {
+        "scene": "bark",
+        "selection": "First already-completed different input in the existing v2 queue; selected before its aligned metric was calculated",
+        "different_truth_and_noise_seed": true,
+        "confirmed": true,
+        "limitation": "Independent input/seed checkpoint validation only; no same-image repeat-seed ensemble or physical measurement claim"
+      },
+      "aligned_phase_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-aligned_phase-eecdb28ecf9bdd5d.png",
+      "raw_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-raw_error-51b355138530e1c4.png",
+      "aligned_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-aligned_error-ae9b8375f60cf7b3.png"
     },
     {
       "research": "single",
@@ -1054,7 +1173,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:54:14.729078+00:00",
+      "updated_at": "2026-11-17T17:57:30.350077+00:00",
       "scene": "parrot",
       "float32_reference_sensor_l2": 0.008349305940918553,
       "precision": "float32 GD / float64 refinement",
@@ -1062,9 +1181,48 @@
       "optimal_piston_rad": -2.651109475746309,
       "global_phase_offset_rad": -2.651109475746309,
       "piston_alignment_method": "Exact global piecewise-quadratic sweep of squared wrapped error",
-      "phase_metric_note": "Unaligned legacy gate retained. Exact global wrapped-L2 piston diagnostic only; no solver, stopping or gauge change.",
-      "diagnostic_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-posthoc-piston-diagnostic-19c9647b9647b768.png",
-      "diagnostic_image_sha256": "19c9647b9647b768d573fc7533ef37bd57674f9137346b6f2151412eadfeb2d6"
+      "phase_metric_note": "Exact global wrapped-L2 optimal piston; post-hoc truth only. Relative-phase possibility only; original raw RMSE/status unchanged. native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+      "diagnostic_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-comparison_aligned-38642d6cc7b3f368.png",
+      "diagnostic_image_sha256": "38642d6cc7b3f368b7a81ab0d0c62e17a0ccac395c0795b14c9e7877307521f3",
+      "piston_alignment_protocol_id": "native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+      "raw_circular_rmse_rad": 2.6512260554375757,
+      "failure_cause": "global_piston_ambiguity",
+      "relative_phase_recovery_possibility_confirmed": true,
+      "absolute_phase_recovery_claimed": false,
+      "original_quality_pass": false,
+      "piston_evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/parrot.json",
+      "piston_diagnostic_figures": {
+        "aligned_phase": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-aligned_phase-7865a898d64a185a.png",
+          "sha256": "7865a898d64a185a0a51a22ba081e26f08bbf4fe3353cc718de06d43cb82fb8a"
+        },
+        "raw_error": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-raw_error-ef34a5a44c032684.png",
+          "sha256": "ef34a5a44c032684443a88c35e5d259b6b489415a2de13996c93ea629cabbd6a"
+        },
+        "aligned_error": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-aligned_error-eacffa61cc4570ba.png",
+          "sha256": "eacffa61cc4570ba5423836e36ddd95062051faff6682f4a774bcb8b0b1ff9b1"
+        },
+        "comparison_raw": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-comparison_raw-65a097f507aa490f.png",
+          "sha256": "65a097f507aa490f0e904d49af9c8305d0986d7f874f2b9a9b7e141bc50e67b3"
+        },
+        "comparison_aligned": {
+          "url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-comparison_aligned-38642d6cc7b3f368.png",
+          "sha256": "38642d6cc7b3f368b7a81ab0d0c62e17a0ccac395c0795b14c9e7877307521f3"
+        }
+      },
+      "independent_input_seed_validation": {
+        "scene": "bark",
+        "selection": "First already-completed different input in the existing v2 queue; selected before its aligned metric was calculated",
+        "different_truth_and_noise_seed": true,
+        "confirmed": true,
+        "limitation": "Independent input/seed checkpoint validation only; no same-image repeat-seed ensemble or physical measurement claim"
+      },
+      "aligned_phase_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-aligned_phase-7865a898d64a185a.png",
+      "raw_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-raw_error-ef34a5a44c032684.png",
+      "aligned_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-aligned_error-eacffa61cc4570ba.png"
     },
     {
       "research": "single",

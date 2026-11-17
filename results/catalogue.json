@@ -652,10 +652,10 @@
           "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
           "noise": 1,
           "verdict": "failed",
-          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019656 rad (원래 판정 유지)",
+          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019656 rad (원래 판정 유지) · 전역 piston 모호성 · 상대위상 복원 가능성 확인 · 절대위상 성공 아님 · 원인: global_piston_ambiguity · 상대위상 가능성만 확인, 절대위상 성공 아님",
           "aligned_r": 0.01965646379055472,
           "optimal_piston_rad": -3.118061444787152,
-          "failure_cause": null
+          "failure_cause": "global_piston_ambiguity"
         }
       ],
       "latest": {
@@ -665,10 +665,10 @@
         "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
         "noise": 1,
         "verdict": "failed",
-        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019656 rad (원래 판정 유지)",
+        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019656 rad (원래 판정 유지) · 전역 piston 모호성 · 상대위상 복원 가능성 확인 · 절대위상 성공 아님 · 원인: global_piston_ambiguity · 상대위상 가능성만 확인, 절대위상 성공 아님",
         "aligned_r": 0.01965646379055472,
         "optimal_piston_rad": -3.118061444787152,
-        "failure_cause": null
+        "failure_cause": "global_piston_ambiguity"
       },
       "blind": null,
       "note": "축소 Blind gravel 4/4 파장 일치. 전체 격자 470 nm 위상 성과 존재. 과거 전체 격자 Blind 470 nm 파장 정확히 추정, GD10 실제 실행 완료. 축소 Known 별도 시험 10/10 통과, 평균 0.09974 rad (5파장×2시드). | 2026-11-14 신규 Known 재시험: 470 nm, 0.051839 rad, 1.211% · 조건 충족·조기 수렴.",
@@ -689,7 +689,25 @@
         {
           "mode": "known",
           "title": "gravel · 사후 전역 위상 정렬 진단 (정답은 평가에만 사용; 원래 판정 유지)",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-posthoc-piston-diagnostic-eff0ebc8366e9161.png"
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-comparison_aligned-bf4ddd188e3f819d.png"
+        },
+        {
+          "mode": "known",
+          "title": "gravel · 최적 piston 정렬 위상맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-aligned_phase-eecdb28ecf9bdd5d.png",
+          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/gravel.json"
+        },
+        {
+          "mode": "known",
+          "title": "gravel · 정렬 전 wrapped 오차맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-raw_error-51b355138530e1c4.png",
+          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/gravel.json"
+        },
+        {
+          "mode": "known",
+          "title": "gravel · 정렬 후 wrapped 오차맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-aligned_error-ae9b8375f60cf7b3.png",
+          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/gravel.json"
         }
       ],
       "blind_history": [],
@@ -712,10 +730,10 @@
           "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
           "noise": 1,
           "verdict": "failed",
-          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.051822 rad (원래 판정 유지)",
+          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.051822 rad (원래 판정 유지) · 전역 piston 모호성 · 상대위상 복원 가능성 확인 · 절대위상 성공 아님 · 원인: global_piston_ambiguity · 상대위상 가능성만 확인, 절대위상 성공 아님",
           "aligned_r": 0.051821883229796424,
           "optimal_piston_rad": -2.9109164034330375,
-          "failure_cause": null
+          "failure_cause": "global_piston_ambiguity"
         }
       ],
       "latest": {
@@ -725,10 +743,10 @@
         "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
         "noise": 1,
         "verdict": "failed",
-        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.051822 rad (원래 판정 유지)",
+        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.051822 rad (원래 판정 유지) · 전역 piston 모호성 · 상대위상 복원 가능성 확인 · 절대위상 성공 아님 · 원인: global_piston_ambiguity · 상대위상 가능성만 확인, 절대위상 성공 아님",
         "aligned_r": 0.051821883229796424,
         "optimal_piston_rad": -2.9109164034330375,
-        "failure_cause": null
+        "failure_cause": "global_piston_ambiguity"
       },
       "blind": null,
       "note": "500 nm 과거 실험 위상 기준 미달. 최종 추천 방식으로 개선 필요. 과거 전체 격자 Blind 500 nm 파장 정확히 추정, GD10 실제 실행 완료. 축소 Known 별도 시험 10/10 통과, 평균 0.09353 rad (5파장×2시드). | 2026-11-14 신규 Known 재시험: 500 nm, 0.128174 rad, 1.857% · 통과.",
@@ -749,7 +767,25 @@
         {
           "mode": "known",
           "title": "grass · 사후 전역 위상 정렬 진단 (정답은 평가에만 사용; 원래 판정 유지)",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/grass-posthoc-piston-diagnostic-fea1153f8af8d6b5.png"
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-comparison_aligned-0046ae91b8eba771.png"
+        },
+        {
+          "mode": "known",
+          "title": "grass · 최적 piston 정렬 위상맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-aligned_phase-7549a9aefc8fa7c1.png",
+          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/grass.json"
+        },
+        {
+          "mode": "known",
+          "title": "grass · 정렬 전 wrapped 오차맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-raw_error-62a8055e40be7c64.png",
+          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/grass.json"
+        },
+        {
+          "mode": "known",
+          "title": "grass · 정렬 후 wrapped 오차맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-aligned_error-243b829235489b14.png",
+          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/grass.json"
         }
       ],
       "blind_history": [],
@@ -820,10 +856,10 @@
           "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
           "noise": 1,
           "verdict": "failed",
-          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.024863 rad (원래 판정 유지)",
+          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.024863 rad (원래 판정 유지) · 전역 piston 모호성 · 상대위상 복원 가능성 확인 · 절대위상 성공 아님 · 원인: global_piston_ambiguity · 상대위상 가능성만 확인, 절대위상 성공 아님",
           "aligned_r": 0.02486251474043997,
           "optimal_piston_rad": -2.651109475746309,
-          "failure_cause": null
+          "failure_cause": "global_piston_ambiguity"
         }
       ],
       "latest": {
@@ -833,10 +869,10 @@
         "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
         "noise": 1,
         "verdict": "failed",
-        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.024863 rad (원래 판정 유지)",
+        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.024863 rad (원래 판정 유지) · 전역 piston 모호성 · 상대위상 복원 가능성 확인 · 절대위상 성공 아님 · 원인: global_piston_ambiguity · 상대위상 가능성만 확인, 절대위상 성공 아님",
         "aligned_r": 0.02486251474043997,
         "optimal_piston_rad": -2.651109475746309,
-        "failure_cause": null
+        "failure_cause": "global_piston_ambiguity"
       },
       "blind": null,
       "note": "Stage 6–13 동일 관측의 Full300 비교, Stage 15 조건부 정책 사후 재검증. LS2D 초기화로 기존 0.328158 → 0.028343 rad. 650 nm coarse 오차 10 nm.",
@@ -856,7 +892,25 @@
         {
           "mode": "known",
           "title": "parrot · 사후 전역 위상 정렬 진단 (정답은 평가에만 사용; 원래 판정 유지)",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-posthoc-piston-diagnostic-19c9647b9647b768.png"
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-comparison_aligned-38642d6cc7b3f368.png"
+        },
+        {
+          "mode": "known",
+          "title": "parrot · 최적 piston 정렬 위상맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-aligned_phase-7865a898d64a185a.png",
+          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/parrot.json"
+        },
+        {
+          "mode": "known",
+          "title": "parrot · 정렬 전 wrapped 오차맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-raw_error-ef34a5a44c032684.png",
+          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/parrot.json"
+        },
+        {
+          "mode": "known",
+          "title": "parrot · 정렬 후 wrapped 오차맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-aligned_error-eacffa61cc4570ba.png",
+          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/parrot.json"
         }
       ],
       "blind_history": [],
@@ -880,10 +934,10 @@
           "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
           "noise": 1,
           "verdict": "failed",
-          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019883 rad (원래 판정 유지)",
+          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019883 rad (원래 판정 유지) · 전역 piston 모호성 · 상대위상 복원 가능성 확인 · 절대위상 성공 아님 · 원인: global_piston_ambiguity · 상대위상 가능성만 확인, 절대위상 성공 아님",
           "aligned_r": 0.019883025047841188,
           "optimal_piston_rad": 2.598129878200666,
-          "failure_cause": null
+          "failure_cause": "global_piston_ambiguity"
         }
       ],
       "latest": {
@@ -893,10 +947,10 @@
         "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
         "noise": 1,
         "verdict": "failed",
-        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019883 rad (원래 판정 유지)",
+        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019883 rad (원래 판정 유지) · 전역 piston 모호성 · 상대위상 복원 가능성 확인 · 절대위상 성공 아님 · 원인: global_piston_ambiguity · 상대위상 가능성만 확인, 절대위상 성공 아님",
         "aligned_r": 0.019883025047841188,
         "optimal_piston_rad": 2.598129878200666,
-        "failure_cause": null
+        "failure_cause": "global_piston_ambiguity"
       },
       "blind": null,
       "note": "Stage 6–13 동일 관측의 Full300 비교, Stage 15 조건부 정책 사후 재검증. 센서는 기준 이내지만 위상은 미달. | 2026-11-14 신규 Known 재시험: 660 nm, 0.158244 rad, 1.566% · 미달.",
@@ -912,6 +966,29 @@
           "title": "bark-native-v2-float64 · failed",
           "src": "https://oms-hyu.github.io/B17-single-site/images/final/bark-native-v2-float64-94ea2a6a63bd44a2.png",
           "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/bark-native-v2-float64.json"
+        },
+        {
+          "mode": "known",
+          "title": "bark · 사후 전역 위상 정렬 진단 (정답은 평가에만 사용; 원래 판정 유지)",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-comparison_aligned-c7d2ee99f8a56fcb.png"
+        },
+        {
+          "mode": "known",
+          "title": "bark · 최적 piston 정렬 위상맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-aligned_phase-e364102cce3dbfed.png",
+          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/bark.json"
+        },
+        {
+          "mode": "known",
+          "title": "bark · 정렬 전 wrapped 오차맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-raw_error-2348d6cc4e1d5962.png",
+          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/bark.json"
+        },
+        {
+          "mode": "known",
+          "title": "bark · 정렬 후 wrapped 오차맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-aligned_error-6679dbcf4f8eaedf.png",
+          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/bark.json"
         }
       ],
       "blind_history": [],

@@ -1,0 +1,120 @@
+{
+  "protocol_id": "native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+  "physics_protocol_id": "native5713-zero-exterior-v2",
+  "scene": "parrot",
+  "wavelength_nm": 660,
+  "mode": "Known",
+  "amplitude_outside": 0,
+  "geometry": [
+    5713,
+    2857,
+    512,
+    3000
+  ],
+  "noise_seed": 673015,
+  "circular_rmse_rad": 2.6512260554375757,
+  "raw_circular_rmse_rad": 2.6512260554375757,
+  "linear_rmse_rad": 3.1039442640723074,
+  "optimal_piston_rad": -2.651109475746309,
+  "piston_aligned_circular_rmse_rad": 0.02486251474043997,
+  "alignment_equation": "aligned_phase = mod(recovered_phase - optimal_piston_rad, 2*pi)",
+  "alignment_optimizer": "Exact global piecewise-quadratic sweep of squared wrapped error",
+  "truth_used_for_alignment": "post-hoc evaluation only",
+  "reference_float32_sensor_l2": 0.008349305940918553,
+  "recovery_float64_sensor_l2": 0.00834930646027474,
+  "gd_accepted": 150,
+  "lbfgs_accepted": 150,
+  "quality_pass": false,
+  "original_quality_pass": false,
+  "relative_phase_recovery_possibility_confirmed": true,
+  "absolute_phase_recovery_claimed": false,
+  "diagnosis": "global_piston_ambiguity",
+  "next_validation": "Independent stored input/noise-seed reevaluation required; no new optimization in this diagnosis",
+  "optimal_piston_convention": "aligned_phase = mod(saved_phase - optimal_piston_rad, 2*pi)",
+  "truth_usage": "Only post-hoc metric/alignment/rendering; never initialization, optimizer, stopping, model selection or gauge",
+  "phase_sha256": "0a9b3847c56b8a30159089b491d9349c12966af4826fc35faacf04c54435623c",
+  "sensor_sha256": "84f09e55cd8adcb4410c87d1db9e758c6992b878bb14e73c4b0ef55ff3fc6c42",
+  "truth_sha256": "17dacc4de33e7937c4dcc6f9f5fd040ddd4ee272a4ff37b61371766748f0780b",
+  "checkpoint_file_sha256": "c1660a55aa4192f584800a4b20e5eab567e2a3580518d956e86edef455e3691c",
+  "invariance_test": {
+    "offsets": [
+      {
+        "offset_rad": -2.3,
+        "relative_sensor_amplitude_change": 5.748425100705924e-16,
+        "passed": true
+      },
+      {
+        "offset_rad": -0.7,
+        "relative_sensor_amplitude_change": 5.802547508168916e-16,
+        "passed": true
+      },
+      {
+        "offset_rad": 0.5,
+        "relative_sensor_amplitude_change": 5.760247727925339e-16,
+        "passed": true
+      },
+      {
+        "offset_rad": 2.4,
+        "relative_sensor_amplitude_change": 5.881241220110942e-16,
+        "passed": true
+      }
+    ],
+    "tolerance": 1e-10,
+    "passed": true,
+    "truth_used": false,
+    "physical_condition": "zero exterior amplitude; fixed LUT and geometry",
+    "phase_gauge_changed": false
+  },
+  "original_evaluation_sha256": "6cdd479c5c746d5f346896b4e6ba9fbf64c4017afb82064f2cfac15ed4b7a841",
+  "source_files_sha256_before": {
+    "sensor.npy": "6e183295bb9d059f3e66569f1108beea710bf688f851d1dfbbbe7f64b602755d",
+    "private_truth.npy": "0dddd0e8208aab37c56dc62ce512e7c94366053ecfa6214fc20687fc747b167e",
+    "recovery_float64/phase_150.npy": "fc35e8d1f746b93229f0f5c7034f0793b47c610a41bc1f6eb349bfd33a698e53",
+    "recovery_float64/optimizer_state.npz": "c1660a55aa4192f584800a4b20e5eab567e2a3580518d956e86edef455e3691c",
+    "gd_state.npz": "0fc9d67d1347d5f722ac834f6d59045adbfb748fea5c0eea0d46844d15120c8a",
+    "recovery_float64/evaluation.json": "6cdd479c5c746d5f346896b4e6ba9fbf64c4017afb82064f2cfac15ed4b7a841",
+    "recovery_float64/config.json": "0488cb5690aed8c6425a1e3d0e3ca872ded365b393af38421c0d68a77bfd5829",
+    "recovery_float64/progress.json": "c1ab06e6a562bd58b3c80171cdef52cef7a09fcd01c726bdb2b14dfe85009d9d",
+    "completion_policy.json": "0e49576888f78eb76859464ff5f9eb9339e8d50fec17204e080dbb14425ea136"
+  },
+  "code_sha256": {
+    "evaluate_precision_case.py": "62088c520a12788858db24689117f5c4e4f2e2b53705d9b6b6e35016e4ea4841",
+    "native_model.py": "fa705f1c960aaae1b70588fa9aa3db911a6cfac6e2f988c9d64aa556ca30ac44",
+    "phase_metrics.py": "dc443f0915ae1bbe25112067e9c651869dd928117ad3e99b35a9f3f1bd201768"
+  },
+  "figures": {
+    "aligned_phase": {
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-aligned_phase-7865a898d64a185a.png",
+      "sha256": "7865a898d64a185a0a51a22ba081e26f08bbf4fe3353cc718de06d43cb82fb8a"
+    },
+    "raw_error": {
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-raw_error-ef34a5a44c032684.png",
+      "sha256": "ef34a5a44c032684443a88c35e5d259b6b489415a2de13996c93ea629cabbd6a"
+    },
+    "aligned_error": {
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-aligned_error-eacffa61cc4570ba.png",
+      "sha256": "eacffa61cc4570ba5423836e36ddd95062051faff6682f4a774bcb8b0b1ff9b1"
+    },
+    "comparison_raw": {
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-comparison_raw-65a097f507aa490f.png",
+      "sha256": "65a097f507aa490f0e904d49af9c8305d0986d7f874f2b9a9b7e141bc50e67b3"
+    },
+    "comparison_aligned": {
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-comparison_aligned-38642d6cc7b3f368.png",
+      "sha256": "38642d6cc7b3f368b7a81ab0d0c62e17a0ccac395c0795b14c9e7877307521f3"
+    }
+  },
+  "source_files_sha256_after": {
+    "sensor.npy": "6e183295bb9d059f3e66569f1108beea710bf688f851d1dfbbbe7f64b602755d",
+    "private_truth.npy": "0dddd0e8208aab37c56dc62ce512e7c94366053ecfa6214fc20687fc747b167e",
+    "recovery_float64/phase_150.npy": "fc35e8d1f746b93229f0f5c7034f0793b47c610a41bc1f6eb349bfd33a698e53",
+    "recovery_float64/optimizer_state.npz": "c1660a55aa4192f584800a4b20e5eab567e2a3580518d956e86edef455e3691c",
+    "gd_state.npz": "0fc9d67d1347d5f722ac834f6d59045adbfb748fea5c0eea0d46844d15120c8a",
+    "recovery_float64/evaluation.json": "6cdd479c5c746d5f346896b4e6ba9fbf64c4017afb82064f2cfac15ed4b7a841",
+    "recovery_float64/config.json": "0488cb5690aed8c6425a1e3d0e3ca872ded365b393af38421c0d68a77bfd5829",
+    "recovery_float64/progress.json": "c1ab06e6a562bd58b3c80171cdef52cef7a09fcd01c726bdb2b14dfe85009d9d",
+    "completion_policy.json": "0e49576888f78eb76859464ff5f9eb9339e8d50fec17204e080dbb14425ea136"
+  },
+  "source_files_unchanged": true,
+  "optimizer_executed": false
+}

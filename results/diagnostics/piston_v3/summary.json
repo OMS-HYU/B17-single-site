@@ -1,0 +1,75 @@
+{
+  "protocol_id": "native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+  "records": [
+    {
+      "scene": "grass",
+      "noise_seed": 673013,
+      "truth_sha256": "510a05e8a04504c4efbd7faf36dc3b2f957fdc44dca5173fbfe1aa5139c84eee",
+      "protocol_id": "native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+      "raw_circular_rmse_rad": 2.9102510983115257,
+      "piston_aligned_circular_rmse_rad": 0.051821883229796424,
+      "optimal_piston_rad": -2.9109164034330375,
+      "sensor_l2": 0.008725431741139444,
+      "diagnosis": "global_piston_ambiguity",
+      "relative_phase_recovery_possibility_confirmed": true,
+      "invariance_pass": true,
+      "source_files_unchanged": true,
+      "role": "requested_failure_reevaluation"
+    },
+    {
+      "scene": "gravel",
+      "noise_seed": 673012,
+      "truth_sha256": "03e9f03f4678505862e76cd158e0f642330a49c51d9eef3600d0c6e981a1c8a5",
+      "protocol_id": "native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+      "raw_circular_rmse_rad": 3.115781175342487,
+      "piston_aligned_circular_rmse_rad": 0.01965646379055472,
+      "optimal_piston_rad": -3.118061444787152,
+      "sensor_l2": 0.008486805690716857,
+      "diagnosis": "global_piston_ambiguity",
+      "relative_phase_recovery_possibility_confirmed": true,
+      "invariance_pass": true,
+      "source_files_unchanged": true,
+      "role": "requested_failure_reevaluation"
+    },
+    {
+      "scene": "parrot",
+      "noise_seed": 673015,
+      "truth_sha256": "17dacc4de33e7937c4dcc6f9f5fd040ddd4ee272a4ff37b61371766748f0780b",
+      "protocol_id": "native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+      "raw_circular_rmse_rad": 2.6512260554375757,
+      "piston_aligned_circular_rmse_rad": 0.02486251474043997,
+      "optimal_piston_rad": -2.651109475746309,
+      "sensor_l2": 0.00834930646027474,
+      "diagnosis": "global_piston_ambiguity",
+      "relative_phase_recovery_possibility_confirmed": true,
+      "invariance_pass": true,
+      "source_files_unchanged": true,
+      "role": "requested_failure_reevaluation"
+    },
+    {
+      "scene": "bark",
+      "noise_seed": 673016,
+      "truth_sha256": "9963c0bb13e13d9c196ecf5a84bf341ca348a99eba69104b995090700f549cc3",
+      "protocol_id": "native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+      "raw_circular_rmse_rad": 2.598184592157259,
+      "piston_aligned_circular_rmse_rad": 0.019883025047841188,
+      "optimal_piston_rad": 2.598129878200666,
+      "sensor_l2": 0.008539090264626154,
+      "diagnosis": "global_piston_ambiguity",
+      "relative_phase_recovery_possibility_confirmed": true,
+      "invariance_pass": true,
+      "source_files_unchanged": true,
+      "role": "independent_stored_input_and_seed_validation"
+    }
+  ],
+  "new_optimization_executed": false,
+  "independent_validation": {
+    "scene": "bark",
+    "selection": "First already-completed different input in the existing v2 queue; selected before its aligned metric was calculated",
+    "different_truth_and_noise_seed": true,
+    "confirmed": true,
+    "limitation": "Independent input/seed checkpoint validation only; no same-image repeat-seed ensemble or physical measurement claim"
+  },
+  "absolute_phase_success_claimed": false,
+  "original_v1_records_unchanged": true
+}

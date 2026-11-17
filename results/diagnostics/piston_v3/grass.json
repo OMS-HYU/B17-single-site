@@ -1,0 +1,120 @@
+{
+  "protocol_id": "native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
+  "physics_protocol_id": "native5713-zero-exterior-v2",
+  "scene": "grass",
+  "wavelength_nm": 660,
+  "mode": "Known",
+  "amplitude_outside": 0,
+  "geometry": [
+    5713,
+    2857,
+    512,
+    3000
+  ],
+  "noise_seed": 673013,
+  "circular_rmse_rad": 2.9102510983115257,
+  "raw_circular_rmse_rad": 2.9102510983115257,
+  "linear_rmse_rad": 3.135303636823739,
+  "optimal_piston_rad": -2.9109164034330375,
+  "piston_aligned_circular_rmse_rad": 0.051821883229796424,
+  "alignment_equation": "aligned_phase = mod(recovered_phase - optimal_piston_rad, 2*pi)",
+  "alignment_optimizer": "Exact global piecewise-quadratic sweep of squared wrapped error",
+  "truth_used_for_alignment": "post-hoc evaluation only",
+  "reference_float32_sensor_l2": 0.00872544164365534,
+  "recovery_float64_sensor_l2": 0.008725431741139444,
+  "gd_accepted": 150,
+  "lbfgs_accepted": 150,
+  "quality_pass": false,
+  "original_quality_pass": false,
+  "relative_phase_recovery_possibility_confirmed": true,
+  "absolute_phase_recovery_claimed": false,
+  "diagnosis": "global_piston_ambiguity",
+  "next_validation": "Independent stored input/noise-seed reevaluation required; no new optimization in this diagnosis",
+  "optimal_piston_convention": "aligned_phase = mod(saved_phase - optimal_piston_rad, 2*pi)",
+  "truth_usage": "Only post-hoc metric/alignment/rendering; never initialization, optimizer, stopping, model selection or gauge",
+  "phase_sha256": "3510572002c3b75a3c4c9876392de71bfb13662e9df34525b9b964b64b7cf1b5",
+  "sensor_sha256": "a88be2d863b23be19c49ce96dd60f5b0685674b18e3db0c6cafd142b8d3e7a05",
+  "truth_sha256": "510a05e8a04504c4efbd7faf36dc3b2f957fdc44dca5173fbfe1aa5139c84eee",
+  "checkpoint_file_sha256": "cb2e3921020eb63b53cef04ebbd5c248ce084f25869b9fc464f482ac1cd6542e",
+  "invariance_test": {
+    "offsets": [
+      {
+        "offset_rad": -2.3,
+        "relative_sensor_amplitude_change": 5.795260717927295e-16,
+        "passed": true
+      },
+      {
+        "offset_rad": -0.7,
+        "relative_sensor_amplitude_change": 5.840374155460635e-16,
+        "passed": true
+      },
+      {
+        "offset_rad": 0.5,
+        "relative_sensor_amplitude_change": 5.795635011458945e-16,
+        "passed": true
+      },
+      {
+        "offset_rad": 2.4,
+        "relative_sensor_amplitude_change": 5.942295200632571e-16,
+        "passed": true
+      }
+    ],
+    "tolerance": 1e-10,
+    "passed": true,
+    "truth_used": false,
+    "physical_condition": "zero exterior amplitude; fixed LUT and geometry",
+    "phase_gauge_changed": false
+  },
+  "original_evaluation_sha256": "a7980c2688d1e580673a18fa65707b61edbeba643901b961e70665555c7e93bf",
+  "source_files_sha256_before": {
+    "sensor.npy": "0e112abb320372bd13bf6ef41e4276f60cb319c2e52655d780c6908535d466d6",
+    "private_truth.npy": "7223f8313d2cd44261f0f4fc53ba0359c9208c641a48239a728922f634f82a17",
+    "recovery_float64/phase_150.npy": "5f208b4d0c6f2a4e8a90b2707e2abf335b2d079015eb3ebd7f61a0938503dbea",
+    "recovery_float64/optimizer_state.npz": "cb2e3921020eb63b53cef04ebbd5c248ce084f25869b9fc464f482ac1cd6542e",
+    "gd_state.npz": "ec7ce103d7f2ae76d26850c53769cb81cf0ce1b7590731424545c96d786ccd87",
+    "recovery_float64/evaluation.json": "a7980c2688d1e580673a18fa65707b61edbeba643901b961e70665555c7e93bf",
+    "recovery_float64/config.json": "d668ba34a0aadcb4e9173a73e273ba05567f814bde8c34464b985b2eb1cb1519",
+    "recovery_float64/progress.json": "dd2b0906c19307bb5f27400b41abe790f44d192ca10184502ad27bda6212cf07",
+    "completion_policy.json": "f5fba5b024222472afd8a7585e48b12ada248222e4554986f543969052eebf43"
+  },
+  "code_sha256": {
+    "evaluate_precision_case.py": "62088c520a12788858db24689117f5c4e4f2e2b53705d9b6b6e35016e4ea4841",
+    "native_model.py": "fa705f1c960aaae1b70588fa9aa3db911a6cfac6e2f988c9d64aa556ca30ac44",
+    "phase_metrics.py": "dc443f0915ae1bbe25112067e9c651869dd928117ad3e99b35a9f3f1bd201768"
+  },
+  "figures": {
+    "aligned_phase": {
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-aligned_phase-7549a9aefc8fa7c1.png",
+      "sha256": "7549a9aefc8fa7c1674d373a0b88cbaafa2742d682cef194141f0a830f04fee8"
+    },
+    "raw_error": {
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-raw_error-62a8055e40be7c64.png",
+      "sha256": "62a8055e40be7c6465a9b6ff7736fa9d5385fffc09fb04e0d2d16d3872fc624c"
+    },
+    "aligned_error": {
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-aligned_error-243b829235489b14.png",
+      "sha256": "243b829235489b14f9da1cf3382afa9ebaf2ae5c9514f56baa17eae38f54906c"
+    },
+    "comparison_raw": {
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-comparison_raw-9db062fd510e5661.png",
+      "sha256": "9db062fd510e5661aae5b363aed14949b0d890d4437f175dc0a716b2d27a8549"
+    },
+    "comparison_aligned": {
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-comparison_aligned-0046ae91b8eba771.png",
+      "sha256": "0046ae91b8eba771b0b76477b9aef4f9a54a1dfccf56b5e8d47bf634de397c6f"
+    }
+  },
+  "source_files_sha256_after": {
+    "sensor.npy": "0e112abb320372bd13bf6ef41e4276f60cb319c2e52655d780c6908535d466d6",
+    "private_truth.npy": "7223f8313d2cd44261f0f4fc53ba0359c9208c641a48239a728922f634f82a17",
+    "recovery_float64/phase_150.npy": "5f208b4d0c6f2a4e8a90b2707e2abf335b2d079015eb3ebd7f61a0938503dbea",
+    "recovery_float64/optimizer_state.npz": "cb2e3921020eb63b53cef04ebbd5c248ce084f25869b9fc464f482ac1cd6542e",
+    "gd_state.npz": "ec7ce103d7f2ae76d26850c53769cb81cf0ce1b7590731424545c96d786ccd87",
+    "recovery_float64/evaluation.json": "a7980c2688d1e580673a18fa65707b61edbeba643901b961e70665555c7e93bf",
+    "recovery_float64/config.json": "d668ba34a0aadcb4e9173a73e273ba05567f814bde8c34464b985b2eb1cb1519",
+    "recovery_float64/progress.json": "dd2b0906c19307bb5f27400b41abe790f44d192ca10184502ad27bda6212cf07",
+    "completion_policy.json": "f5fba5b024222472afd8a7585e48b12ada248222e4554986f543969052eebf43"
+  },
+  "source_files_unchanged": true,
+  "optimizer_executed": false
+}
