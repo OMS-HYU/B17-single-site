@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "research": "single",
-  "updated_at": "2026-11-17T19:03:41.784618+00:00",
+  "updated_at": "2026-11-17T20:12:49.633097+00:00",
   "files": [
     {
       "path": "assets/css/single.css",
@@ -105,6 +105,14 @@
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/brick-native-v1-float64-9124f7aa8ff85d22.png",
       "sha256": "9124f7aa8ff85d22a864521d4202a9e4bca489a08b20c4355309712e2dbcbba5",
       "bytes": 1836774,
+      "mime": "image/png"
+    },
+    {
+      "path": "images/final/brick_wall-native-v2-float64-735b2a584a999337.png",
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/brick_wall-native-v2-float64-735b2a584a999337.png",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/brick_wall-native-v2-float64-735b2a584a999337.png",
+      "sha256": "735b2a584a99933770469d108efd4a035e6218c7b56cdd6ad312cdcf19f00087",
+      "bytes": 3482146,
       "mime": "image/png"
     },
     {
@@ -695,8 +703,8 @@
       "path": "results/catalogue.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/catalogue.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/catalogue.json",
-      "sha256": "57d70be381c0a07a302725d98c375ff72e75db9b108cec2c0204bb0ce34a155b",
-      "bytes": 72027,
+      "sha256": "0e3a7b5ec4ba4206106fc7fa6f65be95f63d649d26f6091a9114bcdbc18f3cf0",
+      "bytes": 73257,
       "mime": "application/json"
     },
     {
@@ -785,6 +793,14 @@
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/evaluations/brick-native-v1-float64.json",
       "sha256": "9661bc25491c12f6590c9937226cbc34d83ed76c5f9aa047a6c5a49f6d84ba3e",
       "bytes": 1736,
+      "mime": "application/json"
+    },
+    {
+      "path": "results/evaluations/brick_wall-native-v2-float64.json",
+      "url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/brick_wall-native-v2-float64.json",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/evaluations/brick_wall-native-v2-float64.json",
+      "sha256": "0c816f1caf06fa78456c3c8541b84337da562ef925509a8ddc90d5b49444d791",
+      "bytes": 2352,
       "mime": "application/json"
     },
     {
@@ -919,16 +935,16 @@
       "path": "results/history.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/history.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/history.json",
-      "sha256": "2dc20474fa58e1c0f3b897ad7f5b5cee26aa632fee46cd188154bd9db214cf42",
-      "bytes": 1992,
+      "sha256": "26ddc6632b9d316435fdb27e36e2d4e53b668fd4511832cfeeb8e8bd6bfa8c6e",
+      "bytes": 2186,
       "mime": "application/json"
     },
     {
       "path": "results/latest.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/latest.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/latest.json",
-      "sha256": "068005becf720e1ff9d893aaa0a0bf2f8498c41e542a5a09f1414accb3709bb1",
-      "bytes": 78564,
+      "sha256": "e15758188d6d9a9cd9ead7bbae51d0181139811ff235150f5190c12f58824e33",
+      "bytes": 82196,
       "mime": "application/json"
     },
     {
