@@ -45,7 +45,9 @@
       "blind_history": [],
       "legacy": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "published",
+      "empty_message": "최종 결과 그림 게시 완료"
     },
     {
       "id": "moon_flipud",
@@ -92,7 +94,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "published",
+      "empty_message": "최종 결과 그림 게시 완료"
     },
     {
       "id": "brick",
@@ -139,7 +143,9 @@
       "blind_history": [],
       "legacy": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "published",
+      "empty_message": "최종 결과 그림 게시 완료"
     },
     {
       "id": "chelsea",
@@ -186,7 +192,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "published",
+      "empty_message": "최종 결과 그림 게시 완료"
     },
     {
       "id": "camera",
@@ -233,7 +241,9 @@
       ],
       "blind_history": [],
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "published",
+      "empty_message": "최종 결과 그림 게시 완료"
     },
     {
       "id": "camera_rot90",
@@ -273,7 +283,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "historical_metrics_only",
+      "empty_message": "과거 실험의 수치 기록만 보존돼 있습니다. 이 실험의 최종 5패널 그림 파일은 현재 작업 폴더에 없습니다."
     },
     {
       "id": "coins",
@@ -320,7 +332,9 @@
       "blind_history": [],
       "legacy": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "published",
+      "empty_message": "최종 결과 그림 게시 완료"
     },
     {
       "id": "astronaut",
@@ -367,7 +381,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "published",
+      "empty_message": "최종 결과 그림 게시 완료"
     },
     {
       "id": "checkerboard",
@@ -407,7 +423,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "execution_error",
+      "empty_message": "계산 중 오류로 종료되어 최종 결과 그림이 생성되지 않았습니다. 오류 기록은 아래 평가 JSON과 실행 상태에 보존돼 있습니다."
     },
     {
       "id": "boat",
@@ -447,7 +465,9 @@
       "blind_history": [],
       "legacy": null,
       "reduced_known": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "historical_metrics_only",
+      "empty_message": "과거 실험의 수치 기록만 보존돼 있습니다. 이 실험의 최종 5패널 그림 파일은 현재 작업 폴더에 없습니다."
     },
     {
       "id": "pepper",
@@ -487,7 +507,9 @@
       "blind_history": [],
       "legacy": null,
       "reduced_known": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "execution_error",
+      "empty_message": "계산 중 오류로 종료되어 최종 결과 그림이 생성되지 않았습니다. 오류 기록은 아래 평가 JSON과 실행 상태에 보존돼 있습니다."
     },
     {
       "id": "tank",
@@ -534,7 +556,9 @@
       "blind_history": [],
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "published",
+      "empty_message": "최종 결과 그림 게시 완료"
     },
     {
       "id": "gravel",
@@ -586,7 +610,9 @@
       "blind_history": [],
       "legacy": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "published",
+      "empty_message": "최종 결과 그림 게시 완료"
     },
     {
       "id": "grass",
@@ -638,7 +664,9 @@
       "blind_history": [],
       "legacy": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "published",
+      "empty_message": "최종 결과 그림 게시 완료"
     },
     {
       "id": "smooth",
@@ -678,7 +706,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "execution_error",
+      "empty_message": "계산 중 오류로 종료되어 최종 결과 그림이 생성되지 않았습니다. 오류 기록은 아래 평가 JSON과 실행 상태에 보존돼 있습니다."
     },
     {
       "id": "parrot",
@@ -730,13 +760,15 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "published",
+      "empty_message": "최종 결과 그림 게시 완료"
     },
     {
       "id": "bark",
       "name": "Bark",
       "group": "일반영상",
-      "method": "현재 프로토콜 위상복원 미검증",
+      "method": "물체 밖 진폭0 · 현재 배치 실행 중",
       "known": [],
       "latest": null,
       "blind": null,
@@ -745,14 +777,16 @@
       "thumb": "images/inputs/bark-ed89558310433d53.png",
       "thumbnote": "보존된 실험 True Phase의 grayscale 인코딩",
       "nexttask": "위상 고주파 개선 및 440/550/660 nm Blind 최종 검증",
-      "status": "미검증",
+      "status": "계산 중",
       "reduced": [],
       "figures": [],
       "blind_history": [],
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "running",
+      "empty_message": "현재 계산 중입니다. 계산 종료와 평가가 끝나면 최종 결과 그림이 이 사이트에 자동 게시됩니다."
     },
     {
       "id": "sand",
@@ -774,7 +808,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "stream",
@@ -796,7 +832,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "mandrill",
@@ -836,7 +874,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "historical_metrics_only",
+      "empty_message": "과거 실험의 수치 기록만 보존돼 있습니다. 이 실험의 최종 5패널 그림 파일은 현재 작업 폴더에 없습니다."
     },
     {
       "id": "barbara",
@@ -876,7 +916,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "historical_metrics_only",
+      "empty_message": "과거 실험의 수치 기록만 보존돼 있습니다. 이 실험의 최종 5패널 그림 파일은 현재 작업 폴더에 없습니다."
     },
     {
       "id": "brick_wall",
@@ -898,7 +940,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "random_texture",
@@ -920,7 +964,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "hflip",
@@ -942,7 +988,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "vflip",
@@ -964,7 +1012,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "rot45",
@@ -986,7 +1036,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "transpose",
@@ -1008,7 +1060,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "antitranspose",
@@ -1030,7 +1084,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "rot180",
@@ -1052,7 +1108,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "invert",
@@ -1074,7 +1132,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "rot270",
@@ -1096,7 +1156,9 @@
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
-      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다."
+      "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "normal",
@@ -1118,7 +1180,9 @@
       "blind_history": [],
       "legacy": null,
       "reduced_known": null,
-      "inputurl": null
+      "inputurl": null,
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "variable",
@@ -1140,7 +1204,9 @@
       "blind_history": [],
       "legacy": null,
       "reduced_known": null,
-      "inputurl": null
+      "inputurl": null,
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "tilt",
@@ -1162,7 +1228,9 @@
       "blind_history": [],
       "legacy": null,
       "reduced_known": null,
-      "inputurl": null
+      "inputurl": null,
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "double",
@@ -1184,7 +1252,9 @@
       "blind_history": [],
       "legacy": null,
       "reduced_known": null,
-      "inputurl": null
+      "inputurl": null,
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "triple",
@@ -1206,7 +1276,9 @@
       "blind_history": [],
       "legacy": null,
       "reduced_known": null,
-      "inputurl": null
+      "inputurl": null,
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "brightfield",
@@ -1228,7 +1300,9 @@
       "blind_history": [],
       "legacy": null,
       "reduced_known": null,
-      "inputurl": null
+      "inputurl": null,
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "darkfield",
@@ -1250,7 +1324,9 @@
       "blind_history": [],
       "legacy": null,
       "reduced_known": null,
-      "inputurl": null
+      "inputurl": null,
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     },
     {
       "id": "phasecontrast",
@@ -1272,7 +1348,9 @@
       "blind_history": [],
       "legacy": null,
       "reduced_known": null,
-      "inputurl": null
+      "inputurl": null,
+      "figure_state": "not_started",
+      "empty_message": "아직 최종 복원 계산이 완료되지 않았습니다. 현재는 입력 영상만 표시합니다."
     }
   ]
 }
