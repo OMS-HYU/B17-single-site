@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "research": "single",
-  "updated_at": "2026-11-17T17:53:04.812689+00:00",
+  "updated_at": "2026-11-17T17:54:14.729078+00:00",
   "site_url": "https://oms-hyu.github.io/B17-single-site/",
   "protocol_version": "publication-v1",
   "counts": {
@@ -843,13 +843,15 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:53:04.812689+00:00",
+      "updated_at": "2026-11-17T17:54:14.729078+00:00",
       "scene": "bark",
       "float32_reference_sensor_l2": 0.008539089631632918,
       "precision": "float32 GD / float64 refinement",
-      "piston_aligned_circular_rmse_rad": 0.019883027053883916,
-      "global_phase_offset_rad": 2.5981209466610675,
-      "phase_metric_note": "Unaligned legacy gate retained. With zero exterior the global phase is unobservable. Piston-aligned RMSE is post-hoc truth-based diagnostic only; it does not change solver, stopping or original success flag."
+      "piston_aligned_circular_rmse_rad": 0.019883025047841188,
+      "optimal_piston_rad": 2.598129878200666,
+      "global_phase_offset_rad": 2.598129878200666,
+      "piston_alignment_method": "Exact global piecewise-quadratic sweep of squared wrapped error",
+      "phase_metric_note": "Unaligned legacy gate retained. Exact global wrapped-L2 piston diagnostic only; no solver, stopping or gauge change."
     },
     {
       "research": "single",
@@ -910,13 +912,15 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:53:04.812689+00:00",
+      "updated_at": "2026-11-17T17:54:14.729078+00:00",
       "scene": "grass",
       "float32_reference_sensor_l2": 0.00872544164365534,
       "precision": "float32 GD / float64 refinement",
-      "piston_aligned_circular_rmse_rad": 0.051821890792156565,
-      "global_phase_offset_rad": -2.9109443997103965,
-      "phase_metric_note": "Unaligned legacy gate retained. With zero exterior the global phase is unobservable. Piston-aligned RMSE is post-hoc truth-based diagnostic only; it does not change solver, stopping or original success flag.",
+      "piston_aligned_circular_rmse_rad": 0.051821883229796424,
+      "optimal_piston_rad": -2.9109164034330375,
+      "global_phase_offset_rad": -2.9109164034330375,
+      "piston_alignment_method": "Exact global piecewise-quadratic sweep of squared wrapped error",
+      "phase_metric_note": "Unaligned legacy gate retained. Exact global wrapped-L2 piston diagnostic only; no solver, stopping or gauge change.",
       "diagnostic_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-posthoc-piston-diagnostic-fea1153f8af8d6b5.png",
       "diagnostic_image_sha256": "fea1153f8af8d6b5e88febce722f8e246a176dae4a20bc07cfd9b9005b552fbd"
     },
@@ -979,13 +983,15 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:53:04.812689+00:00",
+      "updated_at": "2026-11-17T17:54:14.729078+00:00",
       "scene": "gravel",
       "float32_reference_sensor_l2": 0.008486804020947415,
       "precision": "float32 GD / float64 refinement",
-      "piston_aligned_circular_rmse_rad": 0.019656463790556054,
-      "global_phase_offset_rad": -3.1180614520235532,
-      "phase_metric_note": "Unaligned legacy gate retained. With zero exterior the global phase is unobservable. Piston-aligned RMSE is post-hoc truth-based diagnostic only; it does not change solver, stopping or original success flag.",
+      "piston_aligned_circular_rmse_rad": 0.01965646379055472,
+      "optimal_piston_rad": -3.118061444787152,
+      "global_phase_offset_rad": -3.118061444787152,
+      "piston_alignment_method": "Exact global piecewise-quadratic sweep of squared wrapped error",
+      "phase_metric_note": "Unaligned legacy gate retained. Exact global wrapped-L2 piston diagnostic only; no solver, stopping or gauge change.",
       "diagnostic_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-posthoc-piston-diagnostic-eff0ebc8366e9161.png",
       "diagnostic_image_sha256": "eff0ebc8366e9161e91e2ab9f5609af28656df67d2a5db1a31ce47c2ffe4785e"
     },
@@ -1048,13 +1054,15 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:53:04.812689+00:00",
+      "updated_at": "2026-11-17T17:54:14.729078+00:00",
       "scene": "parrot",
       "float32_reference_sensor_l2": 0.008349305940918553,
       "precision": "float32 GD / float64 refinement",
-      "piston_aligned_circular_rmse_rad": 0.024862514740440853,
-      "global_phase_offset_rad": -2.6511094691193677,
-      "phase_metric_note": "Unaligned legacy gate retained. With zero exterior the global phase is unobservable. Piston-aligned RMSE is post-hoc truth-based diagnostic only; it does not change solver, stopping or original success flag.",
+      "piston_aligned_circular_rmse_rad": 0.02486251474043997,
+      "optimal_piston_rad": -2.651109475746309,
+      "global_phase_offset_rad": -2.651109475746309,
+      "piston_alignment_method": "Exact global piecewise-quadratic sweep of squared wrapped error",
+      "phase_metric_note": "Unaligned legacy gate retained. Exact global wrapped-L2 piston diagnostic only; no solver, stopping or gauge change.",
       "diagnostic_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-posthoc-piston-diagnostic-19c9647b9647b768.png",
       "diagnostic_image_sha256": "19c9647b9647b768d573fc7533ef37bd57674f9137346b6f2151412eadfeb2d6"
     },

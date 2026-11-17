@@ -13,7 +13,10 @@
           "method": "float32 zero-start GD150 + float64 propagation L60, new curvature",
           "noise": 1,
           "verdict": "passed",
-          "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement"
+          "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement",
+          "aligned_r": null,
+          "optimal_piston_rad": null,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -23,7 +26,10 @@
         "method": "float32 zero-start GD150 + float64 propagation L60, new curvature",
         "noise": 1,
         "verdict": "passed",
-        "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement"
+        "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement",
+        "aligned_r": null,
+        "optimal_piston_rad": null,
+        "failure_cause": null
       },
       "blind": null,
       "note": "과거 440/550/660 nm Known 4건 모두 통과. 축소 Blind 4/4 파장 일치. 최신 537.3 nm는 최종 합격 전. 축소 Known 별도 시험 10/10 통과, 평균 0.08886 rad (5파장×2시드).",
@@ -62,7 +68,10 @@
           "method": "float32 zero-start GD150 + float64 propagation L60, new curvature",
           "noise": 1,
           "verdict": "passed",
-          "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement"
+          "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement",
+          "aligned_r": null,
+          "optimal_piston_rad": null,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -72,7 +81,10 @@
         "method": "float32 zero-start GD150 + float64 propagation L60, new curvature",
         "noise": 1,
         "verdict": "passed",
-        "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement"
+        "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement",
+        "aligned_r": null,
+        "optimal_piston_rad": null,
+        "failure_cause": null
       },
       "blind": null,
       "note": "원본 Moon과 다른 변형. 530 nm full-grid Blind GD10 실험 기록. 과거 전체 격자 Blind 530 nm 파장 정확히 추정, GD10 실제 실행 완료.",
@@ -111,7 +123,10 @@
           "method": "float32 zero-start GD150 + float64 propagation L60, new curvature",
           "noise": 1,
           "verdict": "passed",
-          "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement"
+          "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement",
+          "aligned_r": null,
+          "optimal_piston_rad": null,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -121,7 +136,10 @@
         "method": "float32 zero-start GD150 + float64 propagation L60, new curvature",
         "noise": 1,
         "verdict": "passed",
-        "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement"
+        "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement",
+        "aligned_r": null,
+        "optimal_piston_rad": null,
+        "failure_cause": null
       },
       "blind": null,
       "note": "Brick Wall과 다른 원본. 440/550/660 nm 4건 모두 통과. 과거 전체 격자 Blind 560 nm 파장 정확히 추정, GD10 실제 실행 완료. 축소 Known 별도 시험 10/10 통과, 평균 0.04387 rad (5파장×2시드).",
@@ -160,7 +178,10 @@
           "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
           "noise": 1,
           "verdict": "passed",
-          "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement"
+          "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement",
+          "aligned_r": null,
+          "optimal_piston_rad": null,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -170,7 +191,10 @@
         "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
         "noise": 1,
         "verdict": "passed",
-        "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement"
+        "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement",
+        "aligned_r": null,
+        "optimal_piston_rad": null,
+        "failure_cause": null
       },
       "blind": null,
       "note": "K=1 Known 4건 통과. K=2/3 미지 파장 성공 사례는 별도 연구이며 K=1으로 승계하지 않음.",
@@ -209,7 +233,10 @@
           "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
           "noise": 1,
           "verdict": "passed",
-          "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement"
+          "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement",
+          "aligned_r": null,
+          "optimal_piston_rad": null,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -219,7 +246,10 @@
         "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
         "noise": 1,
         "verdict": "passed",
-        "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement"
+        "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement",
+        "aligned_r": null,
+        "optimal_piston_rad": null,
+        "failure_cause": null
       },
       "blind": null,
       "note": "과거 축소 Blind camera 계열 6/6 파장 일치. GD150 중간값과 전체 Full300 통과 기록을 구분. 최신 Adaptive/Blind는 별도. 11/10 최종 2파장 모두 통과. GD150 중간 실패와 구분한다. 축소 Known 별도 시험 0/10 통과, 평균 0.40335 rad (5파장×2시드).",
@@ -258,7 +288,10 @@
           "method": "GD150 + circular L-BFGS60 alpha=1e-4",
           "noise": 1,
           "verdict": "verified_metrics_only",
-          "detail": "native5713-fixed-background-v1 · historical baseline"
+          "detail": "native5713-fixed-background-v1 · historical baseline",
+          "aligned_r": null,
+          "optimal_piston_rad": null,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -268,7 +301,10 @@
         "method": "GD150 + circular L-BFGS60 alpha=1e-4",
         "noise": 1,
         "verdict": "verified_metrics_only",
-        "detail": "native5713-fixed-background-v1 · historical baseline"
+        "detail": "native5713-fixed-background-v1 · historical baseline",
+        "aligned_r": null,
+        "optimal_piston_rad": null,
+        "failure_cause": null
       },
       "blind": null,
       "note": "기존 16-case 4건 통과. 550 nm 추가 실험도 통과.",
@@ -300,7 +336,10 @@
           "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
           "noise": 1,
           "verdict": "passed",
-          "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement"
+          "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement",
+          "aligned_r": null,
+          "optimal_piston_rad": null,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -310,7 +349,10 @@
         "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
         "noise": 1,
         "verdict": "passed",
-        "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement"
+        "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement",
+        "aligned_r": null,
+        "optimal_piston_rad": null,
+        "failure_cause": null
       },
       "blind": null,
       "note": "축소 격자 Blind 6/6 파장 일치. 전체 격자 Known 2건은 총괄 기록으로 통과 확인, 개별 RMSE 미확인. 11/10 최종 2파장 모두 통과. GD150 중간 실패와 구분한다. 과거 전체 격자 Blind 590 nm 파장 정확히 추정, GD10 실제 실행 완료. 축소 Known 별도 시험 0/10 통과, 평균 0.64076 rad (5파장×2시드).",
@@ -349,7 +391,10 @@
           "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
           "noise": 1,
           "verdict": "passed",
-          "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement"
+          "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement",
+          "aligned_r": null,
+          "optimal_piston_rad": null,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -359,7 +404,10 @@
         "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
         "noise": 1,
         "verdict": "passed",
-        "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement"
+        "detail": "native5713-fixed-background-v1 · float32 GD / float64 refinement",
+        "aligned_r": null,
+        "optimal_piston_rad": null,
+        "failure_cause": null
       },
       "blind": null,
       "note": "Pyramid64 660 nm RMSE 0.119159 rad · Sensor L2 1.001965% · 원본 평가 JSON과 피겨 검증 완료. Zero 및 Pyramid128 비교 결과 보존.",
@@ -398,7 +446,10 @@
           "method": "GD / float64 refinement; execution interrupted before final evaluation",
           "noise": 1,
           "verdict": "failed",
-          "detail": "native5713-fixed-background-v1 · historical baseline"
+          "detail": "native5713-fixed-background-v1 · historical baseline",
+          "aligned_r": null,
+          "optimal_piston_rad": null,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -408,7 +459,10 @@
         "method": "GD / float64 refinement; execution interrupted before final evaluation",
         "noise": 1,
         "verdict": "failed",
-        "detail": "native5713-fixed-background-v1 · historical baseline"
+        "detail": "native5713-fixed-background-v1 · historical baseline",
+        "aligned_r": null,
+        "optimal_piston_rad": null,
+        "failure_cause": null
       },
       "blind": null,
       "note": "11/13 추천 라우팅 브랜치에서 입력 모델/단위 테스트 확인. 전체 격자 성능 기록 미확인. 과거 전체 격자 Blind 450 nm 파장 정확히 추정, GD10 실제 실행 완료.",
@@ -440,7 +494,10 @@
           "method": "GD150 + circular L-BFGS60 alpha=1e-4",
           "noise": 1,
           "verdict": "historical_final_image_recovered",
-          "detail": "native5713-fixed-background-v1 · historical baseline"
+          "detail": "native5713-fixed-background-v1 · historical baseline",
+          "aligned_r": null,
+          "optimal_piston_rad": null,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -450,7 +507,10 @@
         "method": "GD150 + circular L-BFGS60 alpha=1e-4",
         "noise": 1,
         "verdict": "historical_final_image_recovered",
-        "detail": "native5713-fixed-background-v1 · historical baseline"
+        "detail": "native5713-fixed-background-v1 · historical baseline",
+        "aligned_r": null,
+        "optimal_piston_rad": null,
+        "failure_cause": null
       },
       "blind": null,
       "note": "저장소 원본 boat.jpg 및 사용자 이미지 옵션 확인. 현재 B17 0~2π 추천 프로토콜의 정확한 최종 수치 미확인. | 2026-11-14 신규 Known 재시험: 550 nm, 0.052426 rad, 0.981% · 통과.",
@@ -489,7 +549,10 @@
           "method": "GD / float64 refinement; execution interrupted before final evaluation",
           "noise": 1,
           "verdict": "failed",
-          "detail": "native5713-zero-exterior-v2 · historical baseline"
+          "detail": "native5713-zero-exterior-v2 · historical baseline",
+          "aligned_r": null,
+          "optimal_piston_rad": null,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -499,7 +562,10 @@
         "method": "GD / float64 refinement; execution interrupted before final evaluation",
         "noise": 1,
         "verdict": "failed",
-        "detail": "native5713-zero-exterior-v2 · historical baseline"
+        "detail": "native5713-zero-exterior-v2 · historical baseline",
+        "aligned_r": null,
+        "optimal_piston_rad": null,
+        "failure_cause": null
       },
       "blind": null,
       "note": "표준 Peppers 입력 썸네일 확보. 현재 B17 최종 복원 수치 및 결과 그림 미확인. | 2026-11-14 신규 Known 재시험: 550 nm, 0.070480 rad, 0.854% · 통과.",
@@ -531,7 +597,10 @@
           "method": "float64 propagation recovery from GD150; curvature initialized separately",
           "noise": 1,
           "verdict": "passed",
-          "detail": "native5713-fixed-background-v1 · separate float64 variant"
+          "detail": "native5713-fixed-background-v1 · separate float64 variant",
+          "aligned_r": null,
+          "optimal_piston_rad": null,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -541,7 +610,10 @@
         "method": "float64 propagation recovery from GD150; curvature initialized separately",
         "noise": 1,
         "verdict": "passed",
-        "detail": "native5713-fixed-background-v1 · separate float64 variant"
+        "detail": "native5713-fixed-background-v1 · separate float64 variant",
+        "aligned_r": null,
+        "optimal_piston_rad": null,
+        "failure_cause": null
       },
       "blind": null,
       "note": "과거 GS 532 nm 복원 기록 및 그림 보존. 현재 B17 512²·0~2π 최종 결과 미확인. | 2026-11-14 신규 Known 재시험: 550 nm, 0.074268 rad, 0.978% · 조건 충족·조기 수렴.",
@@ -580,7 +652,10 @@
           "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
           "noise": 1,
           "verdict": "failed",
-          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019656 rad (원래 판정 유지)"
+          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019656 rad (원래 판정 유지)",
+          "aligned_r": 0.01965646379055472,
+          "optimal_piston_rad": -3.118061444787152,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -590,7 +665,10 @@
         "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
         "noise": 1,
         "verdict": "failed",
-        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019656 rad (원래 판정 유지)"
+        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019656 rad (원래 판정 유지)",
+        "aligned_r": 0.01965646379055472,
+        "optimal_piston_rad": -3.118061444787152,
+        "failure_cause": null
       },
       "blind": null,
       "note": "축소 Blind gravel 4/4 파장 일치. 전체 격자 470 nm 위상 성과 존재. 과거 전체 격자 Blind 470 nm 파장 정확히 추정, GD10 실제 실행 완료. 축소 Known 별도 시험 10/10 통과, 평균 0.09974 rad (5파장×2시드). | 2026-11-14 신규 Known 재시험: 470 nm, 0.051839 rad, 1.211% · 조건 충족·조기 수렴.",
@@ -634,7 +712,10 @@
           "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
           "noise": 1,
           "verdict": "failed",
-          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.051822 rad (원래 판정 유지)"
+          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.051822 rad (원래 판정 유지)",
+          "aligned_r": 0.051821883229796424,
+          "optimal_piston_rad": -2.9109164034330375,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -644,7 +725,10 @@
         "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
         "noise": 1,
         "verdict": "failed",
-        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.051822 rad (원래 판정 유지)"
+        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.051822 rad (원래 판정 유지)",
+        "aligned_r": 0.051821883229796424,
+        "optimal_piston_rad": -2.9109164034330375,
+        "failure_cause": null
       },
       "blind": null,
       "note": "500 nm 과거 실험 위상 기준 미달. 최종 추천 방식으로 개선 필요. 과거 전체 격자 Blind 500 nm 파장 정확히 추정, GD10 실제 실행 완료. 축소 Known 별도 시험 10/10 통과, 평균 0.09353 rad (5파장×2시드). | 2026-11-14 신규 Known 재시험: 500 nm, 0.128174 rad, 1.857% · 통과.",
@@ -688,7 +772,10 @@
           "method": "GD / float64 refinement; execution interrupted before final evaluation",
           "noise": 1,
           "verdict": "failed",
-          "detail": "native5713-zero-exterior-v2 · historical baseline"
+          "detail": "native5713-zero-exterior-v2 · historical baseline",
+          "aligned_r": null,
+          "optimal_piston_rad": null,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -698,7 +785,10 @@
         "method": "GD / float64 refinement; execution interrupted before final evaluation",
         "noise": 1,
         "verdict": "failed",
-        "detail": "native5713-zero-exterior-v2 · historical baseline"
+        "detail": "native5713-zero-exterior-v2 · historical baseline",
+        "aligned_r": null,
+        "optimal_piston_rad": null,
+        "failure_cause": null
       },
       "blind": null,
       "note": "과거 축소 Blind smooth 4/4 파장 일치. 동일 512² 장면의 Known/Blind 결과 미확인. Random Texture와 다른 분포.",
@@ -730,7 +820,10 @@
           "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
           "noise": 1,
           "verdict": "failed",
-          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.024863 rad (원래 판정 유지)"
+          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.024863 rad (원래 판정 유지)",
+          "aligned_r": 0.02486251474043997,
+          "optimal_piston_rad": -2.651109475746309,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -740,7 +833,10 @@
         "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
         "noise": 1,
         "verdict": "failed",
-        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.024863 rad (원래 판정 유지)"
+        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.024863 rad (원래 판정 유지)",
+        "aligned_r": 0.02486251474043997,
+        "optimal_piston_rad": -2.651109475746309,
+        "failure_cause": null
       },
       "blind": null,
       "note": "Stage 6–13 동일 관측의 Full300 비교, Stage 15 조건부 정책 사후 재검증. LS2D 초기화로 기존 0.328158 → 0.028343 rad. 650 nm coarse 오차 10 nm.",
@@ -784,7 +880,10 @@
           "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
           "noise": 1,
           "verdict": "failed",
-          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019883 rad (원래 판정 유지)"
+          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019883 rad (원래 판정 유지)",
+          "aligned_r": 0.019883025047841188,
+          "optimal_piston_rad": 2.598129878200666,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -794,7 +893,10 @@
         "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
         "noise": 1,
         "verdict": "failed",
-        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019883 rad (원래 판정 유지)"
+        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019883 rad (원래 판정 유지)",
+        "aligned_r": 0.019883025047841188,
+        "optimal_piston_rad": 2.598129878200666,
+        "failure_cause": null
       },
       "blind": null,
       "note": "Stage 6–13 동일 관측의 Full300 비교, Stage 15 조건부 정책 사후 재검증. 센서는 기준 이내지만 위상은 미달. | 2026-11-14 신규 Known 재시험: 660 nm, 0.158244 rad, 1.566% · 미달.",
@@ -833,7 +935,10 @@
           "method": "GD / float64 refinement; execution interrupted before final evaluation",
           "noise": 1,
           "verdict": "failed",
-          "detail": "native5713-zero-exterior-v2 · historical baseline"
+          "detail": "native5713-zero-exterior-v2 · historical baseline",
+          "aligned_r": null,
+          "optimal_piston_rad": null,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -843,7 +948,10 @@
         "method": "GD / float64 refinement; execution interrupted before final evaluation",
         "noise": 1,
         "verdict": "failed",
-        "detail": "native5713-zero-exterior-v2 · historical baseline"
+        "detail": "native5713-zero-exterior-v2 · historical baseline",
+        "aligned_r": null,
+        "optimal_piston_rad": null,
+        "failure_cause": null
       },
       "blind": null,
       "note": "Stage 6–13 동일 관측의 Full300 비교, Stage 15 조건부 정책 사후 재검증. 센서는 기준 이내지만 위상은 미달. | 2026-11-14 신규 Known 재시험: 660 nm, 0.159781 rad, 1.649% · 미달.",
@@ -899,7 +1007,10 @@
           "method": "GD150 + circular L-BFGS60 alpha=1e-4 + restart Fourier circular L-BFGS20 alpha=3.85571e-5 (matched prior)",
           "noise": 1,
           "verdict": "verified_checkpoint_and_metrics",
-          "detail": "native5713-fixed-background-v1 · historical baseline"
+          "detail": "native5713-fixed-background-v1 · historical baseline",
+          "aligned_r": null,
+          "optimal_piston_rad": null,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -909,7 +1020,10 @@
         "method": "GD150 + circular L-BFGS60 alpha=1e-4 + restart Fourier circular L-BFGS20 alpha=3.85571e-5 (matched prior)",
         "noise": 1,
         "verdict": "verified_checkpoint_and_metrics",
-        "detail": "native5713-fixed-background-v1 · historical baseline"
+        "detail": "native5713-fixed-background-v1 · historical baseline",
+        "aligned_r": null,
+        "optimal_piston_rad": null,
+        "failure_cause": null
       },
       "blind": null,
       "note": "Stage 6–13 동일 관측의 Full300 비교, Stage 15 조건부 정책 사후 재검증. 센서는 기준 이내지만 위상은 미달. | 2026-11-14 신규 Known 재시험: 660 nm, 0.281223 rad, 2.372% · 미달.",
@@ -948,7 +1062,10 @@
           "method": "GD150 + circular L-BFGS60 alpha=1e-4",
           "noise": 1,
           "verdict": "historical_final_image_recovered",
-          "detail": "native5713-fixed-background-v1 · historical baseline"
+          "detail": "native5713-fixed-background-v1 · historical baseline",
+          "aligned_r": null,
+          "optimal_piston_rad": null,
+          "failure_cause": null
         }
       ],
       "latest": {
@@ -958,7 +1075,10 @@
         "method": "GD150 + circular L-BFGS60 alpha=1e-4",
         "noise": 1,
         "verdict": "historical_final_image_recovered",
-        "detail": "native5713-fixed-background-v1 · historical baseline"
+        "detail": "native5713-fixed-background-v1 · historical baseline",
+        "aligned_r": null,
+        "optimal_piston_rad": null,
+        "failure_cause": null
       },
       "blind": null,
       "note": "Stage 6–13 동일 관측의 Full300 비교, Stage 15 조건부 정책 사후 재검증. 센서는 기준 이내지만 위상은 미달. | 2026-11-14 신규 Known 재시험: 660 nm, 0.322519 rad, 1.915% · 미달.",
