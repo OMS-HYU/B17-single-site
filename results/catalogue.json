@@ -4,7 +4,7 @@
       "id": "moon",
       "name": "Moon",
       "group": "일반영상",
-      "method": "float32 zero-start GD150 + float64 propagation L60, new curvature",
+      "method": "v1 · 과거 최종 결과",
       "known": [
         {
           "w": 660.0,
@@ -59,7 +59,7 @@
       "id": "moon_flipud",
       "name": "Moon 상하반전",
       "group": "일반영상",
-      "method": "float32 zero-start GD150 + float64 propagation L60, new curvature",
+      "method": "v1 · 과거 최종 결과",
       "known": [
         {
           "w": 660.0,
@@ -114,7 +114,7 @@
       "id": "brick",
       "name": "Brick (scikit-image)",
       "group": "일반영상",
-      "method": "float32 zero-start GD150 + float64 propagation L60, new curvature",
+      "method": "v1 · 과거 최종 결과",
       "known": [
         {
           "w": 660.0,
@@ -169,7 +169,7 @@
       "id": "chelsea",
       "name": "Chelsea",
       "group": "일반영상",
-      "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "method": "v1 · 과거 최종 결과",
       "known": [
         {
           "w": 660.0,
@@ -224,7 +224,7 @@
       "id": "camera",
       "name": "Cameraman 원본",
       "group": "일반영상",
-      "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "method": "v1 · 과거 최종 결과",
       "known": [
         {
           "w": 660.0,
@@ -328,7 +328,7 @@
       "id": "coins",
       "name": "Coins",
       "group": "일반영상",
-      "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "method": "v1 · 과거 최종 결과",
       "known": [
         {
           "w": 660.0,
@@ -383,7 +383,7 @@
       "id": "astronaut",
       "name": "Astronaut",
       "group": "일반영상",
-      "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "method": "v1 · 과거 최종 결과",
       "known": [
         {
           "w": 660.0,
@@ -487,7 +487,7 @@
       "id": "boat",
       "name": "Boat",
       "group": "일반영상",
-      "method": "GD150 + circular L-BFGS60 alpha=1e-4",
+      "method": "v1 · 과거 최종 결과 · 원본 3패널",
       "known": [
         {
           "w": 660,
@@ -591,7 +591,7 @@
       "id": "tank",
       "name": "Tank",
       "group": "일반영상",
-      "method": "float64 propagation recovery from GD150; curvature initialized separately",
+      "method": "v1 · 과거 최종 결과",
       "known": [
         {
           "w": 660,
@@ -646,7 +646,7 @@
       "id": "gravel",
       "name": "Gravel",
       "group": "일반영상",
-      "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "method": "v2 · 최종 정렬 복원",
       "known": [
         {
           "w": 660.0,
@@ -688,7 +688,7 @@
         {
           "mode": "known",
           "title": "v2 · 최종 정렬 결과 · RMSE 0.019656 rad · 상대 위상",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-comparison_aligned-bf4ddd188e3f819d.png"
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-final-aligned-27dfeb6a45f5b35e.png"
         }
       ],
       "blind_history": [],
@@ -703,7 +703,7 @@
       "id": "grass",
       "name": "Grass",
       "group": "일반영상",
-      "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "method": "v2 · 최종 정렬 복원",
       "known": [
         {
           "w": 660.0,
@@ -745,7 +745,7 @@
         {
           "mode": "known",
           "title": "v2 · 최종 정렬 결과 · RMSE 0.051822 rad · 상대 위상",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-comparison_aligned-0046ae91b8eba771.png"
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/grass-final-aligned-8b15bacae667a2fa.png"
         }
       ],
       "blind_history": [],
@@ -809,7 +809,7 @@
       "id": "parrot",
       "name": "Parrot",
       "group": "일반영상",
-      "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "method": "v2 · 최종 정렬 복원",
       "known": [
         {
           "w": 660.0,
@@ -850,7 +850,7 @@
         {
           "mode": "known",
           "title": "v2 · 최종 정렬 결과 · RMSE 0.024863 rad · 상대 위상",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-comparison_aligned-38642d6cc7b3f368.png"
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-final-aligned-cb31539184a4a16c.png"
         }
       ],
       "blind_history": [],
@@ -866,7 +866,7 @@
       "id": "bark",
       "name": "Bark",
       "group": "일반영상",
-      "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "method": "v2 · 최종 정렬 복원",
       "known": [
         {
           "w": 660.0,
@@ -907,7 +907,7 @@
         {
           "mode": "known",
           "title": "v2 · 최종 정렬 결과 · RMSE 0.019883 rad · 상대 위상",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-comparison_aligned-c7d2ee99f8a56fcb.png"
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/bark-final-aligned-20f0a2fc232cb460.png"
         }
       ],
       "blind_history": [],
@@ -996,7 +996,7 @@
       "id": "mandrill",
       "name": "Mandrill",
       "group": "일반영상",
-      "method": "GD150 + circular L-BFGS60 alpha=1e-4 + restart Fourier circular L-BFGS20 alpha=3.85571e-5 (matched prior)",
+      "method": "v1 · 과거 최종 결과",
       "known": [
         {
           "w": 660,
@@ -1051,7 +1051,7 @@
       "id": "barbara",
       "name": "Barbara",
       "group": "일반영상",
-      "method": "GD150 + circular L-BFGS60 alpha=1e-4",
+      "method": "v1 · 과거 최종 결과 · 원본 3패널",
       "known": [
         {
           "w": 660,

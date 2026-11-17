@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "research": "single",
-  "updated_at": "2026-11-17T17:57:30.350077+00:00",
+  "updated_at": "2026-11-17T18:07:29.650315+00:00",
   "site_url": "https://oms-hyu.github.io/B17-single-site/",
   "protocol_version": "publication-v1",
   "counts": {
@@ -822,8 +822,8 @@
       "status": "failed",
       "forward_status": "hash_verified",
       "inverse_status": "failed_gate",
-      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-native-v2-float64-94ea2a6a63bd44a2.png",
-      "image_sha256": "94ea2a6a63bd44a21dc733593a620de61760b12984723b11237c271a1cfb83e7",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-final-aligned-20f0a2fc232cb460.png",
+      "image_sha256": "20f0a2fc232cb4609b96cdb8a55210fbae48f10333b3a43772c941e9d1061946",
       "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/bark-native-v2-float64.json",
       "evaluation_sha256": "8f89d5576c2803bd063c6b5f787deec9cd6f80583802f3b4d999c2552ddd4b8f",
       "input_hashes": {
@@ -843,7 +843,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:57:30.350077+00:00",
+      "updated_at": "2026-11-17T18:07:29.650315+00:00",
       "scene": "bark",
       "float32_reference_sensor_l2": 0.008539089631632918,
       "precision": "float32 GD / float64 refinement",
@@ -890,6 +890,10 @@
         "confirmed": true,
         "limitation": "Independent input/seed checkpoint validation only; no same-image repeat-seed ensemble or physical measurement claim"
       },
+      "raw_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-native-v2-float64-94ea2a6a63bd44a2.png",
+      "final_display_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-final-aligned-20f0a2fc232cb460.png",
+      "final_display_rmse_rad": 0.019883025047841188,
+      "final_display_status": "relative_phase_confirmed",
       "aligned_phase_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-aligned_phase-e364102cce3dbfed.png",
       "raw_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-raw_error-2348d6cc4e1d5962.png",
       "aligned_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-aligned_error-6679dbcf4f8eaedf.png"
@@ -932,8 +936,8 @@
       "status": "failed",
       "forward_status": "hash_verified",
       "inverse_status": "failed_gate",
-      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-native-v2-float64-108390601b9d43d4.png",
-      "image_sha256": "108390601b9d43d47cd26f1d43f035c3cff14f8ae650db2576435f26d9dd59b4",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-final-aligned-8b15bacae667a2fa.png",
+      "image_sha256": "8b15bacae667a2fadb769863026af501c1aa0b9c0d9f77e763ba765f6bfff59b",
       "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/grass-native-v2-float64.json",
       "evaluation_sha256": "58bd2b2a4ce689a886f21dc906f4473458acb228cae6eebfe19c0967f835cabc",
       "input_hashes": {
@@ -953,7 +957,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:57:30.350077+00:00",
+      "updated_at": "2026-11-17T18:07:29.650315+00:00",
       "scene": "grass",
       "float32_reference_sensor_l2": 0.00872544164365534,
       "precision": "float32 GD / float64 refinement",
@@ -1000,6 +1004,10 @@
         "confirmed": true,
         "limitation": "Independent input/seed checkpoint validation only; no same-image repeat-seed ensemble or physical measurement claim"
       },
+      "raw_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-native-v2-float64-108390601b9d43d4.png",
+      "final_display_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-final-aligned-8b15bacae667a2fa.png",
+      "final_display_rmse_rad": 0.051821883229796424,
+      "final_display_status": "relative_phase_confirmed",
       "aligned_phase_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-aligned_phase-7549a9aefc8fa7c1.png",
       "raw_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-raw_error-62a8055e40be7c64.png",
       "aligned_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-aligned_error-243b829235489b14.png"
@@ -1042,8 +1050,8 @@
       "status": "failed",
       "forward_status": "hash_verified",
       "inverse_status": "failed_gate",
-      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-native-v2-float64-8f41952ddb8dd6e6.png",
-      "image_sha256": "8f41952ddb8dd6e6b86c71cd1f1889c0cba102399533e308ac3df5c4a28c39df",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-final-aligned-27dfeb6a45f5b35e.png",
+      "image_sha256": "27dfeb6a45f5b35e9bda6a5087a7e61d16eef7a535cd3e18ac395f9496f2f088",
       "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/gravel-native-v2-float64.json",
       "evaluation_sha256": "d57c81ab7674bb8659762356d2e6a8a8720cb1e7195fd9408cda8c77854ce6d6",
       "input_hashes": {
@@ -1063,7 +1071,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:57:30.350077+00:00",
+      "updated_at": "2026-11-17T18:07:29.650315+00:00",
       "scene": "gravel",
       "float32_reference_sensor_l2": 0.008486804020947415,
       "precision": "float32 GD / float64 refinement",
@@ -1110,6 +1118,10 @@
         "confirmed": true,
         "limitation": "Independent input/seed checkpoint validation only; no same-image repeat-seed ensemble or physical measurement claim"
       },
+      "raw_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-native-v2-float64-8f41952ddb8dd6e6.png",
+      "final_display_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-final-aligned-27dfeb6a45f5b35e.png",
+      "final_display_rmse_rad": 0.01965646379055472,
+      "final_display_status": "relative_phase_confirmed",
       "aligned_phase_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-aligned_phase-eecdb28ecf9bdd5d.png",
       "raw_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-raw_error-51b355138530e1c4.png",
       "aligned_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-aligned_error-ae9b8375f60cf7b3.png"
@@ -1152,8 +1164,8 @@
       "status": "failed",
       "forward_status": "hash_verified",
       "inverse_status": "failed_gate",
-      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-native-v2-float64-8adc7b33fcd5cf59.png",
-      "image_sha256": "8adc7b33fcd5cf59c76893b3d94a27cbccdea5f573075220578d3f8c3a44ba1f",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-final-aligned-cb31539184a4a16c.png",
+      "image_sha256": "cb31539184a4a16c3c104c0231e45eb69bb37ec75b63ac4bda31da1de37d9486",
       "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/parrot-native-v2-float64.json",
       "evaluation_sha256": "3db18901e3374e94cf2fcc3b956b6e5ab628355f7a8a96ced3ce7406f866613c",
       "input_hashes": {
@@ -1173,7 +1185,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:57:30.350077+00:00",
+      "updated_at": "2026-11-17T18:07:29.650315+00:00",
       "scene": "parrot",
       "float32_reference_sensor_l2": 0.008349305940918553,
       "precision": "float32 GD / float64 refinement",
@@ -1220,6 +1232,10 @@
         "confirmed": true,
         "limitation": "Independent input/seed checkpoint validation only; no same-image repeat-seed ensemble or physical measurement claim"
       },
+      "raw_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-native-v2-float64-8adc7b33fcd5cf59.png",
+      "final_display_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-final-aligned-cb31539184a4a16c.png",
+      "final_display_rmse_rad": 0.02486251474043997,
+      "final_display_status": "relative_phase_confirmed",
       "aligned_phase_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-aligned_phase-7865a898d64a185a.png",
       "raw_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-raw_error-ef34a5a44c032684.png",
       "aligned_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-aligned_error-eacffa61cc4570ba.png"

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "research": "single",
-  "updated_at": "2026-11-17T17:57:30.350077+00:00",
+  "updated_at": "2026-11-17T18:07:29.650315+00:00",
   "files": [
     {
       "path": "assets/css/single.css",
@@ -33,6 +33,14 @@
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/barbara-recovered-historical-final-838242aa0df9cb25.png",
       "sha256": "838242aa0df9cb250f7fc086fb6d5c46951159d17515984cf0d70a0a7d1cffcb",
       "bytes": 1638802,
+      "mime": "image/png"
+    },
+    {
+      "path": "images/final/bark-final-aligned-20f0a2fc232cb460.png",
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/bark-final-aligned-20f0a2fc232cb460.png",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/bark-final-aligned-20f0a2fc232cb460.png",
+      "sha256": "20f0a2fc232cb4609b96cdb8a55210fbae48f10333b3a43772c941e9d1061946",
+      "bytes": 3132235,
       "mime": "image/png"
     },
     {
@@ -124,6 +132,14 @@
       "mime": "image/png"
     },
     {
+      "path": "images/final/grass-final-aligned-8b15bacae667a2fa.png",
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-final-aligned-8b15bacae667a2fa.png",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/grass-final-aligned-8b15bacae667a2fa.png",
+      "sha256": "8b15bacae667a2fadb769863026af501c1aa0b9c0d9f77e763ba765f6bfff59b",
+      "bytes": 3225807,
+      "mime": "image/png"
+    },
+    {
       "path": "images/final/grass-native-v2-float64-108390601b9d43d4.png",
       "url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-native-v2-float64-108390601b9d43d4.png",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/grass-native-v2-float64-108390601b9d43d4.png",
@@ -177,6 +193,14 @@
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/grass-posthoc-piston-diagnostic-fea1153f8af8d6b5.png",
       "sha256": "fea1153f8af8d6b5e88febce722f8e246a176dae4a20bc07cfd9b9005b552fbd",
       "bytes": 3400731,
+      "mime": "image/png"
+    },
+    {
+      "path": "images/final/gravel-final-aligned-27dfeb6a45f5b35e.png",
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-final-aligned-27dfeb6a45f5b35e.png",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/gravel-final-aligned-27dfeb6a45f5b35e.png",
+      "sha256": "27dfeb6a45f5b35e9bda6a5087a7e61d16eef7a535cd3e18ac395f9496f2f088",
+      "bytes": 2964620,
       "mime": "image/png"
     },
     {
@@ -257,6 +281,14 @@
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/moon_flipud-native-v1-float64-96d10e88d8a71a5c.png",
       "sha256": "96d10e88d8a71a5c47c99e142db6cfc4e421973417657488b26779c1f0297267",
       "bytes": 1598642,
+      "mime": "image/png"
+    },
+    {
+      "path": "images/final/parrot-final-aligned-cb31539184a4a16c.png",
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-final-aligned-cb31539184a4a16c.png",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/parrot-final-aligned-cb31539184a4a16c.png",
+      "sha256": "cb31539184a4a16c3c104c0231e45eb69bb37ec75b63ac4bda31da1de37d9486",
+      "bytes": 2342463,
       "mime": "image/png"
     },
     {
@@ -639,8 +671,8 @@
       "path": "index.html",
       "url": "https://oms-hyu.github.io/B17-single-site/index.html",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/index.html",
-      "sha256": "4d59ebd3602d388148722705107a162200b648503ec2afe24e777dc47c7ba700",
-      "bytes": 17360,
+      "sha256": "782b13b0801ebf9d232127d65d4d1b9ae85a464a41beb8f20955b26a9187f36b",
+      "bytes": 16245,
       "mime": null
     },
     {
@@ -655,8 +687,8 @@
       "path": "results/catalogue.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/catalogue.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/catalogue.json",
-      "sha256": "0d6b4f5362bbc946cddf0947c2704b8d82a44f0d2cdeff492d4cac811716f283",
-      "bytes": 71368,
+      "sha256": "243f0d26c541f4fb96420ac3d69c5d1127f1f0163dcd14b03de906cab6fe3198",
+      "bytes": 70793,
       "mime": "application/json"
     },
     {
@@ -871,16 +903,16 @@
       "path": "results/history.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/history.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/history.json",
-      "sha256": "8b681f35081e6e32b5b964484f34f8a73ef588dfbf1a43fdcab6b74788849647",
-      "bytes": 1604,
+      "sha256": "d5ca4dc94d7a32454c85e4724c9e17710235a8e1c17023b13bfad0b801363e9b",
+      "bytes": 1798,
       "mime": "application/json"
     },
     {
       "path": "results/latest.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/latest.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/latest.json",
-      "sha256": "e3316b82829c80f15e85df06eeee96d4096dcaed67c6acc018faa3e80199a0c4",
-      "bytes": 73461,
+      "sha256": "b3df7744d9870137f88224261527626f8fc0dd5441e55d0c1daa29f868b22548",
+      "bytes": 74941,
       "mime": "application/json"
     },
     {
