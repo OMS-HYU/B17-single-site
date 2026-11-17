@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "research": "single",
-  "updated_at": "2026-11-17T17:12:44.145482+00:00",
+  "updated_at": "2026-11-17T17:38:02.252583+00:00",
   "site_url": "https://oms-hyu.github.io/B17-single-site/",
   "protocol_version": "publication-v1",
   "counts": {
     "input_scenes": 39,
     "phase_verified_scenes": 12,
-    "final_png_scenes": 11,
-    "baseline_metrics_without_final_png": 4
+    "final_png_scenes": 14,
+    "baseline_metrics_without_final_png": 1
   },
   "experiments": [
     {
@@ -47,13 +47,13 @@
       "circular_rmse_rad": 0.07238838128303081,
       "linear_rmse_rad": 0.09619664439233329,
       "sensor_l2": 0.0087375522206244,
-      "status": "verified_metrics_only",
+      "status": "verified_checkpoint_and_metrics",
       "forward_status": "historical_matched_model",
       "inverse_status": "historical_metrics_verified",
-      "image_url": null,
-      "image_sha256": null,
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/mandrill-recovered-historical-final-f7eb3bada9f86ba9.png",
+      "image_sha256": "f7eb3bada9f86ba9955780fe2dabeba0bded04f6423f445839191839c8c8c117",
       "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/mandrill-native-v1-baseline.json",
-      "evaluation_sha256": "930f5f2484a090fbfdb0306713bcc3998b9533dfad0f4ce90db8214e2143dd04",
+      "evaluation_sha256": "7e185413372cef3c452ab9545e68639684d3d97c843d066dd02000e5217059c0",
       "input_hashes": {
         "sensor": "8e44352d615413f43fcba6e91b92594d756470c8657447b03cbd11ba98dd9b02",
         "truth": "33081783cc48fc8c7ecf8ff3df3d4d7bd27f257e403987a56da7aa3b977fb449"
@@ -62,10 +62,30 @@
       "code_commit": null,
       "code_sha256": null,
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "mandrill",
-      "figure_status": "Final raw arrays unavailable locally; tiny preview excluded",
-      "verification": "Historical numerical record; not revalidated from raw checkpoint during this publication"
+      "figure_status": "Five panels regenerated from hash-matched original arrays",
+      "verification": "Actual phase/sensor/truth hashes match original published final. Circular RMSE recalculated. Five panels rendered from recovered original arrays; historical amplitude1 physics preserved.",
+      "figure_panel_count": 5,
+      "recovery_provenance": {
+        "scene": "mandrill",
+        "status": "raw_final_checkpoint_verified",
+        "final_figure": "mandrill_recovered_final_5panel.png",
+        "panel_count": 5,
+        "source_title": "660 nm · Fourier20 · 추가 비교 · Circular RMSE 0.072388 rad · 일반 RMSE 0.096197 rad · 정답 / 복원 / circular 오차 (왼쪽부터; 위상 0–2π, 오차 ±0.4 rad)",
+        "original_pixel_size": [
+          1552,
+          512
+        ],
+        "source_html_sha256": "1478108ba3b6d2edfb4faa1e20405a28e6c98669c563253f69590ad7d0d2d628",
+        "original_image_sha256": "b3d81d0375c0757a7a8c8695664adcb249352b2c1ead0cdab6d487099e65b13c",
+        "verification": "Actual phase/sensor/truth hashes match original published final. Circular RMSE recalculated. Five panels rendered from recovered original arrays; historical amplitude1 physics preserved.",
+        "circular_rmse_recalculated": 0.07238838128303081,
+        "linear_rmse_recalculated": 0.09619664439233329,
+        "phase_sha256": "00414d210ae1c38d01316de4e3500b039c0f9f7a19f7a5bc3c89ad90a12d7c13",
+        "truth_sha256": "33081783cc48fc8c7ecf8ff3df3d4d7bd27f257e403987a56da7aa3b977fb449",
+        "sensor_sha256": "8e44352d615413f43fcba6e91b92594d756470c8657447b03cbd11ba98dd9b02"
+      }
     },
     {
       "research": "single",
@@ -109,7 +129,7 @@
       "image_url": null,
       "image_sha256": null,
       "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/camera_rot90-native-v1-baseline.json",
-      "evaluation_sha256": "e479f75070770b6d5aa527e45db87a5590d4635ecf58a2518efc66bed1e79ab0",
+      "evaluation_sha256": "9d3b85a5417afdec806efa4c512a61131588ab24322573662983d18cd654f282",
       "input_hashes": {
         "sensor": "8ef457490bc58a7a673f3a213e71ea45ab23adef83fc91194fddb9c6efb5cfec",
         "truth": "0dbb11f279b6eb26c0b4fd87e324357667d2ca142a580ad3742685a215a1f239"
@@ -118,7 +138,7 @@
       "code_commit": null,
       "code_sha256": null,
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "camera_rot90",
       "figure_status": "Final raw arrays unavailable locally; tiny preview excluded",
       "verification": "Historical numerical record; not revalidated from raw checkpoint during this publication"
@@ -159,13 +179,13 @@
       "circular_rmse_rad": 0.0606709824017699,
       "linear_rmse_rad": 0.0626376649711003,
       "sensor_l2": 0.008764453964812057,
-      "status": "verified_metrics_only",
+      "status": "historical_final_image_recovered",
       "forward_status": "historical_matched_model",
       "inverse_status": "historical_metrics_verified",
-      "image_url": null,
-      "image_sha256": null,
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/barbara-recovered-historical-final-838242aa0df9cb25.png",
+      "image_sha256": "838242aa0df9cb250f7fc086fb6d5c46951159d17515984cf0d70a0a7d1cffcb",
       "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/barbara-native-v1-baseline.json",
-      "evaluation_sha256": "0a11c0719eb1b66dfbdda43221860af7c0ab70513b25bfd536c897722a9a3be0",
+      "evaluation_sha256": "963caf3db1f03725fad9ed94c39cdb80c054911cbc0a9420d6b2e612b361239f",
       "input_hashes": {
         "sensor": "b6dfc81a1aa1f7dd3d4e22236a6fb733ffd571d1d7d0d855af52e19f2d570836",
         "truth": "d9dbdb6e0c05618e24f1c5e8cefe251acac12e16158e530f2c2bd8800de2f8fc"
@@ -174,10 +194,25 @@
       "code_commit": null,
       "code_sha256": null,
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "barbara",
-      "figure_status": "Final raw arrays unavailable locally; tiny preview excluded",
-      "verification": "Historical numerical record; not revalidated from raw checkpoint during this publication"
+      "figure_status": "Recovered exact historical final; 3-panel raster preserved where raw final phase unavailable",
+      "verification": "Exact archived final raster recovered from original HTML. Stage and recorded RMSE match. Raw final checkpoint not recovered for Barbara/Boat; no phase values inferred from colors.",
+      "figure_panel_count": 3,
+      "recovery_provenance": {
+        "scene": "barbara",
+        "status": "historical_final_raster_recovered",
+        "final_figure": "barbara_recovered_final_3panel.png",
+        "panel_count": 3,
+        "source_title": "660 nm · L-BFGS60 · Circular RMSE 0.060671 rad · 일반 RMSE 0.062638 rad · 정답 / 복원 / circular 오차 (왼쪽부터; 위상 0–2π, 오차 ±0.4 rad)",
+        "original_pixel_size": [
+          1552,
+          512
+        ],
+        "source_html_sha256": "1478108ba3b6d2edfb4faa1e20405a28e6c98669c563253f69590ad7d0d2d628",
+        "original_image_sha256": "bc4242874ebb0b4fc7e4e2532ad59efdd35254a984d6d4df18383e0f446ee0ad",
+        "verification": "Exact archived final raster recovered from original HTML. Stage and recorded RMSE match. Raw final checkpoint not recovered for Barbara/Boat; no phase values inferred from colors."
+      }
     },
     {
       "research": "single",
@@ -215,13 +250,13 @@
       "circular_rmse_rad": 0.03777281530318568,
       "linear_rmse_rad": 0.0663970980563124,
       "sensor_l2": 0.008753568285459345,
-      "status": "verified_metrics_only",
+      "status": "historical_final_image_recovered",
       "forward_status": "historical_matched_model",
       "inverse_status": "historical_metrics_verified",
-      "image_url": null,
-      "image_sha256": null,
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/boat-recovered-historical-final-3dafeb86f81daa08.png",
+      "image_sha256": "3dafeb86f81daa0840c43cbad40be8580008ba89855fcc6ae3cdb405e2f79e9a",
       "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/boat-native-v1-baseline.json",
-      "evaluation_sha256": "8922a3bfb6ec49c736367abc785aef59886b0dc08aded190f30026048bb1e2be",
+      "evaluation_sha256": "296c5a93ee42d8d440dface90e03f8bb16f9d20413d8ba5b2eebf1f729db40b5",
       "input_hashes": {
         "sensor": "0d617dc28dbb3c504ebe9350df5f4b962dd6130f3000d5004bde34fcebf9ce8d",
         "truth": "1cd9f9de83c67cce0440c8d8983e44d220829f15d0743bb560da384c6d72d85f"
@@ -230,10 +265,25 @@
       "code_commit": null,
       "code_sha256": null,
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "boat",
-      "figure_status": "Final raw arrays unavailable locally; tiny preview excluded",
-      "verification": "Historical numerical record; not revalidated from raw checkpoint during this publication"
+      "figure_status": "Recovered exact historical final; 3-panel raster preserved where raw final phase unavailable",
+      "verification": "Exact archived final raster recovered from original HTML. Stage and recorded RMSE match. Raw final checkpoint not recovered for Barbara/Boat; no phase values inferred from colors.",
+      "figure_panel_count": 3,
+      "recovery_provenance": {
+        "scene": "boat",
+        "status": "historical_final_raster_recovered",
+        "final_figure": "boat_recovered_final_3panel.png",
+        "panel_count": 3,
+        "source_title": "660 nm · L-BFGS60 · Circular RMSE 0.037773 rad · 일반 RMSE 0.066397 rad · 정답 / 복원 / circular 오차 (왼쪽부터; 위상 0–2π, 오차 ±0.4 rad)",
+        "original_pixel_size": [
+          1552,
+          512
+        ],
+        "source_html_sha256": "1478108ba3b6d2edfb4faa1e20405a28e6c98669c563253f69590ad7d0d2d628",
+        "original_image_sha256": "016e2c27f0d3fda4b69f69f0a11656256e28f62acb75974159a3bc2e55827453",
+        "verification": "Exact archived final raster recovered from original HTML. Stage and recorded RMSE match. Raw final checkpoint not recovered for Barbara/Boat; no phase values inferred from colors."
+      }
     },
     {
       "research": "single",
@@ -294,7 +344,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "astronaut",
       "float32_reference_sensor_l2": 0.008761928558380592,
       "precision": "float32 GD / float64 refinement"
@@ -358,7 +408,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "brick",
       "float32_reference_sensor_l2": 0.008750783247563586,
       "precision": "float32 GD / float64 refinement"
@@ -422,7 +472,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "camera",
       "float32_reference_sensor_l2": 0.008771468496064676,
       "precision": "float32 GD / float64 refinement"
@@ -486,7 +536,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "chelsea",
       "float32_reference_sensor_l2": 0.008747627650171497,
       "precision": "float32 GD / float64 refinement"
@@ -550,7 +600,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "coins",
       "float32_reference_sensor_l2": 0.008747217976958648,
       "precision": "float32 GD / float64 refinement"
@@ -614,7 +664,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "moon",
       "float32_reference_sensor_l2": 0.008752566250792102,
       "precision": "float32 GD / float64 refinement"
@@ -678,7 +728,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "moon_flipud",
       "float32_reference_sensor_l2": 0.008752818526251944,
       "precision": "float32 GD / float64 refinement"
@@ -730,7 +780,7 @@
       "code_commit": null,
       "code_sha256": null,
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "checkerboard",
       "verification": "No final RMSE or final PNG is claimed."
     },
@@ -793,7 +843,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "grass",
       "float32_reference_sensor_l2": 0.00872544164365534,
       "precision": "float32 GD / float64 refinement",
@@ -862,7 +912,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "gravel",
       "float32_reference_sensor_l2": 0.008486804020947415,
       "precision": "float32 GD / float64 refinement",
@@ -931,7 +981,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "parrot",
       "float32_reference_sensor_l2": 0.008349305940918553,
       "precision": "float32 GD / float64 refinement",
@@ -988,7 +1038,7 @@
       "code_commit": null,
       "code_sha256": null,
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "pepper",
       "verification": "No final RMSE or final PNG is claimed."
     },
@@ -1039,7 +1089,7 @@
       "code_commit": null,
       "code_sha256": null,
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "smooth",
       "verification": "No final RMSE or final PNG is claimed."
     },
@@ -1094,7 +1144,7 @@
       "code_commit": "4ff2ad116bc0b5eb3dadb5d9a167fcd87dedbedc",
       "code_sha256": null,
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T17:12:44.145482+00:00",
+      "updated_at": "2026-11-17T17:38:02.252583+00:00",
       "scene": "tank",
       "precision": "separate float64 variant"
     }

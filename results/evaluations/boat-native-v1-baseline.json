@@ -1,29 +1,45 @@
 {
-  "scene": "Boat",
-  "id": "boat",
-  "wavelength_nm": 660,
-  "known": true,
-  "gd_accepted": 150,
-  "gd_circular_rmse_rad": 0.0607829173612157,
-  "gd_linear_rmse_rad": 0.09923452886268537,
-  "lbfgs_accepted": 60,
-  "extra_lbfgs_accepted": 0,
-  "final_circular_rmse_rad": 0.03777281530318568,
-  "final_linear_rmse_rad": 0.0663970980563124,
-  "sensor_l2": 0.008753568285459345,
-  "final_method": "GD150 + circular L-BFGS60 alpha=1e-4",
-  "noise_seed": 672911,
-  "sensor_sha256": "0d617dc28dbb3c504ebe9350df5f4b962dd6130f3000d5004bde34fcebf9ce8d",
-  "truth_sha256": "1cd9f9de83c67cce0440c8d8983e44d220829f15d0743bb560da384c6d72d85f",
-  "phase_sha256": "49ffe3211df4cd9daa39f5a682c3e6d70bd13a1deba4cc15348de6f8a7daa6d4",
-  "source": "boat_GD150.json + boat_L60.json; verified checkpoints",
-  "preview": "boat_final.jpg",
-  "preview_stage": "final L60",
-  "expected_noise_l2": 0.008835471508031219,
-  "gate_pass": {
-    "circular": true,
-    "linear": true,
-    "sensor": true
+  "original_evaluation": {
+    "scene": "Boat",
+    "id": "boat",
+    "wavelength_nm": 660,
+    "known": true,
+    "gd_accepted": 150,
+    "gd_circular_rmse_rad": 0.0607829173612157,
+    "gd_linear_rmse_rad": 0.09923452886268537,
+    "lbfgs_accepted": 60,
+    "extra_lbfgs_accepted": 0,
+    "final_circular_rmse_rad": 0.03777281530318568,
+    "final_linear_rmse_rad": 0.0663970980563124,
+    "sensor_l2": 0.008753568285459345,
+    "final_method": "GD150 + circular L-BFGS60 alpha=1e-4",
+    "noise_seed": 672911,
+    "sensor_sha256": "0d617dc28dbb3c504ebe9350df5f4b962dd6130f3000d5004bde34fcebf9ce8d",
+    "truth_sha256": "1cd9f9de83c67cce0440c8d8983e44d220829f15d0743bb560da384c6d72d85f",
+    "phase_sha256": "49ffe3211df4cd9daa39f5a682c3e6d70bd13a1deba4cc15348de6f8a7daa6d4",
+    "source": "boat_GD150.json + boat_L60.json; verified checkpoints",
+    "preview": "boat_final.jpg",
+    "preview_stage": "final L60",
+    "expected_noise_l2": 0.008835471508031219,
+    "gate_pass": {
+      "circular": true,
+      "linear": true,
+      "sensor": true
+    },
+    "high_frequency_error_energy_fraction": 0.9524990015912856
   },
-  "high_frequency_error_energy_fraction": 0.9524990015912856
+  "recovery": {
+    "scene": "boat",
+    "status": "historical_final_raster_recovered",
+    "final_figure": "boat_recovered_final_3panel.png",
+    "panel_count": 3,
+    "source_title": "660 nm · L-BFGS60 · Circular RMSE 0.037773 rad · 일반 RMSE 0.066397 rad · 정답 / 복원 / circular 오차 (왼쪽부터; 위상 0–2π, 오차 ±0.4 rad)",
+    "original_pixel_size": [
+      1552,
+      512
+    ],
+    "source_html_sha256": "1478108ba3b6d2edfb4faa1e20405a28e6c98669c563253f69590ad7d0d2d628",
+    "original_image_sha256": "016e2c27f0d3fda4b69f69f0a11656256e28f62acb75974159a3bc2e55827453",
+    "verification": "Exact archived final raster recovered from original HTML. Stage and recorded RMSE match. Raw final checkpoint not recovered for Barbara/Boat; no phase values inferred from colors."
+  }
 }

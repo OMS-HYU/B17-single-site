@@ -439,7 +439,7 @@
           "s": 0.8753568285459346,
           "method": "GD150 + circular L-BFGS60 alpha=1e-4",
           "noise": 1,
-          "verdict": "verified_metrics_only",
+          "verdict": "historical_final_image_recovered",
           "detail": "native5713-fixed-background-v1 · historical baseline"
         }
       ],
@@ -449,7 +449,7 @@
         "s": 0.8753568285459346,
         "method": "GD150 + circular L-BFGS60 alpha=1e-4",
         "noise": 1,
-        "verdict": "verified_metrics_only",
+        "verdict": "historical_final_image_recovered",
         "detail": "native5713-fixed-background-v1 · historical baseline"
       },
       "blind": null,
@@ -458,16 +458,23 @@
       "thumb": "images/inputs/boat-2799a59902d2c5ea.png",
       "thumbnote": "GitHub capstone_optics/input_images/boat.jpg 원본에서 추출한 축소 썸네일 · 복원 결과 아님",
       "nexttask": "최신 추천 알고리즘으로 전체 격자 Blind 검증",
-      "status": "verified_metrics_only",
+      "status": "historical_final_image_recovered",
       "reduced": [],
-      "figures": [],
+      "figures": [
+        {
+          "mode": "known",
+          "title": "boat-native-v1-baseline · historical_final_image_recovered · 과거 최종 원본 3패널(정답/복원/오차, 오차 표시 ±0.4 rad) · 새로운 5패널 결과와 구분",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/boat-recovered-historical-final-3dafeb86f81daa08.png",
+          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/boat-native-v1-baseline.json"
+        }
+      ],
       "inputurl": null,
       "blind_history": [],
       "legacy": null,
       "reduced_known": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
-      "figure_state": "historical_metrics_only",
-      "empty_message": "과거 실험의 수치 기록만 보존돼 있습니다. 이 실험의 최종 5패널 그림 파일은 현재 작업 폴더에 없습니다."
+      "figure_state": "published",
+      "empty_message": "최종 결과 그림 게시 완료"
     },
     {
       "id": "pepper",
@@ -848,7 +855,7 @@
           "s": 0.8737552220624399,
           "method": "GD150 + circular L-BFGS60 alpha=1e-4 + restart Fourier circular L-BFGS20 alpha=3.85571e-5 (matched prior)",
           "noise": 1,
-          "verdict": "verified_metrics_only",
+          "verdict": "verified_checkpoint_and_metrics",
           "detail": "native5713-fixed-background-v1 · historical baseline"
         }
       ],
@@ -858,7 +865,7 @@
         "s": 0.8737552220624399,
         "method": "GD150 + circular L-BFGS60 alpha=1e-4 + restart Fourier circular L-BFGS20 alpha=3.85571e-5 (matched prior)",
         "noise": 1,
-        "verdict": "verified_metrics_only",
+        "verdict": "verified_checkpoint_and_metrics",
         "detail": "native5713-fixed-background-v1 · historical baseline"
       },
       "blind": null,
@@ -867,16 +874,23 @@
       "thumb": "images/inputs/mandrill-10455fad824a1423.png",
       "thumbnote": "보존된 실험 True Phase의 grayscale 인코딩",
       "nexttask": "위상 고주파 개선 및 440/550/660 nm Blind 최종 검증",
-      "status": "verified_metrics_only",
+      "status": "verified_checkpoint_and_metrics",
       "reduced": [],
-      "figures": [],
+      "figures": [
+        {
+          "mode": "known",
+          "title": "mandrill-native-v1-baseline · verified_checkpoint_and_metrics",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/mandrill-recovered-historical-final-f7eb3bada9f86ba9.png",
+          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/mandrill-native-v1-baseline.json"
+        }
+      ],
       "blind_history": [],
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
-      "figure_state": "historical_metrics_only",
-      "empty_message": "과거 실험의 수치 기록만 보존돼 있습니다. 이 실험의 최종 5패널 그림 파일은 현재 작업 폴더에 없습니다."
+      "figure_state": "published",
+      "empty_message": "최종 결과 그림 게시 완료"
     },
     {
       "id": "barbara",
@@ -890,7 +904,7 @@
           "s": 0.8764453964812057,
           "method": "GD150 + circular L-BFGS60 alpha=1e-4",
           "noise": 1,
-          "verdict": "verified_metrics_only",
+          "verdict": "historical_final_image_recovered",
           "detail": "native5713-fixed-background-v1 · historical baseline"
         }
       ],
@@ -900,7 +914,7 @@
         "s": 0.8764453964812057,
         "method": "GD150 + circular L-BFGS60 alpha=1e-4",
         "noise": 1,
-        "verdict": "verified_metrics_only",
+        "verdict": "historical_final_image_recovered",
         "detail": "native5713-fixed-background-v1 · historical baseline"
       },
       "blind": null,
@@ -909,16 +923,23 @@
       "thumb": "images/inputs/barbara-2763f08d2cb67254.png",
       "thumbnote": "보존된 실험 True Phase의 grayscale 인코딩",
       "nexttask": "위상 고주파 개선 및 440/550/660 nm Blind 최종 검증",
-      "status": "verified_metrics_only",
+      "status": "historical_final_image_recovered",
       "reduced": [],
-      "figures": [],
+      "figures": [
+        {
+          "mode": "known",
+          "title": "barbara-native-v1-baseline · historical_final_image_recovered · 과거 최종 원본 3패널(정답/복원/오차, 오차 표시 ±0.4 rad) · 새로운 5패널 결과와 구분",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/barbara-recovered-historical-final-838242aa0df9cb25.png",
+          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/barbara-native-v1-baseline.json"
+        }
+      ],
       "blind_history": [],
       "legacy": null,
       "reduced_known": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
-      "figure_state": "historical_metrics_only",
-      "empty_message": "과거 실험의 수치 기록만 보존돼 있습니다. 이 실험의 최종 5패널 그림 파일은 현재 작업 폴더에 없습니다."
+      "figure_state": "published",
+      "empty_message": "최종 결과 그림 게시 완료"
     },
     {
       "id": "brick_wall",

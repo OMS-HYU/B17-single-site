@@ -1,22 +1,38 @@
 {
-  "scene": "Barbara",
-  "id": "barbara",
-  "wavelength_nm": 660,
-  "known": true,
-  "gd_accepted": 150,
-  "gd_circular_rmse_rad": 0.08711145306866304,
-  "gd_linear_rmse_rad": 0.09328091509765797,
-  "lbfgs_accepted": 60,
-  "extra_lbfgs_accepted": 0,
-  "final_circular_rmse_rad": 0.0606709824017699,
-  "final_linear_rmse_rad": 0.0626376649711003,
-  "sensor_l2": 0.008764453964812057,
-  "final_method": "GD150 + circular L-BFGS60 alpha=1e-4",
-  "noise_seed": 672910,
-  "sensor_sha256": "b6dfc81a1aa1f7dd3d4e22236a6fb733ffd571d1d7d0d855af52e19f2d570836",
-  "truth_sha256": "d9dbdb6e0c05618e24f1c5e8cefe251acac12e16158e530f2c2bd8800de2f8fc",
-  "phase_sha256": "15d75dbc7c48fb7de901400c622b4b22d3f2830d1dcfc1d8cda72317c8996232",
-  "source": "barbara_GD150.json + barbara_L60.json",
-  "preview": "barbara_final.jpg",
-  "preview_stage": "final L60"
+  "original_evaluation": {
+    "scene": "Barbara",
+    "id": "barbara",
+    "wavelength_nm": 660,
+    "known": true,
+    "gd_accepted": 150,
+    "gd_circular_rmse_rad": 0.08711145306866304,
+    "gd_linear_rmse_rad": 0.09328091509765797,
+    "lbfgs_accepted": 60,
+    "extra_lbfgs_accepted": 0,
+    "final_circular_rmse_rad": 0.0606709824017699,
+    "final_linear_rmse_rad": 0.0626376649711003,
+    "sensor_l2": 0.008764453964812057,
+    "final_method": "GD150 + circular L-BFGS60 alpha=1e-4",
+    "noise_seed": 672910,
+    "sensor_sha256": "b6dfc81a1aa1f7dd3d4e22236a6fb733ffd571d1d7d0d855af52e19f2d570836",
+    "truth_sha256": "d9dbdb6e0c05618e24f1c5e8cefe251acac12e16158e530f2c2bd8800de2f8fc",
+    "phase_sha256": "15d75dbc7c48fb7de901400c622b4b22d3f2830d1dcfc1d8cda72317c8996232",
+    "source": "barbara_GD150.json + barbara_L60.json",
+    "preview": "barbara_final.jpg",
+    "preview_stage": "final L60"
+  },
+  "recovery": {
+    "scene": "barbara",
+    "status": "historical_final_raster_recovered",
+    "final_figure": "barbara_recovered_final_3panel.png",
+    "panel_count": 3,
+    "source_title": "660 nm · L-BFGS60 · Circular RMSE 0.060671 rad · 일반 RMSE 0.062638 rad · 정답 / 복원 / circular 오차 (왼쪽부터; 위상 0–2π, 오차 ±0.4 rad)",
+    "original_pixel_size": [
+      1552,
+      512
+    ],
+    "source_html_sha256": "1478108ba3b6d2edfb4faa1e20405a28e6c98669c563253f69590ad7d0d2d628",
+    "original_image_sha256": "bc4242874ebb0b4fc7e4e2532ad59efdd35254a984d6d4df18383e0f446ee0ad",
+    "verification": "Exact archived final raster recovered from original HTML. Stage and recorded RMSE match. Raw final checkpoint not recovered for Barbara/Boat; no phase values inferred from colors."
+  }
 }
