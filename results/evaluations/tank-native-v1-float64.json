@@ -1,0 +1,38 @@
+{
+  "scene": "tank",
+  "wavelength_nm": 660.0,
+  "noise_seed": 672912,
+  "sensor_sha256": "abc1cf0aa7d018f8bd39b127240fbc65da72651ad9d24220c64554e44b49679e",
+  "truth_sha256": "ddb3abfe798932948e5f6c1aac9dfdb485b70d628ad62dcf3dfe5b01079195fe",
+  "reference_gd_accepted": 150,
+  "reference_lbfgs_accepted": 37,
+  "recovery_lbfgs_accepted": 60,
+  "variant": "float64 propagation recovery from GD150; curvature initialized separately",
+  "common_reference_L60_complete": false,
+  "truth_used_for_evaluation_only": true,
+  "quality_pass": true,
+  "results": {
+    "GD150": {
+      "phase_sha256": "3c27c02002482bdfee5a9f59fcd7fb8b21d31a8092a1828b8b8096caf2d1c91f",
+      "circular_rmse_rad": 0.07098238980029765,
+      "linear_rmse_rad": 0.07098238980029765,
+      "reference_float32_sensor_l2": 0.008730184889701233,
+      "recovery_float64_sensor_l2": 0.008730313033714483
+    },
+    "reference_L37": {
+      "phase_sha256": "1628292c51ef6eb3d2bc8d229fbb8ef0693c498cce04cfedc9589206f44b6d0b",
+      "circular_rmse_rad": 0.057282852286099493,
+      "linear_rmse_rad": 0.057282852286099493,
+      "reference_float32_sensor_l2": 0.00875583023311539,
+      "recovery_float64_sensor_l2": 0.008755960102561012
+    },
+    "float64_L60": {
+      "phase_sha256": "74d9c39c5c918864177835a7ced1d8d596d67618d267a29237b9359503c07301",
+      "circular_rmse_rad": 0.05727736225102632,
+      "linear_rmse_rad": 0.05727736225102632,
+      "reference_float32_sensor_l2": 0.008755804879924063,
+      "recovery_float64_sensor_l2": 0.008755923398815276
+    }
+  },
+  "preview": "comparison.png"
+}

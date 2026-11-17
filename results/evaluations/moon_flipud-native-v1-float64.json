@@ -1,0 +1,54 @@
+{
+  "scene": "moon_flipud",
+  "wavelength_nm": 660.0,
+  "noise_seed": 673001,
+  "sensor_sha256": "2c063224dad0b8b4530fd81d94f17d8f9510ff4278453e2a31321b0f3349298c",
+  "truth_sha256": "0460d2e58905d25eac26b0323faa6d9a60ecb3a8c8216ebbf29d37ac520159a2",
+  "phase_sha256": "944c69d495ec61571a453d9e29cc0069c937a43a7b62e5e4ec43eff085d89234",
+  "gd_accepted": 150,
+  "lbfgs_accepted": 60,
+  "circular_rmse_rad": 0.026100405261928004,
+  "linear_rmse_rad": 0.13634480995739212,
+  "reference_float32_sensor_l2": 0.008752818526251944,
+  "recovery_float64_sensor_l2": 0.008752937472439912,
+  "quality_pass": true,
+  "variant": "float32 zero-start GD150 + float64 propagation L60, new curvature",
+  "truth_used_for_evaluation_only": true,
+  "common_reference_L60_complete": false,
+  "preview": "comparison.png",
+  "figure": {
+    "panel_order": [
+      "original/input image",
+      "speckle intensity",
+      "true phase",
+      "estimated phase",
+      "circular phase error"
+    ],
+    "reference_url": "[local path withheld]",
+    "physics_authority": "ChatGPT 싱글스펙 latest revision; website is visual reference only",
+    "original_image": {
+      "kind": "local source image",
+      "path": "[local path withheld]",
+      "scene_transform": "moon_flipud"
+    },
+    "speckle": {
+      "source": "saved native observed amplitude; no squaring or physical change",
+      "display": "log1p(A / mean(A))",
+      "colormap": "inferno",
+      "shape": [
+        3000,
+        3000
+      ]
+    },
+    "phase_limits_rad": [
+      0,
+      6.283185307179586
+    ],
+    "phase_colormap": "viridis",
+    "error_limits_rad": [
+      -3.141592653589793,
+      3.141592653589793
+    ],
+    "dpi": 180
+  }
+}

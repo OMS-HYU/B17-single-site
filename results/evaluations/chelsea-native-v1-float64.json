@@ -1,0 +1,76 @@
+{
+  "scene": "chelsea",
+  "wavelength_nm": 660.0,
+  "noise_seed": 673003,
+  "sensor_sha256": "b1a61f6b3b9114d05c08e027b9ac60d79fa7e4ccfa006aee3f23764dd9e002bd",
+  "truth_sha256": "490cc31a459ed11e96f4b9476da2eb8327f18c6b8b9bbda8adff0d9b23911c49",
+  "phase_sha256": "edab663c8d061cd114618c461a1383e50dfa3838a08231e06ac3affb564d3831",
+  "gd_accepted": 150,
+  "lbfgs_accepted": 37,
+  "circular_rmse_rad": 0.025475784850149816,
+  "linear_rmse_rad": 0.025475784850149816,
+  "reference_float32_sensor_l2": 0.008747627650171497,
+  "recovery_float64_sensor_l2": 0.008747760142126006,
+  "quality_pass": true,
+  "variant": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+  "stopping_policy": {
+    "gd_accepted": 150,
+    "lbfgs_accepted": 37,
+    "gd_max": 150,
+    "lbfgs_max": 150,
+    "gd_stop_reason": "budget",
+    "refine_stop_reason": "sensor_and_phase_converged",
+    "gd_stop_evidence": {},
+    "refine_stop_evidence": {
+      "sensor_l2": 0.008747760103490577,
+      "relative_objective_change": 1.8176175266507767e-06,
+      "phase_rms_rad": 0.0006294754588288742,
+      "truth_used": false
+    },
+    "thresholds": {
+      "sensor_l2": 0.025,
+      "relative_objective_change": 1e-05,
+      "phase_rms_rad": 0.001,
+      "window": 10
+    },
+    "truth_used_for_stopping": false
+  },
+  "truth_used_for_evaluation_only": true,
+  "common_reference_L60_complete": false,
+  "preview": "comparison.png",
+  "figure": {
+    "panel_order": [
+      "original/input image",
+      "speckle intensity",
+      "true phase",
+      "estimated phase",
+      "circular phase error"
+    ],
+    "reference_url": "[local path withheld]",
+    "physics_authority": "ChatGPT 싱글스펙 latest revision; website is visual reference only",
+    "original_image": {
+      "kind": "local source image",
+      "path": "[local path withheld]",
+      "scene_transform": "chelsea"
+    },
+    "speckle": {
+      "source": "saved native observed amplitude; no squaring or physical change",
+      "display": "log1p(A / mean(A))",
+      "colormap": "inferno",
+      "shape": [
+        3000,
+        3000
+      ]
+    },
+    "phase_limits_rad": [
+      0,
+      6.283185307179586
+    ],
+    "phase_colormap": "viridis",
+    "error_limits_rad": [
+      -3.141592653589793,
+      3.141592653589793
+    ],
+    "dpi": 180
+  }
+}

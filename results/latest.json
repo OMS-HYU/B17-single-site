@@ -1,0 +1,936 @@
+{
+  "schema_version": 1,
+  "research": "single",
+  "updated_at": "2026-11-17T16:40:27.996012+00:00",
+  "site_url": "https://oms-hyu.github.io/B17-single-site/",
+  "protocol_version": "publication-v1",
+  "counts": {
+    "input_scenes": 39,
+    "phase_verified_scenes": 12,
+    "final_png_scenes": 11,
+    "baseline_metrics_without_final_png": 4
+  },
+  "experiments": [
+    {
+      "research": "single",
+      "experiment_id": "mandrill-native-v1-baseline",
+      "wavelengths_nm": [
+        660
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-fixed-background-v1",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 1,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "GD150 + circular L-BFGS60 alpha=1e-4 + restart Fourier circular L-BFGS20 alpha=3.85571e-5 (matched prior)",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 60,
+        "extra": 20
+      },
+      "circular_rmse_rad": 0.07238838128303081,
+      "linear_rmse_rad": 0.09619664439233329,
+      "sensor_l2": 0.0087375522206244,
+      "status": "verified_metrics_only",
+      "forward_status": "historical_matched_model",
+      "inverse_status": "historical_metrics_verified",
+      "image_url": null,
+      "image_sha256": null,
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/mandrill-native-v1-baseline.json",
+      "evaluation_sha256": "930f5f2484a090fbfdb0306713bcc3998b9533dfad0f4ce90db8214e2143dd04",
+      "input_hashes": {
+        "sensor": "8e44352d615413f43fcba6e91b92594d756470c8657447b03cbd11ba98dd9b02",
+        "truth": "33081783cc48fc8c7ecf8ff3df3d4d7bd27f257e403987a56da7aa3b977fb449"
+      },
+      "checkpoint_sha256": "00414d210ae1c38d01316de4e3500b039c0f9f7a19f7a5bc3c89ad90a12d7c13",
+      "code_commit": null,
+      "code_sha256": null,
+      "protocol_version": "native5713-fixed-background-v1",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "scene": "mandrill",
+      "figure_status": "Final raw arrays unavailable locally; tiny preview excluded",
+      "verification": "Historical numerical record; not revalidated from raw checkpoint during this publication"
+    },
+    {
+      "research": "single",
+      "experiment_id": "camera_rot90-native-v1-baseline",
+      "wavelengths_nm": [
+        660
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-fixed-background-v1",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 1,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "GD150 + circular L-BFGS60 alpha=1e-4",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 60,
+        "extra": 0
+      },
+      "circular_rmse_rad": 0.05832919183968789,
+      "linear_rmse_rad": 0.18423556078307804,
+      "sensor_l2": 0.008774476647485504,
+      "status": "verified_metrics_only",
+      "forward_status": "historical_matched_model",
+      "inverse_status": "historical_metrics_verified",
+      "image_url": null,
+      "image_sha256": null,
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/camera_rot90-native-v1-baseline.json",
+      "evaluation_sha256": "e479f75070770b6d5aa527e45db87a5590d4635ecf58a2518efc66bed1e79ab0",
+      "input_hashes": {
+        "sensor": "8ef457490bc58a7a673f3a213e71ea45ab23adef83fc91194fddb9c6efb5cfec",
+        "truth": "0dbb11f279b6eb26c0b4fd87e324357667d2ca142a580ad3742685a215a1f239"
+      },
+      "checkpoint_sha256": "3aad2d62a5e416af473558a0405cf8ef3b32ad53d1f08648fabe3557144c8298",
+      "code_commit": null,
+      "code_sha256": null,
+      "protocol_version": "native5713-fixed-background-v1",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "scene": "camera_rot90",
+      "figure_status": "Final raw arrays unavailable locally; tiny preview excluded",
+      "verification": "Historical numerical record; not revalidated from raw checkpoint during this publication"
+    },
+    {
+      "research": "single",
+      "experiment_id": "barbara-native-v1-baseline",
+      "wavelengths_nm": [
+        660
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-fixed-background-v1",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 1,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "GD150 + circular L-BFGS60 alpha=1e-4",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 60,
+        "extra": 0
+      },
+      "circular_rmse_rad": 0.0606709824017699,
+      "linear_rmse_rad": 0.0626376649711003,
+      "sensor_l2": 0.008764453964812057,
+      "status": "verified_metrics_only",
+      "forward_status": "historical_matched_model",
+      "inverse_status": "historical_metrics_verified",
+      "image_url": null,
+      "image_sha256": null,
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/barbara-native-v1-baseline.json",
+      "evaluation_sha256": "0a11c0719eb1b66dfbdda43221860af7c0ab70513b25bfd536c897722a9a3be0",
+      "input_hashes": {
+        "sensor": "b6dfc81a1aa1f7dd3d4e22236a6fb733ffd571d1d7d0d855af52e19f2d570836",
+        "truth": "d9dbdb6e0c05618e24f1c5e8cefe251acac12e16158e530f2c2bd8800de2f8fc"
+      },
+      "checkpoint_sha256": "15d75dbc7c48fb7de901400c622b4b22d3f2830d1dcfc1d8cda72317c8996232",
+      "code_commit": null,
+      "code_sha256": null,
+      "protocol_version": "native5713-fixed-background-v1",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "scene": "barbara",
+      "figure_status": "Final raw arrays unavailable locally; tiny preview excluded",
+      "verification": "Historical numerical record; not revalidated from raw checkpoint during this publication"
+    },
+    {
+      "research": "single",
+      "experiment_id": "boat-native-v1-baseline",
+      "wavelengths_nm": [
+        660
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-fixed-background-v1",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 1,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "GD150 + circular L-BFGS60 alpha=1e-4",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 60,
+        "extra": 0
+      },
+      "circular_rmse_rad": 0.03777281530318568,
+      "linear_rmse_rad": 0.0663970980563124,
+      "sensor_l2": 0.008753568285459345,
+      "status": "verified_metrics_only",
+      "forward_status": "historical_matched_model",
+      "inverse_status": "historical_metrics_verified",
+      "image_url": null,
+      "image_sha256": null,
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/boat-native-v1-baseline.json",
+      "evaluation_sha256": "8922a3bfb6ec49c736367abc785aef59886b0dc08aded190f30026048bb1e2be",
+      "input_hashes": {
+        "sensor": "0d617dc28dbb3c504ebe9350df5f4b962dd6130f3000d5004bde34fcebf9ce8d",
+        "truth": "1cd9f9de83c67cce0440c8d8983e44d220829f15d0743bb560da384c6d72d85f"
+      },
+      "checkpoint_sha256": "49ffe3211df4cd9daa39f5a682c3e6d70bd13a1deba4cc15348de6f8a7daa6d4",
+      "code_commit": null,
+      "code_sha256": null,
+      "protocol_version": "native5713-fixed-background-v1",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "scene": "boat",
+      "figure_status": "Final raw arrays unavailable locally; tiny preview excluded",
+      "verification": "Historical numerical record; not revalidated from raw checkpoint during this publication"
+    },
+    {
+      "research": "single",
+      "experiment_id": "astronaut-native-v1-float64",
+      "wavelengths_nm": [
+        660.0
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-fixed-background-v1",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 1,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 70
+      },
+      "circular_rmse_rad": 0.04888475223227668,
+      "linear_rmse_rad": 1.5331233777577173,
+      "sensor_l2": 0.00876204960036652,
+      "status": "passed",
+      "forward_status": "hash_verified",
+      "inverse_status": "passed",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/astronaut-native-v1-float64-0c5d2a14da35c1af.png",
+      "image_sha256": "0c5d2a14da35c1afb3d1ac0acbec0005824fd55ec11527b6c69df8f09155a475",
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/astronaut-native-v1-float64.json",
+      "evaluation_sha256": "a61b2b780e3cf12d5bb3ee7c75edbb9b1bd198f6de8404c82d389b3ba918f393",
+      "input_hashes": {
+        "sensor": "46a7647e83dbe49a3b94f20346ef666326c152bab5f4ef8616f1e79685c8a18c",
+        "truth": "0a511cc8bd35e40a88affcbd24ea21ba4157630eb7103e0fe4961245180df852"
+      },
+      "checkpoint_sha256": "3a61dd67d2a3edd93cdec80513c4de807e07e7231b4dcc276565f3f957021a37",
+      "code_commit": "4ff2ad116bc0b5eb3dadb5d9a167fcd87dedbedc",
+      "code_sha256": {
+        "ordinary_policy_batch.py": "2502bd798ad8aa3a4ae11bd74b2c0d58b5813ca493440a720086bc01a9e6b53c",
+        "ordinary_case_policy.py": "aaca629c31de88c00f9e84ba24ca5b9c42d42470764fa214be4cdced35bb6601",
+        "evaluate_precision_case.py": "5aa70bf64ba89c5652ddffe5224b592086fe52e0446bcab604e0fb4bd37dcde0",
+        "render_five_panel.py": "b2eb4cde2d57d679530316696e5b8e4f1fd50a2402e307fc7e4b0025e6ec00a3",
+        "native_cli.py": "8b138b81b62911584fef78ce585b6eabf35b170cd85ac1ee7e0aec68c649b89c",
+        "native_model.py": "8dd0e1de6bf84d90864f7f98b17900da8736d20d573cb017c08e1c9f06eca968",
+        "tank_precision_recovery.py": "639fe5f71dd5b3b061054fd6f6e62494f299c264c4759f6710c6ad3a23ad1a7b",
+        "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
+      },
+      "protocol_version": "native5713-fixed-background-v1",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "scene": "astronaut",
+      "float32_reference_sensor_l2": 0.008761928558380592,
+      "precision": "float32 GD / float64 refinement"
+    },
+    {
+      "research": "single",
+      "experiment_id": "brick-native-v1-float64",
+      "wavelengths_nm": [
+        660.0
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-fixed-background-v1",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 1,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "float32 zero-start GD150 + float64 propagation L60, new curvature",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 60
+      },
+      "circular_rmse_rad": 0.026165198238307874,
+      "linear_rmse_rad": 0.026165198238307874,
+      "sensor_l2": 0.008750883756457753,
+      "status": "passed",
+      "forward_status": "hash_verified",
+      "inverse_status": "passed",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/brick-native-v1-float64-9124f7aa8ff85d22.png",
+      "image_sha256": "9124f7aa8ff85d22a864521d4202a9e4bca489a08b20c4355309712e2dbcbba5",
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/brick-native-v1-float64.json",
+      "evaluation_sha256": "9661bc25491c12f6590c9937226cbc34d83ed76c5f9aa047a6c5a49f6d84ba3e",
+      "input_hashes": {
+        "sensor": "ed9f076831ba5916b39a9a0b5249850e2b3bfc20bd7de893b87145b3b9162386",
+        "truth": "f469b8b98ac6aae072052ac2f04acc3a67cede98d99a0be9df1f8e121c499197"
+      },
+      "checkpoint_sha256": "dfc40a3ac0f8f8b08a177568f3bf7887a1a68535198ed274f509d4e25af621be",
+      "code_commit": "4ff2ad116bc0b5eb3dadb5d9a167fcd87dedbedc",
+      "code_sha256": {
+        "ordinary_policy_batch.py": "2502bd798ad8aa3a4ae11bd74b2c0d58b5813ca493440a720086bc01a9e6b53c",
+        "ordinary_case_policy.py": "aaca629c31de88c00f9e84ba24ca5b9c42d42470764fa214be4cdced35bb6601",
+        "evaluate_precision_case.py": "5aa70bf64ba89c5652ddffe5224b592086fe52e0446bcab604e0fb4bd37dcde0",
+        "render_five_panel.py": "b2eb4cde2d57d679530316696e5b8e4f1fd50a2402e307fc7e4b0025e6ec00a3",
+        "native_cli.py": "8b138b81b62911584fef78ce585b6eabf35b170cd85ac1ee7e0aec68c649b89c",
+        "native_model.py": "8dd0e1de6bf84d90864f7f98b17900da8736d20d573cb017c08e1c9f06eca968",
+        "tank_precision_recovery.py": "639fe5f71dd5b3b061054fd6f6e62494f299c264c4759f6710c6ad3a23ad1a7b",
+        "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
+      },
+      "protocol_version": "native5713-fixed-background-v1",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "scene": "brick",
+      "float32_reference_sensor_l2": 0.008750783247563586,
+      "precision": "float32 GD / float64 refinement"
+    },
+    {
+      "research": "single",
+      "experiment_id": "camera-native-v1-float64",
+      "wavelengths_nm": [
+        660.0
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-fixed-background-v1",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 1,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 110
+      },
+      "circular_rmse_rad": 0.05858514278114182,
+      "linear_rmse_rad": 0.17898383179766078,
+      "sensor_l2": 0.008771602483400321,
+      "status": "passed",
+      "forward_status": "hash_verified",
+      "inverse_status": "passed",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/camera-native-v1-float64-13fc546b7332cc9a.png",
+      "image_sha256": "13fc546b7332cc9afd298599145df29077532e8bc52d793aaf3ab22aad5ff5a5",
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/camera-native-v1-float64.json",
+      "evaluation_sha256": "de3f77f396fc02a83e4ca24b3e5bc03c5f9bfa9b57e60326cd1add5d3d573626",
+      "input_hashes": {
+        "sensor": "a5b43d6eecfc0628d776d14a6e04d4ef6ce53913417cab70b114603c98ccbda2",
+        "truth": "c341b15827d1631f1ff94e4c28cc5791daa9eca773a55f544ae8526cbee402d7"
+      },
+      "checkpoint_sha256": "2a49ec16d4b70076dd87daf228db2a16b24ddb4082a048fb7e8cacd9b147dfa9",
+      "code_commit": "4ff2ad116bc0b5eb3dadb5d9a167fcd87dedbedc",
+      "code_sha256": {
+        "ordinary_policy_batch.py": "2502bd798ad8aa3a4ae11bd74b2c0d58b5813ca493440a720086bc01a9e6b53c",
+        "ordinary_case_policy.py": "aaca629c31de88c00f9e84ba24ca5b9c42d42470764fa214be4cdced35bb6601",
+        "evaluate_precision_case.py": "5aa70bf64ba89c5652ddffe5224b592086fe52e0446bcab604e0fb4bd37dcde0",
+        "render_five_panel.py": "b2eb4cde2d57d679530316696e5b8e4f1fd50a2402e307fc7e4b0025e6ec00a3",
+        "native_cli.py": "8b138b81b62911584fef78ce585b6eabf35b170cd85ac1ee7e0aec68c649b89c",
+        "native_model.py": "8dd0e1de6bf84d90864f7f98b17900da8736d20d573cb017c08e1c9f06eca968",
+        "tank_precision_recovery.py": "639fe5f71dd5b3b061054fd6f6e62494f299c264c4759f6710c6ad3a23ad1a7b",
+        "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
+      },
+      "protocol_version": "native5713-fixed-background-v1",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "scene": "camera",
+      "float32_reference_sensor_l2": 0.008771468496064676,
+      "precision": "float32 GD / float64 refinement"
+    },
+    {
+      "research": "single",
+      "experiment_id": "chelsea-native-v1-float64",
+      "wavelengths_nm": [
+        660.0
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-fixed-background-v1",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 1,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 37
+      },
+      "circular_rmse_rad": 0.025475784850149816,
+      "linear_rmse_rad": 0.025475784850149816,
+      "sensor_l2": 0.008747760142126006,
+      "status": "passed",
+      "forward_status": "hash_verified",
+      "inverse_status": "passed",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/chelsea-native-v1-float64-b25f6e5bf3b6996c.png",
+      "image_sha256": "b25f6e5bf3b6996c4029b18ff213de4eb2d0c29848bd903be906feae09825eb7",
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/chelsea-native-v1-float64.json",
+      "evaluation_sha256": "fb1be54b507a5607e1230087f5935a4e3810b328454d2791c50729fd9445fc8e",
+      "input_hashes": {
+        "sensor": "b1a61f6b3b9114d05c08e027b9ac60d79fa7e4ccfa006aee3f23764dd9e002bd",
+        "truth": "490cc31a459ed11e96f4b9476da2eb8327f18c6b8b9bbda8adff0d9b23911c49"
+      },
+      "checkpoint_sha256": "edab663c8d061cd114618c461a1383e50dfa3838a08231e06ac3affb564d3831",
+      "code_commit": "4ff2ad116bc0b5eb3dadb5d9a167fcd87dedbedc",
+      "code_sha256": {
+        "ordinary_policy_batch.py": "2502bd798ad8aa3a4ae11bd74b2c0d58b5813ca493440a720086bc01a9e6b53c",
+        "ordinary_case_policy.py": "aaca629c31de88c00f9e84ba24ca5b9c42d42470764fa214be4cdced35bb6601",
+        "evaluate_precision_case.py": "5aa70bf64ba89c5652ddffe5224b592086fe52e0446bcab604e0fb4bd37dcde0",
+        "render_five_panel.py": "b2eb4cde2d57d679530316696e5b8e4f1fd50a2402e307fc7e4b0025e6ec00a3",
+        "native_cli.py": "8b138b81b62911584fef78ce585b6eabf35b170cd85ac1ee7e0aec68c649b89c",
+        "native_model.py": "8dd0e1de6bf84d90864f7f98b17900da8736d20d573cb017c08e1c9f06eca968",
+        "tank_precision_recovery.py": "639fe5f71dd5b3b061054fd6f6e62494f299c264c4759f6710c6ad3a23ad1a7b",
+        "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
+      },
+      "protocol_version": "native5713-fixed-background-v1",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "scene": "chelsea",
+      "float32_reference_sensor_l2": 0.008747627650171497,
+      "precision": "float32 GD / float64 refinement"
+    },
+    {
+      "research": "single",
+      "experiment_id": "coins-native-v1-float64",
+      "wavelengths_nm": [
+        660.0
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-fixed-background-v1",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 1,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 100
+      },
+      "circular_rmse_rad": 0.02968635415053651,
+      "linear_rmse_rad": 0.02968635415053651,
+      "sensor_l2": 0.008747336016266257,
+      "status": "passed",
+      "forward_status": "hash_verified",
+      "inverse_status": "passed",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/coins-native-v1-float64-036e8f1473971ce9.png",
+      "image_sha256": "036e8f1473971ce9281cebbcd80cbaa95fdc8f594b0230abffa1271c6a19d3fe",
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/coins-native-v1-float64.json",
+      "evaluation_sha256": "0365e92169e05c3e9c514a133c2ed6bdd0e90e966297e3593a074713a8ab4952",
+      "input_hashes": {
+        "sensor": "34da23d7d084b00b6ec42b41c27550e5caa4595dcf4bc7bffd2d803d5726f1a7",
+        "truth": "9219829737930cb8ccd3cdf584b2919302236991c465dcb6d0c46740dfef2d76"
+      },
+      "checkpoint_sha256": "43ce6305e0f675c332694ac5a40d97e4194173a259833083378e41204794945d",
+      "code_commit": "4ff2ad116bc0b5eb3dadb5d9a167fcd87dedbedc",
+      "code_sha256": {
+        "ordinary_policy_batch.py": "2502bd798ad8aa3a4ae11bd74b2c0d58b5813ca493440a720086bc01a9e6b53c",
+        "ordinary_case_policy.py": "aaca629c31de88c00f9e84ba24ca5b9c42d42470764fa214be4cdced35bb6601",
+        "evaluate_precision_case.py": "5aa70bf64ba89c5652ddffe5224b592086fe52e0446bcab604e0fb4bd37dcde0",
+        "render_five_panel.py": "b2eb4cde2d57d679530316696e5b8e4f1fd50a2402e307fc7e4b0025e6ec00a3",
+        "native_cli.py": "8b138b81b62911584fef78ce585b6eabf35b170cd85ac1ee7e0aec68c649b89c",
+        "native_model.py": "8dd0e1de6bf84d90864f7f98b17900da8736d20d573cb017c08e1c9f06eca968",
+        "tank_precision_recovery.py": "639fe5f71dd5b3b061054fd6f6e62494f299c264c4759f6710c6ad3a23ad1a7b",
+        "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
+      },
+      "protocol_version": "native5713-fixed-background-v1",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "scene": "coins",
+      "float32_reference_sensor_l2": 0.008747217976958648,
+      "precision": "float32 GD / float64 refinement"
+    },
+    {
+      "research": "single",
+      "experiment_id": "moon-native-v1-float64",
+      "wavelengths_nm": [
+        660.0
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-fixed-background-v1",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 1,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "float32 zero-start GD150 + float64 propagation L60, new curvature",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 60
+      },
+      "circular_rmse_rad": 0.026160198317997162,
+      "linear_rmse_rad": 0.13129276677719817,
+      "sensor_l2": 0.008752673130143383,
+      "status": "passed",
+      "forward_status": "hash_verified",
+      "inverse_status": "passed",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/moon-native-v1-float64-38fb3f82564aa31e.png",
+      "image_sha256": "38fb3f82564aa31e52eced501ef263a817d694453122e8e4a1d0d73891532ec6",
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/moon-native-v1-float64.json",
+      "evaluation_sha256": "37ba51847529a6bc29c72df7217a1e4b9bfa5a00f2ab8ba555252bf5b060d676",
+      "input_hashes": {
+        "sensor": "c1d7a7e7aa392f329692f84ebd39409133cccc9578ab404dfa1f55353183b19c",
+        "truth": "8daef1bcbc234db53de73a08311c147fddcc891feb7383161030f000eb98e7f4"
+      },
+      "checkpoint_sha256": "436ee3f2b0e026903f07190412f27c638d0f582bb959d2baad8f415d0a694ddd",
+      "code_commit": "4ff2ad116bc0b5eb3dadb5d9a167fcd87dedbedc",
+      "code_sha256": {
+        "ordinary_policy_batch.py": "2502bd798ad8aa3a4ae11bd74b2c0d58b5813ca493440a720086bc01a9e6b53c",
+        "ordinary_case_policy.py": "aaca629c31de88c00f9e84ba24ca5b9c42d42470764fa214be4cdced35bb6601",
+        "evaluate_precision_case.py": "5aa70bf64ba89c5652ddffe5224b592086fe52e0446bcab604e0fb4bd37dcde0",
+        "render_five_panel.py": "b2eb4cde2d57d679530316696e5b8e4f1fd50a2402e307fc7e4b0025e6ec00a3",
+        "native_cli.py": "8b138b81b62911584fef78ce585b6eabf35b170cd85ac1ee7e0aec68c649b89c",
+        "native_model.py": "8dd0e1de6bf84d90864f7f98b17900da8736d20d573cb017c08e1c9f06eca968",
+        "tank_precision_recovery.py": "639fe5f71dd5b3b061054fd6f6e62494f299c264c4759f6710c6ad3a23ad1a7b",
+        "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
+      },
+      "protocol_version": "native5713-fixed-background-v1",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "scene": "moon",
+      "float32_reference_sensor_l2": 0.008752566250792102,
+      "precision": "float32 GD / float64 refinement"
+    },
+    {
+      "research": "single",
+      "experiment_id": "moon_flipud-native-v1-float64",
+      "wavelengths_nm": [
+        660.0
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-fixed-background-v1",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 1,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "float32 zero-start GD150 + float64 propagation L60, new curvature",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 60
+      },
+      "circular_rmse_rad": 0.026100405261928004,
+      "linear_rmse_rad": 0.13634480995739212,
+      "sensor_l2": 0.008752937472439912,
+      "status": "passed",
+      "forward_status": "hash_verified",
+      "inverse_status": "passed",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/moon_flipud-native-v1-float64-96d10e88d8a71a5c.png",
+      "image_sha256": "96d10e88d8a71a5c47c99e142db6cfc4e421973417657488b26779c1f0297267",
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/moon_flipud-native-v1-float64.json",
+      "evaluation_sha256": "4b38526c7a9a4d2d7ccedac53d2a436552d2b273558f565d2d2584ab884719c4",
+      "input_hashes": {
+        "sensor": "2c063224dad0b8b4530fd81d94f17d8f9510ff4278453e2a31321b0f3349298c",
+        "truth": "0460d2e58905d25eac26b0323faa6d9a60ecb3a8c8216ebbf29d37ac520159a2"
+      },
+      "checkpoint_sha256": "944c69d495ec61571a453d9e29cc0069c937a43a7b62e5e4ec43eff085d89234",
+      "code_commit": "4ff2ad116bc0b5eb3dadb5d9a167fcd87dedbedc",
+      "code_sha256": {
+        "ordinary_policy_batch.py": "2502bd798ad8aa3a4ae11bd74b2c0d58b5813ca493440a720086bc01a9e6b53c",
+        "ordinary_case_policy.py": "aaca629c31de88c00f9e84ba24ca5b9c42d42470764fa214be4cdced35bb6601",
+        "evaluate_precision_case.py": "5aa70bf64ba89c5652ddffe5224b592086fe52e0446bcab604e0fb4bd37dcde0",
+        "render_five_panel.py": "b2eb4cde2d57d679530316696e5b8e4f1fd50a2402e307fc7e4b0025e6ec00a3",
+        "native_cli.py": "8b138b81b62911584fef78ce585b6eabf35b170cd85ac1ee7e0aec68c649b89c",
+        "native_model.py": "8dd0e1de6bf84d90864f7f98b17900da8736d20d573cb017c08e1c9f06eca968",
+        "tank_precision_recovery.py": "639fe5f71dd5b3b061054fd6f6e62494f299c264c4759f6710c6ad3a23ad1a7b",
+        "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
+      },
+      "protocol_version": "native5713-fixed-background-v1",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "scene": "moon_flipud",
+      "float32_reference_sensor_l2": 0.008752818526251944,
+      "precision": "float32 GD / float64 refinement"
+    },
+    {
+      "research": "single",
+      "experiment_id": "grass-native-v2-float64",
+      "wavelengths_nm": [
+        660.0
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-zero-exterior-v2",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 0,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 150
+      },
+      "circular_rmse_rad": 2.9102510983115257,
+      "linear_rmse_rad": 3.135303636823739,
+      "sensor_l2": 0.008725431741139444,
+      "status": "failed",
+      "forward_status": "hash_verified",
+      "inverse_status": "failed_gate",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/grass-native-v2-float64-108390601b9d43d4.png",
+      "image_sha256": "108390601b9d43d47cd26f1d43f035c3cff14f8ae650db2576435f26d9dd59b4",
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/grass-native-v2-float64.json",
+      "evaluation_sha256": "58bd2b2a4ce689a886f21dc906f4473458acb228cae6eebfe19c0967f835cabc",
+      "input_hashes": {
+        "sensor": "a88be2d863b23be19c49ce96dd60f5b0685674b18e3db0c6cafd142b8d3e7a05",
+        "truth": "510a05e8a04504c4efbd7faf36dc3b2f957fdc44dca5173fbfe1aa5139c84eee"
+      },
+      "checkpoint_sha256": "3510572002c3b75a3c4c9876392de71bfb13662e9df34525b9b964b64b7cf1b5",
+      "code_commit": null,
+      "code_sha256": {
+        "ordinary_policy_batch.py": "bd6e3334b1e5da1b5eb4ff02770e9d90b0b459a01719b2a17aa9e1845eace365",
+        "ordinary_case_policy.py": "aaca629c31de88c00f9e84ba24ca5b9c42d42470764fa214be4cdced35bb6601",
+        "evaluate_precision_case.py": "5aa70bf64ba89c5652ddffe5224b592086fe52e0446bcab604e0fb4bd37dcde0",
+        "render_five_panel.py": "dfc88f975b0fa729ac6debb8d88c91e44cf5d7d4f28b5a8e46046c958f51a1ad",
+        "native_cli.py": "3220c0e1c1003c75002d96ac1b872b90c7fd1990b1717408c34c4a9fb033c467",
+        "native_model.py": "01a393edaeee337dd60d4e40437a930583435708db5aea5a5d1dbcacbd51d0a5",
+        "tank_precision_recovery.py": "639fe5f71dd5b3b061054fd6f6e62494f299c264c4759f6710c6ad3a23ad1a7b",
+        "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
+      },
+      "protocol_version": "native5713-zero-exterior-v2",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "scene": "grass",
+      "float32_reference_sensor_l2": 0.00872544164365534,
+      "precision": "float32 GD / float64 refinement"
+    },
+    {
+      "research": "single",
+      "experiment_id": "gravel-native-v2-float64",
+      "wavelengths_nm": [
+        660.0
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-zero-exterior-v2",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 0,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 100
+      },
+      "circular_rmse_rad": 3.115781175342487,
+      "linear_rmse_rad": 3.139075351652863,
+      "sensor_l2": 0.008486805690716857,
+      "status": "failed",
+      "forward_status": "hash_verified",
+      "inverse_status": "failed_gate",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-native-v2-float64-8f41952ddb8dd6e6.png",
+      "image_sha256": "8f41952ddb8dd6e6b86c71cd1f1889c0cba102399533e308ac3df5c4a28c39df",
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/gravel-native-v2-float64.json",
+      "evaluation_sha256": "d57c81ab7674bb8659762356d2e6a8a8720cb1e7195fd9408cda8c77854ce6d6",
+      "input_hashes": {
+        "sensor": "26e36ac4106a6d1e3eb4d6bab6c37f379850a0dee027c79c3c683b1a89944e3f",
+        "truth": "03e9f03f4678505862e76cd158e0f642330a49c51d9eef3600d0c6e981a1c8a5"
+      },
+      "checkpoint_sha256": "f0cdd51c5f4a202e91a3689c33d394a6fc468b768f8012522dd50b5b7ad7d881",
+      "code_commit": null,
+      "code_sha256": {
+        "ordinary_policy_batch.py": "bd6e3334b1e5da1b5eb4ff02770e9d90b0b459a01719b2a17aa9e1845eace365",
+        "ordinary_case_policy.py": "aaca629c31de88c00f9e84ba24ca5b9c42d42470764fa214be4cdced35bb6601",
+        "evaluate_precision_case.py": "5aa70bf64ba89c5652ddffe5224b592086fe52e0446bcab604e0fb4bd37dcde0",
+        "render_five_panel.py": "dfc88f975b0fa729ac6debb8d88c91e44cf5d7d4f28b5a8e46046c958f51a1ad",
+        "native_cli.py": "3220c0e1c1003c75002d96ac1b872b90c7fd1990b1717408c34c4a9fb033c467",
+        "native_model.py": "01a393edaeee337dd60d4e40437a930583435708db5aea5a5d1dbcacbd51d0a5",
+        "tank_precision_recovery.py": "639fe5f71dd5b3b061054fd6f6e62494f299c264c4759f6710c6ad3a23ad1a7b",
+        "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
+      },
+      "protocol_version": "native5713-zero-exterior-v2",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "scene": "gravel",
+      "float32_reference_sensor_l2": 0.008486804020947415,
+      "precision": "float32 GD / float64 refinement"
+    },
+    {
+      "research": "single",
+      "experiment_id": "parrot-native-v2-float64",
+      "wavelengths_nm": [
+        660.0
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-zero-exterior-v2",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 0,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 150
+      },
+      "circular_rmse_rad": 2.6512260554375757,
+      "linear_rmse_rad": 3.1039442640723074,
+      "sensor_l2": 0.00834930646027474,
+      "status": "failed",
+      "forward_status": "hash_verified",
+      "inverse_status": "failed_gate",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-native-v2-float64-8adc7b33fcd5cf59.png",
+      "image_sha256": "8adc7b33fcd5cf59c76893b3d94a27cbccdea5f573075220578d3f8c3a44ba1f",
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/parrot-native-v2-float64.json",
+      "evaluation_sha256": "3db18901e3374e94cf2fcc3b956b6e5ab628355f7a8a96ced3ce7406f866613c",
+      "input_hashes": {
+        "sensor": "84f09e55cd8adcb4410c87d1db9e758c6992b878bb14e73c4b0ef55ff3fc6c42",
+        "truth": "17dacc4de33e7937c4dcc6f9f5fd040ddd4ee272a4ff37b61371766748f0780b"
+      },
+      "checkpoint_sha256": "0a9b3847c56b8a30159089b491d9349c12966af4826fc35faacf04c54435623c",
+      "code_commit": null,
+      "code_sha256": {
+        "ordinary_policy_batch.py": "bd6e3334b1e5da1b5eb4ff02770e9d90b0b459a01719b2a17aa9e1845eace365",
+        "ordinary_case_policy.py": "aaca629c31de88c00f9e84ba24ca5b9c42d42470764fa214be4cdced35bb6601",
+        "evaluate_precision_case.py": "5aa70bf64ba89c5652ddffe5224b592086fe52e0446bcab604e0fb4bd37dcde0",
+        "render_five_panel.py": "dfc88f975b0fa729ac6debb8d88c91e44cf5d7d4f28b5a8e46046c958f51a1ad",
+        "native_cli.py": "3220c0e1c1003c75002d96ac1b872b90c7fd1990b1717408c34c4a9fb033c467",
+        "native_model.py": "01a393edaeee337dd60d4e40437a930583435708db5aea5a5d1dbcacbd51d0a5",
+        "tank_precision_recovery.py": "639fe5f71dd5b3b061054fd6f6e62494f299c264c4759f6710c6ad3a23ad1a7b",
+        "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
+      },
+      "protocol_version": "native5713-zero-exterior-v2",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "scene": "parrot",
+      "float32_reference_sensor_l2": 0.008349305940918553,
+      "precision": "float32 GD / float64 refinement"
+    },
+    {
+      "research": "single",
+      "experiment_id": "tank-native-v1-float64",
+      "wavelengths_nm": [
+        660
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-fixed-background-v1",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 1,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "float64 propagation recovery from GD150; curvature initialized separately",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 60,
+        "float32_reference_lbfgs": 37
+      },
+      "circular_rmse_rad": 0.05727736225102632,
+      "linear_rmse_rad": 0.05727736225102632,
+      "sensor_l2": 0.008755804879924063,
+      "status": "passed",
+      "forward_status": "hash_verified",
+      "inverse_status": "passed",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/tank-native-v1-float64-fdc58230861f181f.png",
+      "image_sha256": "fdc58230861f181f7678a13280c79f78882812f19df388ba7b9bfc33dec58b57",
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/tank-native-v1-float64.json",
+      "evaluation_sha256": "1bee988007a911301ea59d0a0d3d2df673cc7f429be26e9c635c08168d1cc201",
+      "input_hashes": {
+        "sensor": "abc1cf0aa7d018f8bd39b127240fbc65da72651ad9d24220c64554e44b49679e",
+        "truth": "ddb3abfe798932948e5f6c1aac9dfdb485b70d628ad62dcf3dfe5b01079195fe"
+      },
+      "checkpoint_sha256": "74d9c39c5c918864177835a7ced1d8d596d67618d267a29237b9359503c07301",
+      "code_commit": "4ff2ad116bc0b5eb3dadb5d9a167fcd87dedbedc",
+      "code_sha256": null,
+      "protocol_version": "native5713-fixed-background-v1",
+      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "scene": "tank",
+      "precision": "separate float64 variant"
+    }
+  ],
+  "privacy": "Only public figures and sanitized evaluations. No raw truth arrays, sensors, optimizer or credentials.",
+  "current_protocol_note": "Single exterior amplitude is zero; fixed-background historical results remain labeled."
+}
