@@ -43,15 +43,15 @@
       "figures": [
         {
           "mode": "known",
-          "title": "moon-native-v1-float64 · passed",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/moon-native-v1-float64-38fb3f82564aa31e.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/moon-native-v1-float64.json"
+          "title": "v1 · 과거 최종 결과",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/moon-native-v1-float64-38fb3f82564aa31e.png"
         }
       ],
       "blind_history": [],
       "legacy": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "v1 · 과거 최종 결과",
       "figure_state": "published",
       "empty_message": "최종 결과 그림 게시 완료"
     },
@@ -97,9 +97,8 @@
       "figures": [
         {
           "mode": "known",
-          "title": "moon_flipud-native-v1-float64 · passed",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/moon_flipud-native-v1-float64-96d10e88d8a71a5c.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/moon_flipud-native-v1-float64.json"
+          "title": "v1 · 과거 최종 결과",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/moon_flipud-native-v1-float64-96d10e88d8a71a5c.png"
         }
       ],
       "blind_history": [],
@@ -107,6 +106,7 @@
       "reduced_known": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "v1 · 과거 최종 결과",
       "figure_state": "published",
       "empty_message": "최종 결과 그림 게시 완료"
     },
@@ -153,15 +153,15 @@
       "figures": [
         {
           "mode": "known",
-          "title": "brick-native-v1-float64 · passed",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/brick-native-v1-float64-9124f7aa8ff85d22.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/brick-native-v1-float64.json"
+          "title": "v1 · 과거 최종 결과",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/brick-native-v1-float64-9124f7aa8ff85d22.png"
         }
       ],
       "blind_history": [],
       "legacy": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "v1 · 과거 최종 결과",
       "figure_state": "published",
       "empty_message": "최종 결과 그림 게시 완료"
     },
@@ -207,9 +207,8 @@
       "figures": [
         {
           "mode": "known",
-          "title": "chelsea-native-v1-float64 · passed",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/chelsea-native-v1-float64-b25f6e5bf3b6996c.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/chelsea-native-v1-float64.json"
+          "title": "v1 · 과거 최종 결과",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/chelsea-native-v1-float64-b25f6e5bf3b6996c.png"
         }
       ],
       "blind_history": [],
@@ -217,6 +216,7 @@
       "reduced_known": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "v1 · 과거 최종 결과",
       "figure_state": "published",
       "empty_message": "최종 결과 그림 게시 완료"
     },
@@ -264,14 +264,14 @@
       "figures": [
         {
           "mode": "known",
-          "title": "camera-native-v1-float64 · passed",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/camera-native-v1-float64-13fc546b7332cc9a.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/camera-native-v1-float64.json"
+          "title": "v1 · 과거 최종 결과",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/camera-native-v1-float64-13fc546b7332cc9a.png"
         }
       ],
       "blind_history": [],
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "v1 · 과거 최종 결과",
       "figure_state": "published",
       "empty_message": "최종 결과 그림 게시 완료"
     },
@@ -320,6 +320,7 @@
       "reduced_known": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "최종 결과 없음",
       "figure_state": "historical_metrics_only",
       "empty_message": "과거 실험의 수치 기록만 보존돼 있습니다. 이 실험의 최종 5패널 그림 파일은 현재 작업 폴더에 없습니다."
     },
@@ -366,15 +367,15 @@
       "figures": [
         {
           "mode": "known",
-          "title": "coins-native-v1-float64 · passed",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/coins-native-v1-float64-036e8f1473971ce9.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/coins-native-v1-float64.json"
+          "title": "v1 · 과거 최종 결과",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/coins-native-v1-float64-036e8f1473971ce9.png"
         }
       ],
       "blind_history": [],
       "legacy": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "v1 · 과거 최종 결과",
       "figure_state": "published",
       "empty_message": "최종 결과 그림 게시 완료"
     },
@@ -420,9 +421,8 @@
       "figures": [
         {
           "mode": "known",
-          "title": "astronaut-native-v1-float64 · passed",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/astronaut-native-v1-float64-0c5d2a14da35c1af.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/astronaut-native-v1-float64.json"
+          "title": "v1 · 과거 최종 결과",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/astronaut-native-v1-float64-0c5d2a14da35c1af.png"
         }
       ],
       "blind_history": [],
@@ -430,6 +430,7 @@
       "reduced_known": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "v1 · 과거 최종 결과",
       "figure_state": "published",
       "empty_message": "최종 결과 그림 게시 완료"
     },
@@ -478,6 +479,7 @@
       "reduced_known": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "최종 결과 없음",
       "figure_state": "execution_error",
       "empty_message": "계산 중 오류로 종료되어 최종 결과 그림이 생성되지 않았습니다. 실행 오류 상태와 실제 진행 횟수는 기록에 보존돼 있습니다."
     },
@@ -523,9 +525,8 @@
       "figures": [
         {
           "mode": "known",
-          "title": "boat-native-v1-baseline · historical_final_image_recovered · 과거 최종 원본 3패널(정답/복원/오차, 오차 표시 ±0.4 rad) · 새로운 5패널 결과와 구분",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/boat-recovered-historical-final-3dafeb86f81daa08.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/boat-native-v1-baseline.json"
+          "title": "v1 · 과거 최종 결과 · 원본 3패널",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/boat-recovered-historical-final-3dafeb86f81daa08.png"
         }
       ],
       "inputurl": null,
@@ -533,6 +534,7 @@
       "legacy": null,
       "reduced_known": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "v1 · 과거 최종 결과 · 원본 3패널",
       "figure_state": "published",
       "empty_message": "최종 결과 그림 게시 완료"
     },
@@ -581,6 +583,7 @@
       "legacy": null,
       "reduced_known": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "최종 결과 없음",
       "figure_state": "execution_error",
       "empty_message": "계산 중 오류로 종료되어 최종 결과 그림이 생성되지 않았습니다. 실행 오류 상태와 실제 진행 횟수는 기록에 보존돼 있습니다."
     },
@@ -627,15 +630,15 @@
       "figures": [
         {
           "mode": "known",
-          "title": "tank-native-v1-float64 · passed",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/tank-native-v1-float64-fdc58230861f181f.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/tank-native-v1-float64.json"
+          "title": "v1 · 과거 최종 결과",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/tank-native-v1-float64-fdc58230861f181f.png"
         }
       ],
       "blind_history": [],
       "reduced_known": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "v1 · 과거 최종 결과",
       "figure_state": "published",
       "empty_message": "최종 결과 그림 게시 완료"
     },
@@ -647,28 +650,30 @@
       "known": [
         {
           "w": 660.0,
-          "r": 3.115781175342487,
+          "r": 0.01965646379055472,
           "s": 0.8486805690716857,
           "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
           "noise": 1,
-          "verdict": "failed",
-          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019656 rad (원래 판정 유지) · 전역 piston 모호성 · 상대위상 복원 가능성 확인 · 절대위상 성공 아님 · 원인: global_piston_ambiguity · 상대위상 가능성만 확인, 절대위상 성공 아님",
-          "aligned_r": 0.01965646379055472,
+          "verdict": "상대위상 확인",
+          "detail": "v2 · 전역 piston 정렬 · 상대 위상 결과",
+          "aligned_r": null,
           "optimal_piston_rad": -3.118061444787152,
-          "failure_cause": "global_piston_ambiguity"
+          "failure_cause": "global_piston_ambiguity",
+          "raw_r": 3.115781175342487
         }
       ],
       "latest": {
         "w": 660.0,
-        "r": 3.115781175342487,
+        "r": 0.01965646379055472,
         "s": 0.8486805690716857,
         "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
         "noise": 1,
-        "verdict": "failed",
-        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019656 rad (원래 판정 유지) · 전역 piston 모호성 · 상대위상 복원 가능성 확인 · 절대위상 성공 아님 · 원인: global_piston_ambiguity · 상대위상 가능성만 확인, 절대위상 성공 아님",
-        "aligned_r": 0.01965646379055472,
+        "verdict": "상대위상 확인",
+        "detail": "v2 · 전역 piston 정렬 · 상대 위상 결과",
+        "aligned_r": null,
         "optimal_piston_rad": -3.118061444787152,
-        "failure_cause": "global_piston_ambiguity"
+        "failure_cause": "global_piston_ambiguity",
+        "raw_r": 3.115781175342487
       },
       "blind": null,
       "note": "축소 Blind gravel 4/4 파장 일치. 전체 격자 470 nm 위상 성과 존재. 과거 전체 격자 Blind 470 nm 파장 정확히 추정, GD10 실제 실행 완료. 축소 Known 별도 시험 10/10 통과, 평균 0.09974 rad (5파장×2시드). | 2026-11-14 신규 Known 재시험: 470 nm, 0.051839 rad, 1.211% · 조건 충족·조기 수렴.",
@@ -676,44 +681,21 @@
       "thumb": "images/inputs/gravel-88590fe8f8c296eb.png",
       "thumbnote": "scikit-image gravel 원본 · 실험 입력",
       "nexttask": "470 nm 기존 Blind 관측을 복구해 추천 solver 전체 복원. 기존 Known 성공이 있으면 같은 관측 SHA 확인 후 재사용.",
-      "status": "failed",
+      "status": "상대위상 확인",
       "reduced": [],
       "reduced_known": null,
       "figures": [
         {
           "mode": "known",
-          "title": "gravel-native-v2-float64 · failed",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-native-v2-float64-8f41952ddb8dd6e6.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/gravel-native-v2-float64.json"
-        },
-        {
-          "mode": "known",
-          "title": "gravel · 사후 전역 위상 정렬 진단 (정답은 평가에만 사용; 원래 판정 유지)",
+          "title": "v2 · 최종 정렬 결과 · RMSE 0.019656 rad · 상대 위상",
           "src": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-comparison_aligned-bf4ddd188e3f819d.png"
-        },
-        {
-          "mode": "known",
-          "title": "gravel · 최적 piston 정렬 위상맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-aligned_phase-eecdb28ecf9bdd5d.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/gravel.json"
-        },
-        {
-          "mode": "known",
-          "title": "gravel · 정렬 전 wrapped 오차맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-raw_error-51b355138530e1c4.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/gravel.json"
-        },
-        {
-          "mode": "known",
-          "title": "gravel · 정렬 후 wrapped 오차맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-aligned_error-ae9b8375f60cf7b3.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/gravel.json"
         }
       ],
       "blind_history": [],
       "legacy": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "v2 · 전역 piston 정렬 · 상대 위상 결과",
       "figure_state": "published",
       "empty_message": "최종 결과 그림 게시 완료"
     },
@@ -725,28 +707,30 @@
       "known": [
         {
           "w": 660.0,
-          "r": 2.9102510983115257,
+          "r": 0.051821883229796424,
           "s": 0.8725431741139443,
           "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
           "noise": 1,
-          "verdict": "failed",
-          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.051822 rad (원래 판정 유지) · 전역 piston 모호성 · 상대위상 복원 가능성 확인 · 절대위상 성공 아님 · 원인: global_piston_ambiguity · 상대위상 가능성만 확인, 절대위상 성공 아님",
-          "aligned_r": 0.051821883229796424,
+          "verdict": "상대위상 확인",
+          "detail": "v2 · 전역 piston 정렬 · 상대 위상 결과",
+          "aligned_r": null,
           "optimal_piston_rad": -2.9109164034330375,
-          "failure_cause": "global_piston_ambiguity"
+          "failure_cause": "global_piston_ambiguity",
+          "raw_r": 2.9102510983115257
         }
       ],
       "latest": {
         "w": 660.0,
-        "r": 2.9102510983115257,
+        "r": 0.051821883229796424,
         "s": 0.8725431741139443,
         "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
         "noise": 1,
-        "verdict": "failed",
-        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.051822 rad (원래 판정 유지) · 전역 piston 모호성 · 상대위상 복원 가능성 확인 · 절대위상 성공 아님 · 원인: global_piston_ambiguity · 상대위상 가능성만 확인, 절대위상 성공 아님",
-        "aligned_r": 0.051821883229796424,
+        "verdict": "상대위상 확인",
+        "detail": "v2 · 전역 piston 정렬 · 상대 위상 결과",
+        "aligned_r": null,
         "optimal_piston_rad": -2.9109164034330375,
-        "failure_cause": "global_piston_ambiguity"
+        "failure_cause": "global_piston_ambiguity",
+        "raw_r": 2.9102510983115257
       },
       "blind": null,
       "note": "500 nm 과거 실험 위상 기준 미달. 최종 추천 방식으로 개선 필요. 과거 전체 격자 Blind 500 nm 파장 정확히 추정, GD10 실제 실행 완료. 축소 Known 별도 시험 10/10 통과, 평균 0.09353 rad (5파장×2시드). | 2026-11-14 신규 Known 재시험: 500 nm, 0.128174 rad, 1.857% · 통과.",
@@ -754,44 +738,21 @@
       "thumb": "images/inputs/grass-a33cf193504df78e.png",
       "thumbnote": "scikit-image grass 원본 · 실험 입력",
       "nexttask": "500 nm 기존 Blind 관측을 복구해 추천 solver 전체 복원. 기존 Known 성공이 있으면 같은 관측 SHA 확인 후 재사용.",
-      "status": "failed",
+      "status": "상대위상 확인",
       "reduced": [],
       "reduced_known": null,
       "figures": [
         {
           "mode": "known",
-          "title": "grass-native-v2-float64 · failed",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/grass-native-v2-float64-108390601b9d43d4.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/grass-native-v2-float64.json"
-        },
-        {
-          "mode": "known",
-          "title": "grass · 사후 전역 위상 정렬 진단 (정답은 평가에만 사용; 원래 판정 유지)",
+          "title": "v2 · 최종 정렬 결과 · RMSE 0.051822 rad · 상대 위상",
           "src": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-comparison_aligned-0046ae91b8eba771.png"
-        },
-        {
-          "mode": "known",
-          "title": "grass · 최적 piston 정렬 위상맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-aligned_phase-7549a9aefc8fa7c1.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/grass.json"
-        },
-        {
-          "mode": "known",
-          "title": "grass · 정렬 전 wrapped 오차맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-raw_error-62a8055e40be7c64.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/grass.json"
-        },
-        {
-          "mode": "known",
-          "title": "grass · 정렬 후 wrapped 오차맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/grass-piston-v3-aligned_error-243b829235489b14.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/grass.json"
         }
       ],
       "blind_history": [],
       "legacy": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "v2 · 전역 piston 정렬 · 상대 위상 결과",
       "figure_state": "published",
       "empty_message": "최종 결과 그림 게시 완료"
     },
@@ -840,6 +801,7 @@
       "reduced_known": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "최종 결과 없음",
       "figure_state": "execution_error",
       "empty_message": "계산 중 오류로 종료되어 최종 결과 그림이 생성되지 않았습니다. 실행 오류 상태와 실제 진행 횟수는 기록에 보존돼 있습니다."
     },
@@ -851,28 +813,30 @@
       "known": [
         {
           "w": 660.0,
-          "r": 2.6512260554375757,
+          "r": 0.02486251474043997,
           "s": 0.8349306460274739,
           "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
           "noise": 1,
-          "verdict": "failed",
-          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.024863 rad (원래 판정 유지) · 전역 piston 모호성 · 상대위상 복원 가능성 확인 · 절대위상 성공 아님 · 원인: global_piston_ambiguity · 상대위상 가능성만 확인, 절대위상 성공 아님",
-          "aligned_r": 0.02486251474043997,
+          "verdict": "상대위상 확인",
+          "detail": "v2 · 전역 piston 정렬 · 상대 위상 결과",
+          "aligned_r": null,
           "optimal_piston_rad": -2.651109475746309,
-          "failure_cause": "global_piston_ambiguity"
+          "failure_cause": "global_piston_ambiguity",
+          "raw_r": 2.6512260554375757
         }
       ],
       "latest": {
         "w": 660.0,
-        "r": 2.6512260554375757,
+        "r": 0.02486251474043997,
         "s": 0.8349306460274739,
         "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
         "noise": 1,
-        "verdict": "failed",
-        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.024863 rad (원래 판정 유지) · 전역 piston 모호성 · 상대위상 복원 가능성 확인 · 절대위상 성공 아님 · 원인: global_piston_ambiguity · 상대위상 가능성만 확인, 절대위상 성공 아님",
-        "aligned_r": 0.02486251474043997,
+        "verdict": "상대위상 확인",
+        "detail": "v2 · 전역 piston 정렬 · 상대 위상 결과",
+        "aligned_r": null,
         "optimal_piston_rad": -2.651109475746309,
-        "failure_cause": "global_piston_ambiguity"
+        "failure_cause": "global_piston_ambiguity",
+        "raw_r": 2.6512260554375757
       },
       "blind": null,
       "note": "Stage 6–13 동일 관측의 Full300 비교, Stage 15 조건부 정책 사후 재검증. LS2D 초기화로 기존 0.328158 → 0.028343 rad. 650 nm coarse 오차 10 nm.",
@@ -880,37 +844,13 @@
       "thumb": "images/inputs/parrot-d55a2285d565508c.png",
       "thumbnote": "보존된 실험 True Phase의 grayscale 인코딩",
       "nexttask": "660 nm Blind 최종 복원 및 440/550 nm 교차 검증",
-      "status": "failed",
+      "status": "상대위상 확인",
       "reduced": [],
       "figures": [
         {
           "mode": "known",
-          "title": "parrot-native-v2-float64 · failed",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-native-v2-float64-8adc7b33fcd5cf59.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/parrot-native-v2-float64.json"
-        },
-        {
-          "mode": "known",
-          "title": "parrot · 사후 전역 위상 정렬 진단 (정답은 평가에만 사용; 원래 판정 유지)",
+          "title": "v2 · 최종 정렬 결과 · RMSE 0.024863 rad · 상대 위상",
           "src": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-comparison_aligned-38642d6cc7b3f368.png"
-        },
-        {
-          "mode": "known",
-          "title": "parrot · 최적 piston 정렬 위상맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-aligned_phase-7865a898d64a185a.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/parrot.json"
-        },
-        {
-          "mode": "known",
-          "title": "parrot · 정렬 전 wrapped 오차맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-raw_error-ef34a5a44c032684.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/parrot.json"
-        },
-        {
-          "mode": "known",
-          "title": "parrot · 정렬 후 wrapped 오차맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/parrot-piston-v3-aligned_error-eacffa61cc4570ba.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/parrot.json"
         }
       ],
       "blind_history": [],
@@ -918,6 +858,7 @@
       "reduced_known": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "v2 · 전역 piston 정렬 · 상대 위상 결과",
       "figure_state": "published",
       "empty_message": "최종 결과 그림 게시 완료"
     },
@@ -929,28 +870,30 @@
       "known": [
         {
           "w": 660.0,
-          "r": 2.598184592157259,
+          "r": 0.019883025047841188,
           "s": 0.8539090264626154,
           "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
           "noise": 1,
-          "verdict": "failed",
-          "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019883 rad (원래 판정 유지) · 전역 piston 모호성 · 상대위상 복원 가능성 확인 · 절대위상 성공 아님 · 원인: global_piston_ambiguity · 상대위상 가능성만 확인, 절대위상 성공 아님",
-          "aligned_r": 0.019883025047841188,
+          "verdict": "상대위상 확인",
+          "detail": "v2 · 전역 piston 정렬 · 상대 위상 결과",
+          "aligned_r": null,
           "optimal_piston_rad": 2.598129878200666,
-          "failure_cause": "global_piston_ambiguity"
+          "failure_cause": "global_piston_ambiguity",
+          "raw_r": 2.598184592157259
         }
       ],
       "latest": {
         "w": 660.0,
-        "r": 2.598184592157259,
+        "r": 0.019883025047841188,
         "s": 0.8539090264626154,
         "method": "float32 zero-start GD up to 150 + float64 refinement up to 150",
         "noise": 1,
-        "verdict": "failed",
-        "detail": "native5713-zero-exterior-v2 · float32 GD / float64 refinement · post-hoc piston-aligned RMSE 0.019883 rad (원래 판정 유지) · 전역 piston 모호성 · 상대위상 복원 가능성 확인 · 절대위상 성공 아님 · 원인: global_piston_ambiguity · 상대위상 가능성만 확인, 절대위상 성공 아님",
-        "aligned_r": 0.019883025047841188,
+        "verdict": "상대위상 확인",
+        "detail": "v2 · 전역 piston 정렬 · 상대 위상 결과",
+        "aligned_r": null,
         "optimal_piston_rad": 2.598129878200666,
-        "failure_cause": "global_piston_ambiguity"
+        "failure_cause": "global_piston_ambiguity",
+        "raw_r": 2.598184592157259
       },
       "blind": null,
       "note": "Stage 6–13 동일 관측의 Full300 비교, Stage 15 조건부 정책 사후 재검증. 센서는 기준 이내지만 위상은 미달. | 2026-11-14 신규 Known 재시험: 660 nm, 0.158244 rad, 1.566% · 미달.",
@@ -958,37 +901,13 @@
       "thumb": "images/inputs/bark-ed89558310433d53.png",
       "thumbnote": "보존된 실험 True Phase의 grayscale 인코딩",
       "nexttask": "위상 고주파 개선 및 440/550/660 nm Blind 최종 검증",
-      "status": "failed",
+      "status": "상대위상 확인",
       "reduced": [],
       "figures": [
         {
           "mode": "known",
-          "title": "bark-native-v2-float64 · failed",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/bark-native-v2-float64-94ea2a6a63bd44a2.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/bark-native-v2-float64.json"
-        },
-        {
-          "mode": "known",
-          "title": "bark · 사후 전역 위상 정렬 진단 (정답은 평가에만 사용; 원래 판정 유지)",
+          "title": "v2 · 최종 정렬 결과 · RMSE 0.019883 rad · 상대 위상",
           "src": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-comparison_aligned-c7d2ee99f8a56fcb.png"
-        },
-        {
-          "mode": "known",
-          "title": "bark · 최적 piston 정렬 위상맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-aligned_phase-e364102cce3dbfed.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/bark.json"
-        },
-        {
-          "mode": "known",
-          "title": "bark · 정렬 전 wrapped 오차맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-raw_error-2348d6cc4e1d5962.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/bark.json"
-        },
-        {
-          "mode": "known",
-          "title": "bark · 정렬 후 wrapped 오차맵 · native5713-zero-exterior-v2/piston-wrapped-l2-evaluation-v3",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/bark-piston-v3-aligned_error-6679dbcf4f8eaedf.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/diagnostics/piston_v3/bark.json"
         }
       ],
       "blind_history": [],
@@ -996,6 +915,7 @@
       "reduced_known": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "v2 · 전역 piston 정렬 · 상대 위상 결과",
       "figure_state": "published",
       "empty_message": "최종 결과 그림 게시 완료"
     },
@@ -1044,6 +964,7 @@
       "reduced_known": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "최종 결과 없음",
       "figure_state": "execution_error",
       "empty_message": "계산 중 오류로 종료되어 최종 결과 그림이 생성되지 않았습니다. 실행 오류 상태와 실제 진행 횟수는 기록에 보존돼 있습니다."
     },
@@ -1113,9 +1034,8 @@
       "figures": [
         {
           "mode": "known",
-          "title": "mandrill-native-v1-baseline · verified_checkpoint_and_metrics",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/mandrill-recovered-historical-final-f7eb3bada9f86ba9.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/mandrill-native-v1-baseline.json"
+          "title": "v1 · 과거 최종 결과",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/mandrill-recovered-historical-final-f7eb3bada9f86ba9.png"
         }
       ],
       "blind_history": [],
@@ -1123,6 +1043,7 @@
       "reduced_known": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "v1 · 과거 최종 결과",
       "figure_state": "published",
       "empty_message": "최종 결과 그림 게시 완료"
     },
@@ -1168,9 +1089,8 @@
       "figures": [
         {
           "mode": "known",
-          "title": "barbara-native-v1-baseline · historical_final_image_recovered · 과거 최종 원본 3패널(정답/복원/오차, 오차 표시 ±0.4 rad) · 새로운 5패널 결과와 구분",
-          "src": "https://oms-hyu.github.io/B17-single-site/images/final/barbara-recovered-historical-final-838242aa0df9cb25.png",
-          "source": "https://oms-hyu.github.io/B17-single-site/results/evaluations/barbara-native-v1-baseline.json"
+          "title": "v1 · 과거 최종 결과 · 원본 3패널",
+          "src": "https://oms-hyu.github.io/B17-single-site/images/final/barbara-recovered-historical-final-838242aa0df9cb25.png"
         }
       ],
       "blind_history": [],
@@ -1178,6 +1098,7 @@
       "reduced_known": null,
       "inputurl": null,
       "rec_note": "파장 식별만의 성공은 위상 복원 성공으로 집계하지 않습니다.",
+      "display_note": "v1 · 과거 최종 결과 · 원본 3패널",
       "figure_state": "published",
       "empty_message": "최종 결과 그림 게시 완료"
     },
