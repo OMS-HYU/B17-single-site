@@ -463,8 +463,8 @@
       "path": "results/catalogue.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/catalogue.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/catalogue.json",
-      "sha256": "5de1c8485010fcb99922cf752a10a61d948f33d3fea69149f81d87f584ccf88d",
-      "bytes": 66004,
+      "sha256": "ce5d4cc7f8bab2c07f058d20e6e54f61e85a17985d049579b805f1f49ad0be73",
+      "bytes": 66010,
       "mime": "application/json"
     },
     {
