@@ -1,0 +1,75 @@
+{
+  "scene": "bark",
+  "wavelength_nm": 660.0,
+  "noise_seed": 673016,
+  "sensor_sha256": "1cf185029398725707d3d7254dcdde249938a9cbae1a109d5c11f31fdb2d9077",
+  "truth_sha256": "9963c0bb13e13d9c196ecf5a84bf341ca348a99eba69104b995090700f549cc3",
+  "phase_sha256": "694478ad5a4208634f32d5a1ca6f69618499d6c172f4b42dcc102cab65c0a439",
+  "gd_accepted": 150,
+  "lbfgs_accepted": 110,
+  "circular_rmse_rad": 2.598184592157259,
+  "linear_rmse_rad": 3.2868671958686537,
+  "reference_float32_sensor_l2": 0.008539089631632918,
+  "recovery_float64_sensor_l2": 0.008539090264626154,
+  "quality_pass": false,
+  "variant": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+  "stopping_policy": {
+    "gd_accepted": 150,
+    "lbfgs_accepted": 110,
+    "gd_max": 150,
+    "lbfgs_max": 150,
+    "gd_stop_reason": "budget",
+    "refine_stop_reason": "sensor_and_phase_converged",
+    "gd_stop_evidence": {},
+    "refine_stop_evidence": {
+      "sensor_l2": 0.008539090318092088,
+      "relative_objective_change": 8.08841024005489e-06,
+      "phase_rms_rad": 0.0005772286081915075,
+      "truth_used": false
+    },
+    "thresholds": {
+      "sensor_l2": 0.025,
+      "relative_objective_change": 1e-05,
+      "phase_rms_rad": 0.001,
+      "window": 10
+    },
+    "truth_used_for_stopping": false
+  },
+  "truth_used_for_evaluation_only": true,
+  "common_reference_L60_complete": false,
+  "preview": "comparison.png",
+  "figure": {
+    "panel_order": [
+      "original/input image",
+      "speckle intensity",
+      "true phase",
+      "estimated phase",
+      "circular phase error"
+    ],
+    "reference_url": "[local path withheld]",
+    "physics_authority": "ChatGPT 싱글스펙 latest revision; website is visual reference only",
+    "original_image": {
+      "kind": "phase-derived grayscale; original photo unavailable",
+      "mapping": "truth / (2*pi)"
+    },
+    "speckle": {
+      "source": "saved native observed amplitude; no squaring or physical change",
+      "display": "log1p(A / mean(A))",
+      "colormap": "inferno",
+      "shape": [
+        3000,
+        3000
+      ]
+    },
+    "phase_limits_rad": [
+      0,
+      6.283185307179586
+    ],
+    "phase_colormap": "viridis",
+    "error_limits_rad": [
+      -3.141592653589793,
+      3.141592653589793
+    ],
+    "dpi": 180
+  }
+}
