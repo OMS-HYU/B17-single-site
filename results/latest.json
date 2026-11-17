@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "research": "single",
-  "updated_at": "2026-11-17T16:40:27.996012+00:00",
+  "updated_at": "2026-11-17T16:50:24.650640+00:00",
   "site_url": "https://oms-hyu.github.io/B17-single-site/",
   "protocol_version": "publication-v1",
   "counts": {
@@ -62,7 +62,7 @@
       "code_commit": null,
       "code_sha256": null,
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
       "scene": "mandrill",
       "figure_status": "Final raw arrays unavailable locally; tiny preview excluded",
       "verification": "Historical numerical record; not revalidated from raw checkpoint during this publication"
@@ -118,7 +118,7 @@
       "code_commit": null,
       "code_sha256": null,
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
       "scene": "camera_rot90",
       "figure_status": "Final raw arrays unavailable locally; tiny preview excluded",
       "verification": "Historical numerical record; not revalidated from raw checkpoint during this publication"
@@ -174,7 +174,7 @@
       "code_commit": null,
       "code_sha256": null,
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
       "scene": "barbara",
       "figure_status": "Final raw arrays unavailable locally; tiny preview excluded",
       "verification": "Historical numerical record; not revalidated from raw checkpoint during this publication"
@@ -230,7 +230,7 @@
       "code_commit": null,
       "code_sha256": null,
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
       "scene": "boat",
       "figure_status": "Final raw arrays unavailable locally; tiny preview excluded",
       "verification": "Historical numerical record; not revalidated from raw checkpoint during this publication"
@@ -294,7 +294,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
       "scene": "astronaut",
       "float32_reference_sensor_l2": 0.008761928558380592,
       "precision": "float32 GD / float64 refinement"
@@ -358,7 +358,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
       "scene": "brick",
       "float32_reference_sensor_l2": 0.008750783247563586,
       "precision": "float32 GD / float64 refinement"
@@ -422,7 +422,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
       "scene": "camera",
       "float32_reference_sensor_l2": 0.008771468496064676,
       "precision": "float32 GD / float64 refinement"
@@ -486,7 +486,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
       "scene": "chelsea",
       "float32_reference_sensor_l2": 0.008747627650171497,
       "precision": "float32 GD / float64 refinement"
@@ -550,7 +550,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
       "scene": "coins",
       "float32_reference_sensor_l2": 0.008747217976958648,
       "precision": "float32 GD / float64 refinement"
@@ -614,7 +614,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
       "scene": "moon",
       "float32_reference_sensor_l2": 0.008752566250792102,
       "precision": "float32 GD / float64 refinement"
@@ -678,10 +678,61 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
       "scene": "moon_flipud",
       "float32_reference_sensor_l2": 0.008752818526251944,
       "precision": "float32 GD / float64 refinement"
+    },
+    {
+      "research": "single",
+      "experiment_id": "checkerboard-native-v1-execution-error",
+      "wavelengths_nm": [
+        660
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-fixed-background-v1",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 1,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "GD / float64 refinement; execution interrupted before final evaluation",
+      "iterations_completed": {
+        "gd": 16,
+        "lbfgs": null
+      },
+      "circular_rmse_rad": null,
+      "linear_rmse_rad": null,
+      "sensor_l2": null,
+      "status": "failed",
+      "forward_status": "unverified",
+      "inverse_status": "execution_error",
+      "image_url": null,
+      "image_sha256": null,
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/checkerboard-native-v1-execution-error.json",
+      "evaluation_sha256": "f43427265996882bf5c8ce1f46b68280d6e267c937eae9461b23b753b9ec78c2",
+      "input_hashes": null,
+      "checkpoint_sha256": null,
+      "code_commit": null,
+      "code_sha256": null,
+      "protocol_version": "native5713-fixed-background-v1",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
+      "scene": "checkerboard",
+      "verification": "No final RMSE or final PNG is claimed."
     },
     {
       "research": "single",
@@ -742,7 +793,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
       "scene": "grass",
       "float32_reference_sensor_l2": 0.00872544164365534,
       "precision": "float32 GD / float64 refinement"
@@ -806,7 +857,7 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
       "scene": "gravel",
       "float32_reference_sensor_l2": 0.008486804020947415,
       "precision": "float32 GD / float64 refinement"
@@ -870,10 +921,112 @@
         "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
       },
       "protocol_version": "native5713-zero-exterior-v2",
-      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
       "scene": "parrot",
       "float32_reference_sensor_l2": 0.008349305940918553,
       "precision": "float32 GD / float64 refinement"
+    },
+    {
+      "research": "single",
+      "experiment_id": "pepper-native-v2-execution-error",
+      "wavelengths_nm": [
+        660
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-zero-exterior-v2",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 0,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "GD / float64 refinement; execution interrupted before final evaluation",
+      "iterations_completed": {
+        "gd": 63,
+        "lbfgs": null
+      },
+      "circular_rmse_rad": null,
+      "linear_rmse_rad": null,
+      "sensor_l2": null,
+      "status": "failed",
+      "forward_status": "unverified",
+      "inverse_status": "execution_error",
+      "image_url": null,
+      "image_sha256": null,
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/pepper-native-v2-execution-error.json",
+      "evaluation_sha256": "b8012ee35b0b64d31ce0120962ebee2c54bdd5322fd834cb7a3ed96acab5a7be",
+      "input_hashes": null,
+      "checkpoint_sha256": null,
+      "code_commit": null,
+      "code_sha256": null,
+      "protocol_version": "native5713-zero-exterior-v2",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
+      "scene": "pepper",
+      "verification": "No final RMSE or final PNG is claimed."
+    },
+    {
+      "research": "single",
+      "experiment_id": "smooth-native-v2-execution-error",
+      "wavelengths_nm": [
+        660
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-zero-exterior-v2",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 0,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "GD / float64 refinement; execution interrupted before final evaluation",
+      "iterations_completed": {
+        "gd": 26,
+        "lbfgs": null
+      },
+      "circular_rmse_rad": null,
+      "linear_rmse_rad": null,
+      "sensor_l2": null,
+      "status": "failed",
+      "forward_status": "unverified",
+      "inverse_status": "execution_error",
+      "image_url": null,
+      "image_sha256": null,
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/smooth-native-v2-execution-error.json",
+      "evaluation_sha256": "24006732bf4634987453ac8d42abd759704d49289a2dd9313d99e1bf2aa4f1ea",
+      "input_hashes": null,
+      "checkpoint_sha256": null,
+      "code_commit": null,
+      "code_sha256": null,
+      "protocol_version": "native5713-zero-exterior-v2",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
+      "scene": "smooth",
+      "verification": "No final RMSE or final PNG is claimed."
     },
     {
       "research": "single",
@@ -926,7 +1079,7 @@
       "code_commit": "4ff2ad116bc0b5eb3dadb5d9a167fcd87dedbedc",
       "code_sha256": null,
       "protocol_version": "native5713-fixed-background-v1",
-      "updated_at": "2026-11-17T16:40:27.996012+00:00",
+      "updated_at": "2026-11-17T16:50:24.650640+00:00",
       "scene": "tank",
       "precision": "separate float64 variant"
     }
