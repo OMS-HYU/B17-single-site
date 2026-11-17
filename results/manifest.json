@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "research": "single",
-  "updated_at": "2026-11-17T20:12:49.633097+00:00",
+  "updated_at": "2026-11-17T21:20:59.701066+00:00",
   "files": [
     {
       "path": "assets/css/single.css",
@@ -356,6 +356,14 @@
       "mime": "image/png"
     },
     {
+      "path": "images/final/random_texture-native-v2-float64-eb21ee93fe5beec5.png",
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/random_texture-native-v2-float64-eb21ee93fe5beec5.png",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/random_texture-native-v2-float64-eb21ee93fe5beec5.png",
+      "sha256": "eb21ee93fe5beec5f62c6925ecbb3e82d041be9d4ecb2b00c1b44e2c6f8cecf5",
+      "bytes": 4327093,
+      "mime": "image/png"
+    },
+    {
       "path": "images/final/stream-native-v2-float64-150dd952f966a62f.png",
       "url": "https://oms-hyu.github.io/B17-single-site/images/final/stream-native-v2-float64-150dd952f966a62f.png",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/stream-native-v2-float64-150dd952f966a62f.png",
@@ -703,8 +711,8 @@
       "path": "results/catalogue.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/catalogue.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/catalogue.json",
-      "sha256": "0e3a7b5ec4ba4206106fc7fa6f65be95f63d649d26f6091a9114bcdbc18f3cf0",
-      "bytes": 73257,
+      "sha256": "ac7e4245f999bce0fde8caa78e03a3ebf400ba86c5de2cdd91e68738bff27aa3",
+      "bytes": 74495,
       "mime": "application/json"
     },
     {
@@ -900,6 +908,14 @@
       "mime": "application/json"
     },
     {
+      "path": "results/evaluations/random_texture-native-v2-float64.json",
+      "url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/random_texture-native-v2-float64.json",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/evaluations/random_texture-native-v2-float64.json",
+      "sha256": "25c680baf701ceac89949cf1fbd5b6d0725f81dd900ef63b70edc9c0eb0fe6a4",
+      "bytes": 2355,
+      "mime": "application/json"
+    },
+    {
       "path": "results/evaluations/sand-native-v2-execution-error.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/sand-native-v2-execution-error.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/evaluations/sand-native-v2-execution-error.json",
@@ -935,16 +951,16 @@
       "path": "results/history.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/history.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/history.json",
-      "sha256": "26ddc6632b9d316435fdb27e36e2d4e53b668fd4511832cfeeb8e8bd6bfa8c6e",
-      "bytes": 2186,
+      "sha256": "37c5c3f7b49f836151df0fd82de6932a4a2d85ed2850a6458fadf4d418e2f2e0",
+      "bytes": 2380,
       "mime": "application/json"
     },
     {
       "path": "results/latest.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/latest.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/latest.json",
-      "sha256": "e15758188d6d9a9cd9ead7bbae51d0181139811ff235150f5190c12f58824e33",
-      "bytes": 82196,
+      "sha256": "fe98439b052561a0a805287db93acc180a14ed83d2559f4dd5920871d0983bb9",
+      "bytes": 85846,
       "mime": "application/json"
     },
     {
