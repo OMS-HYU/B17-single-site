@@ -7,16 +7,16 @@
       "path": "assets/css/single.css",
       "url": "https://oms-hyu.github.io/B17-single-site/assets/css/single.css",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/assets/css/single.css",
-      "sha256": "ca8c98d5abf64d23cf2a609401f13f4dbf6776fcc1ef46501615523c93088049",
-      "bytes": 10963,
+      "sha256": "4ea422681d6218f62f2db31996dc17de454103373adf6eacfb65fff3419f0e1d",
+      "bytes": 4619,
       "mime": null
     },
     {
       "path": "assets/js/single.js",
       "url": "https://oms-hyu.github.io/B17-single-site/assets/js/single.js",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/assets/js/single.js",
-      "sha256": "a79b0fe1acb8705c7e9729583019756d64c719e7a4ef05aa20e8a34ce40c4508",
-      "bytes": 4844,
+      "sha256": "c8d2ff8e91439d5a30eeb996b83337b09749ef03484c6ed79b88ead90d97e42b",
+      "bytes": 5544,
       "mime": null
     },
     {
@@ -671,8 +671,8 @@
       "path": "index.html",
       "url": "https://oms-hyu.github.io/B17-single-site/index.html",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/index.html",
-      "sha256": "4422275cbefcd007d31b760c9a56db1f8ee8949816fe017ea86cfc94bee4afae",
-      "bytes": 14267,
+      "sha256": "3d8af9257f7de4a3e645cc223f8d08c71be2b28eb9d4b1fccb4751befb1b13a8",
+      "bytes": 2269,
       "mime": null
     },
     {
