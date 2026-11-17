@@ -1,0 +1,76 @@
+{
+  "scene": "hflip",
+  "wavelength_nm": 660.0,
+  "noise_seed": 673023,
+  "sensor_sha256": "e715ae59f6cd40535219ff63541c7ea9eaf843793f5553fa28a75ccc53e93ee8",
+  "truth_sha256": "9dc925e0b842eb1fd45c9e608f5b26603f57a7a87a58276241b43e715d84a41a",
+  "phase_sha256": "c316946ba6440b806157454c4717129c6dde8cf1bb9e7da2aecea3baa21b82bf",
+  "gd_accepted": 150,
+  "lbfgs_accepted": 150,
+  "circular_rmse_rad": 1.2102663445769748,
+  "linear_rmse_rad": 2.224063209169875,
+  "reference_float32_sensor_l2": 0.008455224690377374,
+  "recovery_float64_sensor_l2": 0.008455230261999621,
+  "quality_pass": false,
+  "variant": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+  "stopping_policy": {
+    "gd_accepted": 150,
+    "lbfgs_accepted": 150,
+    "gd_max": 150,
+    "lbfgs_max": 150,
+    "gd_stop_reason": "budget",
+    "refine_stop_reason": "budget",
+    "gd_stop_evidence": {},
+    "refine_stop_evidence": {
+      "sensor_l2": 0.008455230555254059,
+      "relative_objective_change": 0.00037638713253810966,
+      "phase_rms_rad": 0.005136151141103234,
+      "truth_used": false
+    },
+    "thresholds": {
+      "sensor_l2": 0.025,
+      "relative_objective_change": 1e-05,
+      "phase_rms_rad": 0.001,
+      "window": 10
+    },
+    "truth_used_for_stopping": false
+  },
+  "truth_used_for_evaluation_only": true,
+  "common_reference_L60_complete": false,
+  "preview": "comparison.png",
+  "figure": {
+    "panel_order": [
+      "original/input image",
+      "speckle intensity",
+      "true phase",
+      "estimated phase",
+      "circular phase error"
+    ],
+    "reference_url": "[local path withheld]",
+    "physics_authority": "ChatGPT 싱글스펙 latest revision; website is visual reference only",
+    "original_image": {
+      "kind": "local source image",
+      "path": "[local path withheld]",
+      "scene_transform": "hflip"
+    },
+    "speckle": {
+      "source": "saved native observed amplitude; no squaring or physical change",
+      "display": "log1p(A / mean(A))",
+      "colormap": "inferno",
+      "shape": [
+        3000,
+        3000
+      ]
+    },
+    "phase_limits_rad": [
+      0,
+      6.283185307179586
+    ],
+    "phase_colormap": "viridis",
+    "error_limits_rad": [
+      -3.141592653589793,
+      3.141592653589793
+    ],
+    "dpi": 180
+  }
+}

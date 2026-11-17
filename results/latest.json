@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "research": "single",
-  "updated_at": "2026-11-17T21:20:59.701066+00:00",
+  "updated_at": "2026-11-17T22:33:10.104102+00:00",
   "site_url": "https://oms-hyu.github.io/B17-single-site/",
   "protocol_version": "publication-v1",
   "counts": {
     "input_scenes": 39,
     "phase_verified_scenes": 12,
-    "final_png_scenes": 18,
+    "final_png_scenes": 19,
     "baseline_metrics_without_final_png": 1
   },
   "experiments": [
@@ -1194,6 +1194,75 @@
       "aligned_phase_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-aligned_phase-eecdb28ecf9bdd5d.png",
       "raw_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-raw_error-51b355138530e1c4.png",
       "aligned_error_image_url": "https://oms-hyu.github.io/B17-single-site/images/final/gravel-piston-v3-aligned_error-ae9b8375f60cf7b3.png"
+    },
+    {
+      "research": "single",
+      "experiment_id": "hflip-native-v2-float64",
+      "wavelengths_nm": [
+        660.0
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-zero-exterior-v2",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 0,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 150
+      },
+      "circular_rmse_rad": 1.2102663445769748,
+      "linear_rmse_rad": 2.224063209169875,
+      "sensor_l2": 0.008455230261999621,
+      "status": "failed",
+      "forward_status": "hash_verified",
+      "inverse_status": "failed_gate",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/hflip-native-v2-float64-a3e9d085f384075d.png",
+      "image_sha256": "a3e9d085f384075d790d6a81fc7e4006bdaddf1ed290e06e6df5aa897a743357",
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/hflip-native-v2-float64.json",
+      "evaluation_sha256": "7fdf005652c20f1009af27546cb1c1c4e1fa93c481aaea35854c4846ac59b753",
+      "input_hashes": {
+        "sensor": "e715ae59f6cd40535219ff63541c7ea9eaf843793f5553fa28a75ccc53e93ee8",
+        "truth": "9dc925e0b842eb1fd45c9e608f5b26603f57a7a87a58276241b43e715d84a41a"
+      },
+      "checkpoint_sha256": "c316946ba6440b806157454c4717129c6dde8cf1bb9e7da2aecea3baa21b82bf",
+      "code_commit": null,
+      "code_sha256": {
+        "ordinary_policy_batch.py": "bd6e3334b1e5da1b5eb4ff02770e9d90b0b459a01719b2a17aa9e1845eace365",
+        "ordinary_case_policy.py": "aaca629c31de88c00f9e84ba24ca5b9c42d42470764fa214be4cdced35bb6601",
+        "evaluate_precision_case.py": "5aa70bf64ba89c5652ddffe5224b592086fe52e0446bcab604e0fb4bd37dcde0",
+        "render_five_panel.py": "dfc88f975b0fa729ac6debb8d88c91e44cf5d7d4f28b5a8e46046c958f51a1ad",
+        "native_cli.py": "3220c0e1c1003c75002d96ac1b872b90c7fd1990b1717408c34c4a9fb033c467",
+        "native_model.py": "01a393edaeee337dd60d4e40437a930583435708db5aea5a5d1dbcacbd51d0a5",
+        "tank_precision_recovery.py": "639fe5f71dd5b3b061054fd6f6e62494f299c264c4759f6710c6ad3a23ad1a7b",
+        "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
+      },
+      "protocol_version": "native5713-zero-exterior-v2",
+      "updated_at": "2026-11-17T22:33:10.104102+00:00",
+      "scene": "hflip",
+      "float32_reference_sensor_l2": 0.008455224690377374,
+      "precision": "float32 GD / float64 refinement",
+      "piston_aligned_circular_rmse_rad": 0.04720485031299817,
+      "optimal_piston_rad": 1.209461189816829,
+      "global_phase_offset_rad": 1.209461189816829,
+      "piston_alignment_method": "Exact global piecewise-quadratic sweep of squared wrapped error",
+      "phase_metric_note": "Unaligned legacy gate retained. Exact global wrapped-L2 piston diagnostic only; no solver, stopping or gauge change."
     },
     {
       "research": "single",

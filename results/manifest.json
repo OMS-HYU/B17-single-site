@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "research": "single",
-  "updated_at": "2026-11-17T21:20:59.701066+00:00",
+  "updated_at": "2026-11-17T22:33:10.104102+00:00",
   "files": [
     {
       "path": "assets/css/single.css",
@@ -265,6 +265,14 @@
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/gravel-posthoc-piston-diagnostic-eff0ebc8366e9161.png",
       "sha256": "eff0ebc8366e9161e91e2ab9f5609af28656df67d2a5db1a31ce47c2ffe4785e",
       "bytes": 3128665,
+      "mime": "image/png"
+    },
+    {
+      "path": "images/final/hflip-native-v2-float64-a3e9d085f384075d.png",
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/hflip-native-v2-float64-a3e9d085f384075d.png",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/hflip-native-v2-float64-a3e9d085f384075d.png",
+      "sha256": "a3e9d085f384075d790d6a81fc7e4006bdaddf1ed290e06e6df5aa897a743357",
+      "bytes": 2332133,
       "mime": "image/png"
     },
     {
@@ -711,8 +719,8 @@
       "path": "results/catalogue.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/catalogue.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/catalogue.json",
-      "sha256": "ac7e4245f999bce0fde8caa78e03a3ebf400ba86c5de2cdd91e68738bff27aa3",
-      "bytes": 74495,
+      "sha256": "c2a904db8ca393987646f133a13a2723684e8d9d0701046367725f166e2fc1aa",
+      "bytes": 75724,
       "mime": "application/json"
     },
     {
@@ -868,6 +876,14 @@
       "mime": "application/json"
     },
     {
+      "path": "results/evaluations/hflip-native-v2-float64.json",
+      "url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/hflip-native-v2-float64.json",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/evaluations/hflip-native-v2-float64.json",
+      "sha256": "7fdf005652c20f1009af27546cb1c1c4e1fa93c481aaea35854c4846ac59b753",
+      "bytes": 2357,
+      "mime": "application/json"
+    },
+    {
       "path": "results/evaluations/mandrill-native-v1-baseline.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/mandrill-native-v1-baseline.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/evaluations/mandrill-native-v1-baseline.json",
@@ -951,16 +967,16 @@
       "path": "results/history.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/history.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/history.json",
-      "sha256": "37c5c3f7b49f836151df0fd82de6932a4a2d85ed2850a6458fadf4d418e2f2e0",
-      "bytes": 2380,
+      "sha256": "22491d434f5beb3b8a9bc8a19a8bcf16025e885adbb72828a010ba157e7f3f15",
+      "bytes": 2574,
       "mime": "application/json"
     },
     {
       "path": "results/latest.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/latest.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/latest.json",
-      "sha256": "fe98439b052561a0a805287db93acc180a14ed83d2559f4dd5920871d0983bb9",
-      "bytes": 85846,
+      "sha256": "9d7c5429be8709b618b3d526f628e50c529351197b10ee0bbbecc1fbea64b7c9",
+      "bytes": 89459,
       "mime": "application/json"
     },
     {
