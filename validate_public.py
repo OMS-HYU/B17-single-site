@@ -1,12 +1,15 @@
 TRACK='single'
 BASE_URL='https://oms-hyu.github.io/B17-single-site/'
 import hashlib,json,pathlib,struct
+from PIL import Image
 root=pathlib.Path(__file__).resolve().parent
 latest=json.loads((root/'results/latest.json').read_text(encoding='utf-8'))
 assert latest['research']==TRACK
 for row in json.loads((root/'results/manifest.json').read_text(encoding='utf-8'))['files']:
  p=root/row['path'];data=p.read_bytes();assert hashlib.sha256(data).hexdigest()==row['sha256'],p
- if p.suffix=='.png':assert data[:8]==b'\x89PNG\r\n\x1a\n' and len(data)>32 and struct.unpack('>II',data[16:24])[0]>0,p
+ if p.suffix=='.png':
+  assert data[:8]==b'\x89PNG\r\n\x1a\n' and len(data)>32 and struct.unpack('>II',data[16:24])[0]>0,p
+  with Image.open(p) as im:im.verify()
 for r in latest['experiments']:
  assert r['research']==TRACK
  for key in ['image_url','evaluation_url']:

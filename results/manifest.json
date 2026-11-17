@@ -4,22 +4,6 @@
   "updated_at": "2026-11-17T16:40:27.996012+00:00",
   "files": [
     {
-      "path": ".github/workflows/deploy.yml",
-      "url": "https://oms-hyu.github.io/B17-single-site/.github/workflows/deploy.yml",
-      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/.github/workflows/deploy.yml",
-      "sha256": "e185b4e33718bc68d5ae274170506b70488943d9a6c6ba3beab485e8892758f0",
-      "bytes": 860,
-      "mime": null
-    },
-    {
-      "path": ".nojekyll",
-      "url": "https://oms-hyu.github.io/B17-single-site/.nojekyll",
-      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/.nojekyll",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "bytes": 0,
-      "mime": null
-    },
-    {
       "path": "assets/css/single.css",
       "url": "https://oms-hyu.github.io/B17-single-site/assets/css/single.css",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/assets/css/single.css",
@@ -599,8 +583,8 @@
       "path": "validate_public.py",
       "url": "https://oms-hyu.github.io/B17-single-site/validate_public.py",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/validate_public.py",
-      "sha256": "1302befde16d5a1906e0d2a30deade97bba9100a578ef9233910a521eaa1183e",
-      "bytes": 1163,
+      "sha256": "413863ba7a161cda59dc2f60338aeef766aa4d150d07f0eac2db98ab6607f034",
+      "bytes": 1230,
       "mime": null
     }
   ]
