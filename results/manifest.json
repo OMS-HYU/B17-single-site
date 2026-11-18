@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "research": "single",
-  "updated_at": "2026-11-18T02:07:58.856754+00:00",
+  "updated_at": "2026-11-18T03:17:39.240100+00:00",
   "files": [
     {
       "path": "assets/css/single.css",
@@ -18,6 +18,14 @@
       "sha256": "c8d2ff8e91439d5a30eeb996b83337b09749ef03484c6ed79b88ead90d97e42b",
       "bytes": 5544,
       "mime": null
+    },
+    {
+      "path": "images/final/antitranspose-native-v2-float64-9f6766965234f0d2.png",
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/antitranspose-native-v2-float64-9f6766965234f0d2.png",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/antitranspose-native-v2-float64-9f6766965234f0d2.png",
+      "sha256": "9f6766965234f0d29e359338e0d9e65c7a5cd581492be0c4707c1240cdd7d495",
+      "bytes": 2347453,
+      "mime": "image/png"
     },
     {
       "path": "images/final/astronaut-native-v1-float64-0c5d2a14da35c1af.png",
@@ -743,8 +751,8 @@
       "path": "results/catalogue.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/catalogue.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/catalogue.json",
-      "sha256": "2db9ba041a1233515f1b04ee75f74ee174e0387817dcc39595da079f722cc90c",
-      "bytes": 79419,
+      "sha256": "19b09d72f961023ff3f90ea667ec685abc224e17c8d1a0657c079818745c4f31",
+      "bytes": 80658,
       "mime": "application/json"
     },
     {
@@ -793,6 +801,14 @@
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/diagnostics/zero_exterior_phase.json",
       "sha256": "28f729e2ce43717a2b71e905b4f1fa41fe8ffed6be42730801b0c25bef8e40d4",
       "bytes": 3162,
+      "mime": "application/json"
+    },
+    {
+      "path": "results/evaluations/antitranspose-native-v2-float64.json",
+      "url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/antitranspose-native-v2-float64.json",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/evaluations/antitranspose-native-v2-float64.json",
+      "sha256": "4c351123657eb26b586fe648964d5506404323511dd6b5c1ae0a8c356a140bc6",
+      "bytes": 2373,
       "mime": "application/json"
     },
     {
@@ -1015,16 +1031,16 @@
       "path": "results/history.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/history.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/history.json",
-      "sha256": "424b74d8a0b19f489e1e5fa7620e18ce5181d386ccc92d7ca09e31a9aa661ad8",
-      "bytes": 3156,
+      "sha256": "dcd87e119abd92d31c5afc6cdff7919549935bf747cdd56f84627e72fe82f83a",
+      "bytes": 3350,
       "mime": "application/json"
     },
     {
       "path": "results/latest.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/latest.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/latest.json",
-      "sha256": "b3de37024c5a0b2f5f6ec20cf76c263694d7961d977bd1394c6f653052de8fd4",
-      "bytes": 100319,
+      "sha256": "96958be4be3ac4c5f799df0a6993ed3414d4cefdfe38d6fe4c3d8b1d41defe2b",
+      "bytes": 103967,
       "mime": "application/json"
     },
     {
