@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "research": "single",
-  "updated_at": "2026-11-18T04:27:21.740859+00:00",
+  "updated_at": "2026-11-18T05:36:33.758331+00:00",
   "files": [
     {
       "path": "assets/css/single.css",
@@ -281,6 +281,14 @@
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/hflip-native-v2-float64-a3e9d085f384075d.png",
       "sha256": "a3e9d085f384075d790d6a81fc7e4006bdaddf1ed290e06e6df5aa897a743357",
       "bytes": 2332133,
+      "mime": "image/png"
+    },
+    {
+      "path": "images/final/invert-native-v2-float64-34d498c37b85e5af.png",
+      "url": "https://oms-hyu.github.io/B17-single-site/images/final/invert-native-v2-float64-34d498c37b85e5af.png",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/images/final/invert-native-v2-float64-34d498c37b85e5af.png",
+      "sha256": "34d498c37b85e5aff7163da8299f7db2a2e581566e8354db4abcf52c5247f398",
+      "bytes": 2259075,
       "mime": "image/png"
     },
     {
@@ -759,8 +767,8 @@
       "path": "results/catalogue.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/catalogue.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/catalogue.json",
-      "sha256": "4a30c8e1e86f0383d30a6974bc756b06064ecc14261e31c7030bca479ff50b10",
-      "bytes": 81888,
+      "sha256": "8203a278f91923a01f33a923469c2af795ce2bd71d9ade59db0dcbfe21ae94b8",
+      "bytes": 83122,
       "mime": "application/json"
     },
     {
@@ -932,6 +940,14 @@
       "mime": "application/json"
     },
     {
+      "path": "results/evaluations/invert-native-v2-float64.json",
+      "url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/invert-native-v2-float64.json",
+      "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/evaluations/invert-native-v2-float64.json",
+      "sha256": "2f738ed4b769ac307a2564cd349d2b9e713d1bee1118de813794382d67e572c5",
+      "bytes": 2360,
+      "mime": "application/json"
+    },
+    {
       "path": "results/evaluations/mandrill-native-v1-baseline.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/mandrill-native-v1-baseline.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/evaluations/mandrill-native-v1-baseline.json",
@@ -1047,16 +1063,16 @@
       "path": "results/history.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/history.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/history.json",
-      "sha256": "cf7820cae44b7ad3adda3fe0c918b8d6a5bf60370fbef3f474c39d61f92d2830",
-      "bytes": 3544,
+      "sha256": "8551c481a33a4948c359034d7a6c7d5a37d603c4fc1669e582d10de4e4cd67c1",
+      "bytes": 3738,
       "mime": "application/json"
     },
     {
       "path": "results/latest.json",
       "url": "https://oms-hyu.github.io/B17-single-site/results/latest.json",
       "raw_url": "https://raw.githubusercontent.com/OMS-HYU/B17-single-site/main/results/latest.json",
-      "sha256": "93f750bd02da0350d505edbd2b2f79bf7f83f8abf4e4ef5db51bf9bb80121408",
-      "bytes": 107584,
+      "sha256": "46fefa9716e54f28279ea10f9a2faa01a8b221b9aaeb49eb523f47ed94eb5a53",
+      "bytes": 111205,
       "mime": "application/json"
     },
     {

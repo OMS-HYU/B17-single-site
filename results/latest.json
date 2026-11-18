@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "research": "single",
-  "updated_at": "2026-11-18T04:27:21.740859+00:00",
+  "updated_at": "2026-11-18T05:36:33.758331+00:00",
   "site_url": "https://oms-hyu.github.io/B17-single-site/",
   "protocol_version": "publication-v1",
   "counts": {
     "input_scenes": 39,
     "phase_verified_scenes": 12,
-    "final_png_scenes": 24,
+    "final_png_scenes": 25,
     "baseline_metrics_without_final_png": 1
   },
   "experiments": [
@@ -1330,6 +1330,75 @@
       "piston_aligned_circular_rmse_rad": 0.04720485031299817,
       "optimal_piston_rad": 1.209461189816829,
       "global_phase_offset_rad": 1.209461189816829,
+      "piston_alignment_method": "Exact global piecewise-quadratic sweep of squared wrapped error",
+      "phase_metric_note": "Unaligned legacy gate retained. Exact global wrapped-L2 piston diagnostic only; no solver, stopping or gauge change."
+    },
+    {
+      "research": "single",
+      "experiment_id": "invert-native-v2-float64",
+      "wavelengths_nm": [
+        660.0
+      ],
+      "mode": "Known",
+      "b17_optics": {
+        "id": "native5713-zero-exterior-v2",
+        "propagation_grid": 5713,
+        "meta_aperture": 2857,
+        "width_map": [
+          2856,
+          2856
+        ],
+        "object_grid": 512,
+        "sensor_grid": 3000,
+        "input_pitch_nm": 350,
+        "sensor_pitch_um": 1.85,
+        "object_meta_um": 400,
+        "meta_sensor_mm": 6.3,
+        "observation": "amplitude; bilinear antialias",
+        "amplitude_outside": 0,
+        "noise": "Gaussian 1% mean clean amplitude, clipped nonnegative",
+        "lut_sha256": "02c551f2e24fb01d91416ea21cd17d24ae1c5e6fab0d630bff8e1fb2b4feaeaa",
+        "width_map_sha256": "b7d799c1e3a5913e7e9034fd2efc31dc2dab98822058ef08e2e57470ac2d68f9"
+      },
+      "algorithm": "float32 zero-start GD up to 150 + float64 refinement up to 150",
+      "iterations_completed": {
+        "gd": 150,
+        "lbfgs": 150
+      },
+      "circular_rmse_rad": 1.2183355300606518,
+      "linear_rmse_rad": 2.250900539205189,
+      "sensor_l2": 0.008468533603086843,
+      "status": "failed",
+      "forward_status": "hash_verified",
+      "inverse_status": "failed_gate",
+      "image_url": "https://oms-hyu.github.io/B17-single-site/images/final/invert-native-v2-float64-34d498c37b85e5af.png",
+      "image_sha256": "34d498c37b85e5aff7163da8299f7db2a2e581566e8354db4abcf52c5247f398",
+      "evaluation_url": "https://oms-hyu.github.io/B17-single-site/results/evaluations/invert-native-v2-float64.json",
+      "evaluation_sha256": "2f738ed4b769ac307a2564cd349d2b9e713d1bee1118de813794382d67e572c5",
+      "input_hashes": {
+        "sensor": "69fba1499c64a370df0263f511966a64b3a854d11f36a4575cd3d35843c27e33",
+        "truth": "ca93e62e9f67f63626f9ff3787cbf1223da99932393b9b7ba38266709e32ef63"
+      },
+      "checkpoint_sha256": "767bd64c24a5368d8b7a368cfa7e44b11095a7c2eb21a21c7b6c6c2ca7363cd0",
+      "code_commit": null,
+      "code_sha256": {
+        "ordinary_policy_batch.py": "bd6e3334b1e5da1b5eb4ff02770e9d90b0b459a01719b2a17aa9e1845eace365",
+        "ordinary_case_policy.py": "aaca629c31de88c00f9e84ba24ca5b9c42d42470764fa214be4cdced35bb6601",
+        "evaluate_precision_case.py": "5aa70bf64ba89c5652ddffe5224b592086fe52e0446bcab604e0fb4bd37dcde0",
+        "render_five_panel.py": "dfc88f975b0fa729ac6debb8d88c91e44cf5d7d4f28b5a8e46046c958f51a1ad",
+        "native_cli.py": "3220c0e1c1003c75002d96ac1b872b90c7fd1990b1717408c34c4a9fb033c467",
+        "native_model.py": "01a393edaeee337dd60d4e40437a930583435708db5aea5a5d1dbcacbd51d0a5",
+        "tank_precision_recovery.py": "639fe5f71dd5b3b061054fd6f6e62494f299c264c4759f6710c6ad3a23ad1a7b",
+        "batch_runner.py": "13308e5df054bd29a1421c64035a3bf56db79e341ebad51207c1f72ac24ed33a"
+      },
+      "protocol_version": "native5713-zero-exterior-v2",
+      "updated_at": "2026-11-18T05:36:33.758331+00:00",
+      "scene": "invert",
+      "float32_reference_sensor_l2": 0.008468526403261834,
+      "precision": "float32 GD / float64 refinement",
+      "piston_aligned_circular_rmse_rad": 0.05052990926661841,
+      "optimal_piston_rad": -1.2174665792639807,
+      "global_phase_offset_rad": -1.2174665792639807,
       "piston_alignment_method": "Exact global piecewise-quadratic sweep of squared wrapped error",
       "phase_metric_note": "Unaligned legacy gate retained. Exact global wrapped-L2 piston diagnostic only; no solver, stopping or gauge change."
     },
